@@ -84,20 +84,20 @@ header nav a:hover,
 .stage-2::after {
   position: absolute;
   content: url(./assets/stage2.svg);
-  right: -30%;
-  top: -50%;
+  right: -25%;
+  top: -40%;
 }
 .stage-3::after {
   position: absolute;
   content: url(./assets/stage3.svg);
-  left: -55%;
-  top: -40%;
+  left: -45%;
+  top: -35%;
 }
 .stage-1::after {
   position: absolute;
   content: url(./assets/stage1.svg);
-  left: -50%;
-  top: -40%;
+  left: -45%;
+  top: -35%;
 }
 
 /*  */

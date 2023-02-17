@@ -158,7 +158,7 @@ const Hexagon = () => {
 
       {/* -------roadmap-------- */}
       <div className="py-[5rem]" id="roadmap">
-        <h1 className="gradient text-[35px] mb-[5rem] lg:text-[60.39px] lg:leading-[60px] font-[500]  capitalize mt-[4rem] text-center">
+        <h1 className="gradient text-[35px] mb-[5rem] md:mb-[12rem] lg:text-[60.39px] lg:leading-[60px] font-[500]  capitalize mt-[4rem] text-center">
           roadmap
         </h1>
 
@@ -219,7 +219,7 @@ const Hexagon = () => {
           </div>
 
           {/* ---stage3-- */}
-          <div className="w-[100%] md:w-[70%] md:pl-[5rem] lg:w-[45%]">
+          <div className="w-[100%] md:w-[70%]  lg:w-[45%] md:pl-[5rem] lg:pl-[6rem]">
             <div className="stage-3 w-[100%] md:w-[100%] lg:w-[100%] pt-[1rem] md:2t-[4rem] pl-[2rem] lg:pl-[6rem] pb-[2rem]">
               <li className="capitalize md:text-[28.35px] md:leading-[42.52px] list-disc lg:list-none list-outside">
                 native GODZ stacking
