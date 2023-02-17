@@ -65,14 +65,12 @@ const Hexagon = () => {
           }}
         >
           {/* team member 1 */}
-          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col ">
-            <img src={team1} alt="" />
+          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col">
+            <img src={opa} alt="" />
             <h1 className="font-[700]  capitalize text-center mt-[1rem] ">
-              tara arora
+              opa
             </h1>
-            <p className="pt-[2rem] capitalize text-center">
-              digital marketing specialist
-            </p>
+            <p className="pt-[2rem] capitalize text-center">growth Lead</p>
           </SwiperSlide>
           {/* team member 2 */}
           <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col">
@@ -81,7 +79,7 @@ const Hexagon = () => {
               jimmy hope
             </h1>
             <p className="pt-[2rem] capitalize text-center">
-              Community Manager
+              Social Media Specialist .
             </p>
           </SwiperSlide>
           {/* team member 3 */}
@@ -90,15 +88,17 @@ const Hexagon = () => {
             <h1 className="font-[700]  capitalize text-center mt-[1rem] ">
               ayush nurula
             </h1>
-            <p className="pt-[2rem] capitalize text-center">Project Lead</p>
+            <p className="pt-[2rem] capitalize text-center">UI/UX Specialist</p>
           </SwiperSlide>
           {/* team member 4 */}
-          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col">
-            <img src={opa} alt="" />
+          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col ">
+            <img src={team1} alt="" />
             <h1 className="font-[700]  capitalize text-center mt-[1rem] ">
-              opa
+              tara arora
             </h1>
-            <p className="pt-[2rem] capitalize text-center">Project Lead</p>
+            <p className="pt-[2rem] capitalize text-center">
+              digital marketing specialist
+            </p>
           </SwiperSlide>
           {/* team member 5 */}
           <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col">
