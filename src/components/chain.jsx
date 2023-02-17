@@ -1,6 +1,10 @@
 import easy from "../assets/easy.svg";
 import vector from "../assets/vector.svg";
 import cost from "../assets/Costdollar.svg";
+import bold from "../assets/bolt.svg";
+import flash from "../assets/flash.svg";
+import rate from "../assets/rate.svg";
+import cube from "../assets/cube.svg";
 import grid1 from "../assets/grid1.svg";
 import grid2 from "../assets/grid2.svg";
 import grid3 from "../assets/grid3.svg";
@@ -13,7 +17,7 @@ const Chain = () => {
         made easy
       </h1>
 
-      <div className="flex flex-col gap-[2rem] md:grid grid-cols-3 md:gap-[5rem]">
+      <div className="flex flex-col gap-[2rem] md:grid grid-cols-3 md:gap-[5rem] mt-[2rem] md:mt-[5rem]">
         {/* ----grid 1---- */}
         <div className="col-start-1 col-end-3 row-start-1 row-end-3 relative">
           <img src={grid1} alt="" />
@@ -64,7 +68,7 @@ const Chain = () => {
         </div>
         {/* ----------box 2-------- */}
         <div className="bg-[#a92dbf4d] flex items-center px-[1rem] py-[1rem] text-[white] rounded-[15px] gap-[1rem]">
-          <img src={cost} alt="" />
+          <img src={bold} alt="" />
           <div>
             <p className="text-[13.34px] leading-[30px]">$Godzinu price</p>
             <h1 className="font-[700] text-[29.61px] leading-[44.42px]">
@@ -74,7 +78,7 @@ const Chain = () => {
         </div>
         {/* ----------box 3-------- */}
         <div className="bg-[#a92dbf4d] flex items-center px-[1rem] py-[1rem] text-[white] rounded-[15px] gap-[1rem]">
-          <img src={cost} alt="" />
+          <img src={flash} alt="" />
           <div>
             <p className="text-[13.34px] leading-[30px]">$Godzinu price</p>
             <h1 className="font-[700] text-[29.61px] leading-[44.42px]">
@@ -84,7 +88,7 @@ const Chain = () => {
         </div>
         {/* ----------box 4-------- */}
         <div className="bg-[#a92dbf4d] flex items-center px-[1rem] py-[1rem] text-[white] rounded-[15px] gap-[1rem]">
-          <img src={cost} alt="" />
+          <img src={rate} alt="" />
           <div>
             <p className="text-[13.34px] leading-[30px]">$Godzinu price</p>
             <h1 className="font-[700] text-[29.61px] leading-[44.42px]">
@@ -94,7 +98,7 @@ const Chain = () => {
         </div>
         {/* ----------box 5-------- */}
         <div className="bg-[#a92dbf4d] flex items-center px-[1rem] py-[1rem] text-[white] rounded-[15px] gap-[1rem]">
-          <img src={cost} alt="" />
+          <img src={cube} alt="" />
           <div>
             <p className="text-[13.34px] leading-[30px]">$Godzinu price</p>
             <h1 className="font-[700] text-[29.61px] leading-[44.42px]">

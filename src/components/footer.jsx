@@ -2,6 +2,7 @@ import logo from "../assets/footerimg.svg";
 import facebook from "../assets/facebook.svg";
 import twitter from "../assets/twittericon.svg";
 import insta from "../assets/nstagram.svg";
+import telefram from "../assets/Telegram.svg";
 const Footer = () => {
   return (
     <footer className="flex flex-col md:flex-row justify-between gap-[4rem] lg:gap-[8rem]">
@@ -19,9 +20,21 @@ const Footer = () => {
           social media
         </h1>
         <div className="flex gap-[1rem]">
-          <img src={facebook} alt="" />
-          <img src={twitter} alt="" />
-          <img src={insta} alt="" />
+          <a href="">
+            {" "}
+            <img src={facebook} alt="" />
+          </a>
+          <a href="https://twitter.com/GODZinu_io">
+            {" "}
+            <img src={twitter} alt="" />
+          </a>
+
+          <a href="https://t.me/GODZinu" className="w-[10%]">
+            <img src={telefram} alt="" />
+          </a>
+          <a href="https://t.me/GODZinuAnn" className="w-[10%]">
+            <img src={telefram} alt="" />
+          </a>
         </div>
 
         <p className="hidden md:block text-[16.39px] leading-[39px] text-[#f9f9f9] mt-[5rem]">
@@ -84,7 +97,7 @@ const Footer = () => {
                 help and support
               </li>
             </a>
-            <a href="" className="link">
+            <a href="#community" className="link">
               <li className="text-[white] list-none font-[100] leading-[50px] capitalize">
                 community
               </li>

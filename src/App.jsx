@@ -1,4 +1,5 @@
-import { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { animateScroll as scroll } from "react-scroll";
 import logo from "./assets/logo.png";
 import github from "./assets/github.svg";
 import discord from "./assets/discord.svg";
@@ -22,6 +23,27 @@ function App() {
     setCompanyOpen(!openMenu);
   };
 
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const element = document.querySelector(".slide-in-on-scroll");
+      const rect = element.getBoundingClientRect();
+      const viewHeight = Math.max(
+        document.documentElement.clientHeight,
+        window.innerHeight
+      );
+      if (rect.top <= viewHeight * 0.8) {
+        setVisible(true);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <div className="bg-[black] ">
       <header className="flex justify-between px-[1.5rem] py-[2rem] items-center relative z-[2]">
@@ -31,31 +53,31 @@ function App() {
 
         <nav className="hidden lg:flex gap-[2rem] ">
           <a
-            href="#"
+            href="#swap"
             className="text-[white] font-[400] text-[16px] leading-[32.19px] capitalize"
           >
             token overview
           </a>
           <a
-            href="#"
+            href="#team"
             className="text-[white] font-[400] text-[16px] leading-[32.19px] capitalize"
           >
             team
           </a>
           <a
-            href="#"
+            href="#community"
             className="text-[white] font-[400] text-[16px] leading-[32.19px] capitalize"
           >
             community
           </a>
           <a
-            href="#"
+            href="#roadmap"
             className="text-[white] font-[400] text-[16px] leading-[32.19px] capitalize"
           >
             roadmap
           </a>
           <a
-            href="#"
+            href="#about"
             className="text-[white] font-[400] text-[16px] leading-[32.19px] capitalize"
           >
             about us
@@ -73,7 +95,7 @@ function App() {
           <a href="#">
             <img src={reddit} alt="reeddit icon" />
           </a>
-          <a href="#">
+          <a href="https://twitter.com/GODZinu_io">
             <img src={twitter} alt="twitter icon" />
           </a>{" "}
           *
@@ -98,31 +120,31 @@ function App() {
       >
         <nav className="navv flex flex-col pt-[10rem]  items-center gap-[1.5rem] inset-0 bg-[#00000080] absolute left-[30%]">
           <a
-            href="#"
+            href="#swap"
             className="text-[white] font-[400] text-[16px] leading-[32.19px] capitalize"
           >
             token overview
           </a>
           <a
-            href="#"
+            href="#team"
             className="text-[white] font-[400] text-[16px] leading-[32.19px] capitalize"
           >
             team
           </a>
           <a
-            href="#"
+            href="#community"
             className="text-[white] font-[400] text-[16px] leading-[32.19px] capitalize"
           >
             community
           </a>
           <a
-            href="#"
+            href="#roadmap"
             className="text-[white] font-[400] text-[16px] leading-[32.19px] capitalize"
           >
             roadmap
           </a>
           <a
-            href="#"
+            href="#about"
             className="text-[white] font-[400] text-[16px] leading-[32.19px] capitalize"
           >
             about us
@@ -143,22 +165,44 @@ function App() {
 
       <Chain />
 
-      <div className="px-[2rem] lg:px-[4rem] py-[5rem]">
+      <div
+        className={`slide-in-on-scroll px-[2rem] lg:px-[4rem] py-[5rem] ${
+          visible ? "visible" : ""
+        }`}
+        id="about "
+      >
         <About />
       </div>
 
-      <div className="px-[2rem] lg:px-[4rem] py-[5rem]">
+      <div
+        className={`slide-in-on-scroll px-[2rem] lg:px-[4rem] py-[5rem] ${
+          visible ? "visible" : ""
+        }`}
+        id="swap"
+      >
         <Swap />
       </div>
 
-      <div className="px-[2rem] lg:px-[4rem] py-[5rem]">
+      <div
+        className={`slide-in-on-scroll px-[2rem] lg:px-[4rem] py-[5rem] ${
+          visible ? "visible" : ""
+        }`}
+      >
         <Custody />
       </div>
 
-      <div className="px-[2rem] lg:px-[4rem] pb-[0] pt-[5rem] lg:py-[5rem]">
+      <div
+        className={`slide-in-on-scroll px-[2rem] lg:px-[4rem] pb-[0] pt-[5rem] lg:py-[5rem] ${
+          visible ? "visible" : ""
+        }`}
+      >
         <Earn />
       </div>
-      <div className="px-[2rem] lg:px-[4rem] pb-[5rem] pt-[0] lg:py-[5rem]">
+      <div
+        className={`slide-in-on-scroll px-[2rem] lg:px-[4rem] pb-[5rem] pt-[0] lg:py-[5rem] ${
+          visible ? "visible" : ""
+        }`}
+      >
         <Hexagon />
       </div>
       <div className="px-[2rem] lg:px-[4rem] pt-[5rem] pb-[2rem]">

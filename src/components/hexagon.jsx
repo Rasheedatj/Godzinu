@@ -35,217 +35,211 @@ const Hexagon = () => {
       </div>
 
       {/* ------team-------- */}
-      <h1 className="gradient my-[4rem] text-center text-[35px] md:text-[45px] lg:text-[72.39px] lg:leading-[60px] font-[500]  capitalize mt-[9rem]">
-        our team
-      </h1>
-      <Swiper
-        className="flex flex-wrap gap-[2rem]  lg:gap-[4rem] justify-center mySwiper"
-        modules={[Navigation, Pagination, Scrollbar, A11y]}
-        spaceBetween={70}
-        // slidesPerView={3.5}
-        navigation
-        pagination={{ clickable: true }}
-        scrollbar={{ draggable: true }}
-        onSwiper={(swiper) => console.log(swiper)}
-        onSlideChange={() => console.log("slide change")}
-        breakpoints={{
-          350: {
-            slidesPerView: 1,
-          },
-          500: {
-            slidesPerView: 1.5,
-          },
-          768: {
-            slidesPerView: 2.5,
-          },
-          1200: {
-            slidesPerView: 3.5,
-          },
-        }}
-      >
-        {/* team member 1 */}
-        <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col ">
-          <img src={team1} alt="" />
-          <h1 className="font-[700]  capitalize text-center mt-[1rem] ">
-            tara arora
-          </h1>
-          <p className="pt-[2rem] capitalize text-center">
-            digital marketing specialist
-          </p>
-        </SwiperSlide>
-        {/* team member 2 */}
-        <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col">
-          <img src={jimmy} alt="" />
-          <h1 className="font-[700]  capitalize text-center mt-[1rem] ">
-            jimmy hope
-          </h1>
-          <p className="pt-[2rem] capitalize text-center">
-            social media specialist
-          </p>
-        </SwiperSlide>
-        {/* team member 3 */}
-        <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col">
-          <img src={ayush} alt="" />
-          <h1 className="font-[700]  capitalize text-center mt-[1rem] ">
-            ayush nurula
-          </h1>
-          <p className="pt-[2rem] capitalize text-center">UI/UX specialist</p>
-        </SwiperSlide>
-        {/* team member 4 */}
-        <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col">
-          <img src={opa} alt="" />
-          <h1 className="font-[700]  capitalize text-center mt-[1rem] ">opa</h1>
-          <p className="pt-[2rem] capitalize text-center">
-            digital marketing specialist
-          </p>
-        </SwiperSlide>
-        {/* team member 5 */}
-        <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col">
-          <img src={cerberos} alt="" />
-          <h1 className="font-[700]  capitalize text-center mt-[1rem] ">
-            cerberos
-          </h1>
-          <p className="pt-[2rem] capitalize text-center">
-            Social Media Specialist .
-          </p>
-        </SwiperSlide>
-        {/* team member 6 */}
-        <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col">
-          <img src={good} alt="" />
-          <h1 className="font-[700]  capitalize text-center mt-[1rem] ">
-            good chilla
-          </h1>
-          <p className="pt-[2rem] capitalize text-center">UI/UX Specialist</p>
-        </SwiperSlide>
-        {/* team member 7 */}
-        <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col">
-          <img src={taiwo} alt="" />
-          <h1 className="font-[700]  capitalize text-center mt-[1rem] ">
-            taiwo
-          </h1>
-          <p className="pt-[2rem] capitalize text-center">UI/UX Specialist</p>
-        </SwiperSlide>
-        {/* team member 8 */}
-        <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col">
-          <img src={henry} alt="" />
-          <h1 className="font-[700]  capitalize text-center mt-[1rem] ">
-            henry
-          </h1>
-          <p className="pt-[2rem] capitalize text-center">
-            Social Media Specialist
-          </p>
-        </SwiperSlide>
+      <div id="team">
+        <h1 className="gradient my-[4rem] text-center text-[35px] md:text-[45px] lg:text-[72.39px] lg:leading-[60px] font-[500]  capitalize mt-[9rem]">
+          our team
+        </h1>
+        <Swiper
+          className="flex flex-wrap gap-[2rem]  lg:gap-[4rem] justify-center mySwiper"
+          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          spaceBetween={70}
+          // slidesPerView={3.5}
+          navigation
+          pagination={{ clickable: true }}
+          scrollbar={{ draggable: true }}
+          onSwiper={(swiper) => console.log(swiper)}
+          onSlideChange={() => console.log("slide change")}
+          breakpoints={{
+            350: {
+              slidesPerView: 1,
+            },
+            500: {
+              slidesPerView: 1.5,
+            },
+            768: {
+              slidesPerView: 2.5,
+            },
+            1200: {
+              slidesPerView: 3.5,
+            },
+          }}
+        >
+          {/* team member 1 */}
+          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col ">
+            <img src={team1} alt="" />
+            <h1 className="font-[700]  capitalize text-center mt-[1rem] ">
+              tara arora
+            </h1>
+            <p className="pt-[2rem] capitalize text-center">
+              digital marketing specialist
+            </p>
+          </SwiperSlide>
+          {/* team member 2 */}
+          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col">
+            <img src={jimmy} alt="" />
+            <h1 className="font-[700]  capitalize text-center mt-[1rem] ">
+              jimmy hope
+            </h1>
+            <p className="pt-[2rem] capitalize text-center">
+              Community Manager
+            </p>
+          </SwiperSlide>
+          {/* team member 3 */}
+          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col">
+            <img src={ayush} alt="" />
+            <h1 className="font-[700]  capitalize text-center mt-[1rem] ">
+              ayush nurula
+            </h1>
+            <p className="pt-[2rem] capitalize text-center">Project Lead</p>
+          </SwiperSlide>
+          {/* team member 4 */}
+          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col">
+            <img src={opa} alt="" />
+            <h1 className="font-[700]  capitalize text-center mt-[1rem] ">
+              opa
+            </h1>
+            <p className="pt-[2rem] capitalize text-center">Project Lead</p>
+          </SwiperSlide>
+          {/* team member 5 */}
+          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col">
+            <img src={cerberos} alt="" />
+            <h1 className="font-[700]  capitalize text-center mt-[1rem] ">
+              cerberos
+            </h1>
+            <p className="pt-[2rem] capitalize text-center">Advisor</p>
+          </SwiperSlide>
+          {/* team member 6 */}
+          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col">
+            <img src={good} alt="" />
+            <h1 className="font-[700]  capitalize text-center mt-[1rem] ">
+              good chilla
+            </h1>
+            <p className="pt-[2rem] capitalize text-center">Advisor</p>
+          </SwiperSlide>
+          {/* team member 7 */}
+          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col">
+            <img src={taiwo} alt="" />
+            <h1 className="font-[700]  capitalize text-center mt-[1rem] ">
+              taiwo
+            </h1>
+            <p className="pt-[2rem] capitalize text-center">
+              Graphics Designer
+            </p>
+          </SwiperSlide>
+          {/* team member 8 */}
+          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col">
+            <img src={henry} alt="" />
+            <h1 className="font-[700]  capitalize text-center mt-[1rem] ">
+              henry gray
+            </h1>
+            <p className="pt-[2rem] capitalize text-center">
+              Community Manager
+            </p>
+          </SwiperSlide>
 
-        {/* team member 9 */}
-        <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col">
-          <img src={bew} alt="" />
-          <h1 className="font-[700]  capitalize text-center mt-[1rem] ">bew</h1>
-          <p className="pt-[2rem] capitalize text-center">UI/UX Specialist</p>
-        </SwiperSlide>
-        {/* team member 10 */}
-        <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col">
-          <img src={don} alt="" />
-          <h1 className="font-[700]  capitalize text-center mt-[1rem] ">
-            don zhilla
-          </h1>
-          <p className="pt-[2rem] capitalize text-center">UI/UX Specialist</p>
-        </SwiperSlide>
-      </Swiper>
+          {/* team member 9 */}
+          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col">
+            <img src={bew} alt="" />
+            <h1 className="font-[700]  capitalize text-center mt-[1rem] ">
+              bew
+            </h1>
+            <p className="pt-[2rem] capitalize text-center">Advisor</p>
+          </SwiperSlide>
+          {/* team member 10 */}
+          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col">
+            <img src={don} alt="" />
+            <h1 className="font-[700]  capitalize text-center mt-[1rem] ">
+              don zhilla
+            </h1>
+            <p className="pt-[2rem] capitalize text-center">Advisor</p>
+          </SwiperSlide>
+        </Swiper>
+      </div>
 
       {/* -------roadmap-------- */}
-      <div className="py-[5rem]">
-        <h1 className="gradient text-[35px] mb-[2rem] lg:mb-[0] lg:text-[60.39px] lg:leading-[60px] font-[500]  capitalize mt-[4rem] text-center">
+      <div className="py-[5rem]" id="roadmap">
+        <h1 className="gradient text-[35px] mb-[5rem] lg:text-[60.39px] lg:leading-[60px] font-[500]  capitalize mt-[4rem] text-center">
           roadmap
         </h1>
 
         {/* --------stages------ */}
-        <section className="roadmap relative flex flex-col lg:flex-row gap-[2rem] text-[white] justify-between ">
+        <section className="roadmap  flex flex-col  gap-[4rem] lg:gap-[8rem] text-[white] items-center w-[100%] relative">
           {/* ---stage1-- */}
-          <div className="w-[100%]">
-            <h1 className="text-[white]  lg:text-[60.39px] lg:leading-[60px] font-[500] text-[center]  capitalize mb-[2rem]">
-              stage 1
-            </h1>
-            <div>
-              <li className="capitalize text-[28.35px] leading-[42.52px]">
+          <div className="w-[100%] md:w-[70%]  lg:w-[45%] md:pl-[5rem] lg:pl-[6rem]">
+            <div className="stage-1 w-[100%] md:w-[100%] pl-[2rem] lg:pl-[6rem] pt-[1rem] md:pt-[4rem] pb-[2rem] lg:w-[100%] ">
+              <li className="capitalize md:text-[28.35px] md:leading-[42.52px] list-disc lg:list-none list-outside ">
                 project launch
               </li>
-              <li className="capitalize text-[28.35px] leading-[42.52px]">
+              <li className="capitalize md:text-[28.35px] md:leading-[42.52px] list-disc lg:list-none list-outside ">
                 whitepaper IV
               </li>
-              <li className="capitalize text-[28.35px] leading-[42.52px]">
+              <li className="capitalize md:text-[28.35px] md:leading-[42.52px] list-disc lg:list-none list-outside ">
                 tokenmonics
               </li>
-              <li className="capitalize text-[28.35px] leading-[42.52px]">
+              <li className="capitalize md:text-[28.35px] md:leading-[42.52px] list-disc lg:list-none list-outside ">
                 branding
               </li>
-              <li className="capitalize text-[28.35px] leading-[42.52px]">
+              <li className="capitalize md:text-[28.35px] md:leading-[42.52px] list-disc lg:list-none list-outside ">
                 website creation
               </li>
-              <li className="capitalize text-[28.35px] leading-[42.52px]">
+              <li className="capitalize md:text-[28.35px] md:leading-[42.52px] list-disc lg:list-none list-outside ">
                 strategy planning
               </li>
-              <li className="capitalize text-[28.35px] leading-[42.52px]">
+              <li className="capitalize md:text-[28.35px] md:leading-[42.52px] list-disc lg:list-none list-outside ">
                 team expansion
               </li>
             </div>
           </div>
 
           {/* ---stage2-- */}
-          <div className="pt-[6rem]  w-[100%]">
-            <div>
-              <li className="capitalize text-[28.35px] leading-[42.52px]">
+          <div className="pt-[0rem]  w-[100%] lg:ml-[15rem] md:w-[70%]  md:pl-[5rem] lg:w-[45%]">
+            <div className="stage-2 w-[100%] md:w-[100%] pl-[2rem]  py-[2rem] lg:w-[100%] lg:pl-[4rem]">
+              <li className="capitalize md:text-[28.35px] md:leading-[42.52px] list-disc lg:list-none list-outside">
                 smart contract creation
               </li>
-              <li className="capitalize text-[28.35px] leading-[42.52px]">
+              <li className="capitalize md:text-[28.35px] md:leading-[42.52px] list-disc lg:list-none list-outside">
                 token creation
               </li>
-              <li className="capitalize text-[28.35px] leading-[42.52px]">
+              <li className="capitalize md:text-[28.35px] md:leading-[42.52px] list-disc lg:list-none list-outside">
                 marketing
               </li>
-              <li className="capitalize text-[28.35px] leading-[42.52px]">
+              <li className="capitalize md:text-[28.35px] md:leading-[42.52px] list-disc lg:list-none list-outside">
                 token lauch on
               </li>
-              <li className="capitalize text-[28.35px] leading-[42.52px]">
+              <li className="capitalize md:text-[28.35px] md:leading-[42.52px] list-disc lg:list-none list-outside">
                 pancakeSwap
               </li>
-              <li className="capitalize text-[28.35px] leading-[42.52px]">
+              <li className="capitalize md:text-[28.35px] md:leading-[42.52px] list-disc lg:list-none list-outside">
                 buy/sell tax activation
               </li>
-              <li className="capitalize text-[28.35px] leading-[42.52px]">
+              <li className="capitalize md:text-[28.35px] md:leading-[42.52px] list-disc lg:list-none list-outside">
                 team expansion
               </li>
             </div>
-
-            <h1 className="text-[white]  lg:text-[60.39px] lg:leading-[60px] font-[500] text-[center]  capitalize mt-[5rem] ">
-              stage 2
-            </h1>
           </div>
 
           {/* ---stage3-- */}
-          <div className="w-[100%]">
-            <h1 className=" mb-[2rem] text-[white]  lg:text-[60.39px] lg:leading-[60px] font-[500] text-[center]  capitalize ">
-              stage 3
-            </h1>
-            <div>
-              <li className="capitalize text-[28.35px] leading-[42.52px]">
+          <div className="w-[100%] md:w-[70%] md:pl-[5rem] lg:w-[45%]">
+            <div className="stage-3 w-[100%] md:w-[100%] lg:w-[100%] pt-[1rem] md:2t-[4rem] pl-[2rem] lg:pl-[6rem] pb-[2rem]">
+              <li className="capitalize md:text-[28.35px] md:leading-[42.52px] list-disc lg:list-none list-outside">
                 native GODZ stacking
               </li>
-              <li className="capitalize text-[28.35px] leading-[42.52px]">
+              <li className="capitalize md:text-[28.35px] md:leading-[42.52px] list-disc lg:list-none list-outside">
                 token bridge & <br /> uniswap pool
               </li>
-              <li className="capitalize text-[28.35px] leading-[42.52px]">
+              <li className="capitalize md:text-[28.35px] md:leading-[42.52px] list-disc lg:list-none list-outside">
                 web swap interface
               </li>
-              <li className="capitalize text-[28.35px] leading-[42.52px]">
+              <li className="capitalize md:text-[28.35px] md:leading-[42.52px] list-disc lg:list-none list-outside">
                 godzinu nft
               </li>
-              <li className="capitalize text-[28.35px] leading-[42.52px]">
+              <li className="capitalize md:text-[28.35px] md:leading-[42.52px] list-disc lg:list-none list-outside">
                 godzinu mobile wallet
               </li>
-              <li className="capitalize text-[28.35px] leading-[42.52px]">
+              <li className="capitalize md:text-[28.35px] md:leading-[42.52px] list-disc lg:list-none list-outside">
                 strategy planning
               </li>
-              <li className="capitalize text-[28.35px] leading-[42.52px]">
+              <li className="capitalize md:text-[28.35px] md:leading-[42.52px] list-disc lg:list-none list-outside">
                 team expansion
               </li>
             </div>
@@ -308,15 +302,18 @@ const Hexagon = () => {
       </div>
 
       {/* --------join our community------------ */}
-      <h1 className="text-[white] text-[35px] text-center lg:text-[60.39px] lg:leading-[60px] font-[500]  capitalize mt-[9rem] mb-[4rem]">
-        join our community of <span className="gradient">godzinu hunters</span>
-      </h1>
-      <section className="flex flex-col gap-[4rem] lg:gap-[0] md:flex-row items-center">
-        <img src={godzilla} alt="" className="w-[100%] md:w-[50%]" />
-        <div className="flex justify-center w-[100%] lg:w-[50%]">
-          <img src={icons} alt="" className="w-[70%]" />
-        </div>
-      </section>
+      <div id="community">
+        <h1 className="text-[white] text-[35px] text-center lg:text-[60.39px] lg:leading-[60px] font-[500]  capitalize mt-[9rem] mb-[4rem]">
+          join our community of{" "}
+          <span className="gradient">godzinu hunters</span>
+        </h1>
+        <section className="flex flex-col gap-[4rem] lg:gap-[0] md:flex-row items-center">
+          <img src={godzilla} alt="" className="w-[100%] md:w-[50%]" />
+          <div className="flex justify-center w-[100%] lg:w-[50%]">
+            <img src={icons} alt="" className="w-[70%]" />
+          </div>
+        </section>
+      </div>
     </>
   );
 };

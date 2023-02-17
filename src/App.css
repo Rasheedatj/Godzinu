@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;1,700&display=swap");
+:root {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
 
 body {
   font-family: "Poppins", sans-serif;
@@ -53,36 +57,50 @@ header nav a:hover,
   background: linear-gradient(180deg, #d1d3e2 0%, #75629d 100%);
 }
 
-.roadmap::after {
-  position: absolute;
-  content: "";
-  background-image: url(./assets/roadmap.svg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  font-size: 40px;
-  top: 15%;
-  left: -2%;
-  bottom: 0;
-  right: 0;
-  /* color: bg-[#a39f9f1a]; */
+.roadmap > div {
+  background: linear-gradient(180deg, #497cff 0%, #001664 100%);
 }
 
 .roadmap li {
   position: relative;
-  list-style-type: none;
+  list-style-position: inside;
+  padding-top: 1rem;
 }
 
 .roadmap li::before {
-  content: "";
-  height: 0.5rem;
-  width: 0.5rem;
-  border-radius: 50%;
-  margin-bottom: 5px;
-  display: inline-block;
-  margin-right: 30px;
-  background: linear-gradient(91.06deg, #ff1cf7 2.26%, #00f0ff 100%);
+  position: absolute;
+  content: url("./assets/arrow.svg");
+  left: -30%;
+  top: 0%;
+  /* font-size: 12px; */
 }
 
+.stage-1,
+.stage-2,
+.stage-3 {
+  position: relative;
+}
+
+.stage-2::after {
+  position: absolute;
+  content: url(./assets/stage2.svg);
+  right: -30%;
+  top: -50%;
+}
+.stage-3::after {
+  position: absolute;
+  content: url(./assets/stage3.svg);
+  left: -55%;
+  top: -40%;
+}
+.stage-1::after {
+  position: absolute;
+  content: url(./assets/stage1.svg);
+  left: -50%;
+  top: -40%;
+}
+
+/*  */
 .value {
   position: absolute;
   content: "";
@@ -177,4 +195,27 @@ input {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
+}
+
+@media screen and (max-width: 1200px) {
+  .stage-1::after,
+  .stage-2::after,
+  .stage-3::after {
+    content: "";
+    inset: 0;
+  }
+  .roadmap li::before {
+    content: "";
+  }
+}
+
+.slide-in-on-scroll {
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.slide-in-on-scroll.visible {
+  opacity: 1;
+  transform: translateX(0%);
 }
