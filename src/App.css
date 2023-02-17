@@ -209,13 +209,26 @@ input {
   }
 }
 
-.slide-in-on-scroll {
-  opacity: 0;
+.section,
+.section2 {
+  opacity: 1;
   transform: translateX(-50%);
   transition: opacity 1s ease-out, transform 1s ease-out;
 }
 
-.slide-in-on-scroll.visible {
+.section.slide-in,
+.section2.slide-in {
   opacity: 1;
   transform: translateX(0%);
 }
+
+/* @keyframes slide-in {
+  from {
+    transform: translateX(-50%);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+} */

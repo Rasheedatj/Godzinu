@@ -11,7 +11,7 @@ const Swap = () => {
           any chain
         </h1>
 
-        <p className="text-[white] leading-[30px] lg:leading-[40px] pt-[1rem] lg:text-[20.23px] font-[400] w-[100%] lg:w-[65%]">
+        <p className="text-[white] leading-[30px] lg:leading-[40px] pt-[1rem] lg:text-[20.23px] font-[400] w-[100%]">
           The Godzinu DEX Aggregator connects liquidity across 9 blockchains and
           compares pricing from numerous Aggregators (1inch, Matcha) & DEXs
           (Uniswap, Sushiswap, Pangolin) to give you the best cross-chain swap

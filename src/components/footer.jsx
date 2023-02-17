@@ -8,7 +8,9 @@ const Footer = () => {
     <footer className="flex flex-col md:flex-row justify-between gap-[4rem] lg:gap-[8rem]">
       {/* -------pack one----- */}
       <section className="w-[100%] lg:border-r-[1px] lg:border-[#ffffff52]">
-        <img src={logo} alt="godzingu logo" />
+        <a href="#">
+          <img src={logo} alt="godzingu logo" />
+        </a>
 
         <p className="mt-[2rem] text-[white] leading-[30px] lg:leading-[40px] pt-[1rem] lg:text-[20.23px] font-[400] items-center  lg:w-[100%]">
           Godzinu is a community run project. The progress speed of the project

@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from "react";
-import { animateScroll as scroll } from "react-scroll";
+import React, { useRef, useState } from "react";
+
+import { useInView } from "react-intersection-observer";
 import logo from "./assets/logo.png";
 import github from "./assets/github.svg";
 import discord from "./assets/discord.svg";
@@ -23,29 +24,22 @@ function App() {
     setCompanyOpen(!openMenu);
   };
 
-  const [visible, setVisible] = useState(false);
+  const sectionRef = useRef(null);
+  const { ref, inView } = useInView({
+    threshold: 0.5,
+  });
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const element = document.querySelector(".slide-in-on-scroll");
-      const rect = element.getBoundingClientRect();
-      const viewHeight = Math.max(
-        document.documentElement.clientHeight,
-        window.innerHeight
-      );
-      if (rect.top <= viewHeight * 0.8) {
-        setVisible(true);
-      }
-    };
+  const slideClass = inView ? "slide-in" : "";
 
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  const sectionRef2 = useRef(null);
+  const { ref2, inView2 } = useInView({
+    threshold: 0.5,
+  });
+
+  const slideClass2 = inView2 ? "slide-in" : "";
 
   return (
-    <div className="bg-[black] ">
+    <div className="bg-[black]  ">
       <header className="flex justify-between px-[1.5rem] py-[2rem] items-center relative z-[2]">
         <a href="#" className="w-[40%] lg:w-[20%]">
           <img src={logo} alt="godzilla logo" />
@@ -110,9 +104,7 @@ function App() {
           <span className="team w-[25px] h-[2px]"></span>
         </div>
       </header>
-
       {/* --------hamburger menu------------ */}
-
       <div
         className={`hidden menu justify-center bg-[#00000080] absolute inset-0 z-[10]  ${
           openMenu ? "open" : ""
@@ -158,53 +150,46 @@ function App() {
           onClick={() => handleClick()}
         />
       </div>
-
+      {/* component */}
       <div className="mt-[3rem] hero px-[2rem]">
         <Hero />
       </div>
-
+      {/* component */}
       <Chain />
-
+      {/* component */}
+      <div ref={ref} className="trigger" />
       <div
-        className={`slide-in-on-scroll px-[2rem] lg:px-[4rem] py-[5rem] ${
-          visible ? "visible" : ""
-        }`}
+        className={`section  px-[2rem] lg:px-[4rem] py-[5rem]  ${slideClass}`}
+        ref={sectionRef}
         id="about "
       >
         <About />
       </div>
-
+      {/* component */}
+      <div ref={ref2} className="trigger" />
       <div
-        className={`slide-in-on-scroll px-[2rem] lg:px-[4rem] py-[5rem] ${
-          visible ? "visible" : ""
-        }`}
+        className={`secti  px-[2rem] lg:px-[4rem] py-[5rem]  ${slideClass2}`}
+        ref={sectionRef2}
         id="swap"
       >
         <Swap />
       </div>
-
-      <div
-        className={`slide-in-on-scroll px-[2rem] lg:px-[4rem] py-[5rem] ${
-          visible ? "visible" : ""
-        }`}
-      >
+      {/* component */}
+      {/* <div ref={ref} className="trigger" /> */}
+      <div className="  px-[2rem] lg:px-[4rem] py-[5rem]">
         <Custody />
       </div>
-
-      <div
-        className={`slide-in-on-scroll px-[2rem] lg:px-[4rem] pb-[0] pt-[5rem] lg:py-[5rem] ${
-          visible ? "visible" : ""
-        }`}
-      >
+      {/* component */}
+      {/* <div ref={ref} className="trigger" /> */}
+      <div className=" px-[2rem] lg:px-[4rem] pb-[0] pt-[5rem] lg:py-[5rem] ">
         <Earn />
-      </div>
-      <div
-        className={`slide-in-on-scroll px-[2rem] lg:px-[4rem] pb-[5rem] pt-[0] lg:py-[5rem] ${
-          visible ? "visible" : ""
-        }`}
-      >
+      </div>{" "}
+      {/* component */}
+      {/* <div ref={ref} className="trigger" /> */}
+      <div className="px-[2rem] lg:px-[4rem] pb-[5rem] pt-[0] lg:py-[5rem]  ">
         <Hexagon />
       </div>
+      {/* component */}
       <div className="px-[2rem] lg:px-[4rem] pt-[5rem] pb-[2rem]">
         <Footer />
       </div>
