@@ -2,9 +2,9 @@ import box from "../assets/swap.svg";
 
 const Swap = () => {
   return (
-    <div className="flex flex-col gap-[4rem] md:flex-row md:items-start justify-between items-center lg:gap-[0]">
+    <div className="flex flex-col gap-[4rem] md:flex-row md:items-start justify-between  lg:gap-[0]">
       {/* --------container 1----- */}
-      <div className="w-[100%] lg:w-[50%]">
+      <div className="w-[100%] lg:w-[50%] flex flex-col gap-[2rem]">
         <h1 className="text-[white]  text-[40.46px] leading-[60px] font-[500]  capitalize">
           <span className="gradient uppercase block pb-[1rem]"> swap</span>
           Any token, <br />
@@ -18,7 +18,7 @@ const Swap = () => {
           in one click.
         </p>
 
-        <button className="btn btn-hov text-[white] rounded-[8px] w-[176px] h-[55px] capitalize  mt-[1rem] ">
+        <button className="btn btn-hov text-[white] rounded-[8px] w-[176px] h-[55px] capitalize  mt-[1rem] md:mt-[2rem]">
           <a href="#">start swapping</a>
         </button>
       </div>

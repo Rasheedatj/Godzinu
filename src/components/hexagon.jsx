@@ -158,7 +158,7 @@ const Hexagon = () => {
 
       {/* -------roadmap-------- */}
       <div className="py-[5rem]" id="roadmap">
-        <h1 className="gradient text-[35px] mb-[5rem] md:mb-[12rem] lg:text-[60.39px] lg:leading-[60px] font-[500]  capitalize mt-[4rem] text-center">
+        <h1 className="gradient text-[35px] mb-[5rem] md:mb-[10rem] lg:text-[60.39px] lg:leading-[60px] font-[500]  capitalize mt-[4rem] text-center">
           roadmap
         </h1>
 
