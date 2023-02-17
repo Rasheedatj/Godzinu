@@ -40,7 +40,7 @@ const Hexagon = () => {
           our team
         </h1>
         <Swiper
-          className="flex flex-wrap gap-[2rem]  lg:gap-[4rem] justify-center mySwiper"
+          className="flex flex-wrap gap-[1rem]  lg:gap-[4rem] justify-center mySwiper"
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={70}
           // slidesPerView={3.5}
@@ -51,7 +51,7 @@ const Hexagon = () => {
           onSlideChange={() => console.log("slide change")}
           breakpoints={{
             350: {
-              slidesPerView: 1,
+              slidesPerView: 1.4,
             },
             500: {
               slidesPerView: 1.5,
