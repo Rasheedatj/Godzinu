@@ -21,11 +21,7 @@ const Hero = () => {
         </button>
       </div>
 
-      <img
-        src={looper}
-        alt=""
-        className="h-[50%] mt-[-30%] ml-[-2rem] lg:ml-[0]"
-      />
+      <img src={looper} alt="" className="h-[50%] mt-[-30%] ml-[-2rem] " />
     </div>
   );
 };

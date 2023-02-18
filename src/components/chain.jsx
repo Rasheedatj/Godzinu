@@ -11,13 +11,13 @@ import grid3 from "../assets/grid3.svg";
 
 const Chain = () => {
   return (
-    <div className="px-[2rem] lg:px-[4rem]">
+    <div className="px-[2rem] lg:px-[4rem] lg:mt-[-22%]">
       <h1 className="text-[white] text-[35px] md:text-[45px] lg:text-[80px] lg:leading-[100px] font-[500] text-center capitalize">
         <span className="gradient">cross.chain </span>
         made easy
       </h1>
 
-      <div className="flex flex-col gap-[2rem] md:grid grid-cols-3 md:gap-[5rem] mt-[2rem] md:mt-[5rem]">
+      <div className="flex flex-col gap-[2rem] md:grid grid-cols-3 md:gap-[5rem] mt-[2rem] md:mt-[5rem] video">
         {/* ----grid 1---- */}
         <div className="col-start-1 col-end-3 row-start-1 row-end-3 relative">
           <img src={grid1} alt="" />
@@ -32,7 +32,7 @@ const Chain = () => {
         </div>
         {/* ----grid 2---- */}
 
-        <div className="col-start-3 col-end-4  relative">
+        <div className="col-start-3 col-end-4  relative small">
           <img src={grid2} alt="" />
           {/* ---overlay----- */}
           <div className="absolute top-[15%] left-[3%]">
@@ -43,7 +43,7 @@ const Chain = () => {
         </div>
         {/* ----grid 3---- */}
 
-        <div className="col-start-3 col-end-4 relative">
+        <div className="col-start-3 col-end-4 relative small">
           <img src={grid3} alt="" />
           {/* ---overlay----- */}
           <div className="absolute top-[30%] left-[2%]">

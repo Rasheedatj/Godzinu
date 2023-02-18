@@ -232,3 +232,16 @@ input {
     opacity: 1;
   }
 } */
+
+.video > div::after {
+  position: absolute;
+  content: url("./assets/play.svg");
+  display: grid;
+  top: 40%;
+  right: 40%;
+}
+
+.video > .small::after {
+  content: url("./assets/play-small.svg");
+  top: 20%;
+}

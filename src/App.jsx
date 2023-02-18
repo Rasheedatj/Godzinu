@@ -2,7 +2,8 @@ import React, { useRef, useState } from "react";
 
 import { useInView } from "react-intersection-observer";
 import logo from "./assets/logo.png";
-import github from "./assets/github.svg";
+import telegram from "./assets/Telegram.svg";
+
 import discord from "./assets/discord.svg";
 import reddit from "./assets/reddit.svg";
 import twitter from "./assets/twitter.svg";
@@ -80,8 +81,8 @@ function App() {
 
         <div className="hidden lg:flex gap-[1rem]">
           {" "}
-          <a href="#">
-            <img src={github} alt="github icon" />
+          <a href="https://t.me/GODZinu" className="w-[10%]">
+            <img src={telegram} alt="github icon" />
           </a>
           <a href="#">
             <img src={discord} alt="discord icon" />
@@ -92,7 +93,6 @@ function App() {
           <a href="https://twitter.com/GODZinu_io">
             <img src={twitter} alt="twitter icon" />
           </a>{" "}
-          *
         </div>
 
         <div
