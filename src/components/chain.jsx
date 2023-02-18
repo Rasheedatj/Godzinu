@@ -11,7 +11,7 @@ import grid3 from "../assets/grid3.svg";
 
 const Chain = () => {
   return (
-    <div className="px-[2rem] lg:px-[4rem] mt-[4rem] md:mt-[8rem] lg:mt-[-22%]">
+    <div className="px-[2rem] lg:px-[4rem] mt-[2rem] md:mt-[9rem] lg:mt-[-22%]">
       <h1 className="text-[white] text-[35px] md:text-[45px] lg:text-[80px] lg:leading-[100px] font-[500] text-center capitalize">
         <span className="gradient">cross.chain </span>
         made easy
@@ -55,9 +55,9 @@ const Chain = () => {
       </div>
 
       {/* -----flex boxes */}
-      <div className=" flex gap-[2rem]  flex-wrap md:flex-wrap lg:flex-row lg:gap-[1.5rem]   mt-[5rem]">
+      <div className=" flex gap-[2rem]  flex-wrap md:flex-wrap lg:flex-row lg:gap-[1.5rem] justify-center lg:justify-start  mt-[5rem]">
         {/* ----------box 1-------- */}
-        <div className="bg-[#a92dbf4d] flex items-center px-[.5rem] py-[1rem] text-[white] rounded-[15px] gap-[1rem]">
+        <div className="bg-[#a92dbf4d] flex items-center px-[.5rem] py-[1rem] text-[white] rounded-[15px] gap-[1rem]  w-[244.99px] h-[140.85px] justify-center">
           <img src={cost} alt="" />
           <div>
             <p className="text-[13.34px] leading-[30px]">$Godzinu price</p>
@@ -67,7 +67,7 @@ const Chain = () => {
           </div>
         </div>
         {/* ----------box 2-------- */}
-        <div className="bg-[#a92dbf4d] flex items-center px-[.5rem] py-[1rem] text-[white] rounded-[15px] gap-[1rem]">
+        <div className="bg-[#a92dbf4d] flex items-center px-[.5rem] py-[1rem] text-[white] rounded-[15px] gap-[1rem]  w-[244.99px] h-[140.85px] justify-center">
           <img src={bold} alt="" />
           <div>
             <p className="text-[13.34px] leading-[30px]">$Godzinu price</p>
@@ -77,7 +77,7 @@ const Chain = () => {
           </div>
         </div>
         {/* ----------box 3-------- */}
-        <div className="bg-[#a92dbf4d] flex items-center px-[.5rem] py-[1rem] text-[white] rounded-[15px] gap-[1rem]">
+        <div className="bg-[#a92dbf4d] flex items-center px-[.5rem] py-[1rem] text-[white] rounded-[15px] gap-[1rem]  w-[244.99px] h-[140.85px] justify-center">
           <img src={flash} alt="" />
           <div>
             <p className="text-[13.34px] leading-[30px]">$Godzinu price</p>
@@ -87,7 +87,7 @@ const Chain = () => {
           </div>
         </div>
         {/* ----------box 4-------- */}
-        <div className="bg-[#a92dbf4d] flex items-center px-[.5rem] py-[1rem] text-[white] rounded-[15px] gap-[1rem]">
+        <div className="bg-[#a92dbf4d] flex items-center px-[.5rem] py-[1rem] text-[white] rounded-[15px] gap-[1rem]  w-[244.99px] h-[140.85px] justify-center">
           <img src={rate} alt="" />
           <div>
             <p className="text-[13.34px] leading-[30px]">$Godzinu price</p>
@@ -97,7 +97,7 @@ const Chain = () => {
           </div>
         </div>
         {/* ----------box 5-------- */}
-        <div className="bg-[#a92dbf4d] flex items-center px-[.5rem] py-[1rem] text-[white] rounded-[15px] gap-[1rem]">
+        <div className="bg-[#a92dbf4d] flex items-center px-[.5rem] py-[1rem] text-[white] rounded-[15px] gap-[1rem]  w-[244.99px] h-[140.85px] justify-center">
           <img src={cube} alt="" />
           <div>
             <p className="text-[13.34px] leading-[30px]">$Godzinu price</p>
