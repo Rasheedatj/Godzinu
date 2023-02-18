@@ -160,6 +160,13 @@ header nav a:hover,
     background: url("./assets/mobile-hero.svg");
     background-position: center;
   }
+  .video > div::after {
+    position: absolute;
+    content: url("./assets/play.svg");
+    display: grid;
+    top: 20%;
+    right: 40%;
+  }
 }
 
 @media screen and (max-width: 1200px) and (min-width: 700px) {
@@ -221,17 +228,6 @@ input {
   opacity: 1;
   transform: translateX(0%);
 }
-
-/* @keyframes slide-in {
-  from {
-    transform: translateX(-50%);
-    opacity: 1;
-  }
-  to {
-    transform: translateX(0%);
-    opacity: 1;
-  }
-} */
 
 .video > div::after {
   position: absolute;
