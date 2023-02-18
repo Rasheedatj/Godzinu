@@ -51,7 +51,7 @@ const Hexagon = () => {
 
             <div className="">
               <h3
-                className="gradient capitalize pt-[1rem] md:pt-[0] font-[500] md:text-[35.95px] leadi
+                className="gradient capitalize pt-[1rem] md:pt-[0] font-[500] text-[25px] md:text-[35.95px] leadi
           [53.93px] tracking-[2%]"
               >
                 $GODZ token stacking
@@ -59,13 +59,13 @@ const Hexagon = () => {
 
               <h3
                 className="text-white capitalize font-[500] md:text-[35.95px] leadi
-          [53.93px] tracking-[2%]"
+          [53.93px] tracking-[2%] text-[25px]"
               >
                 maturity:16:22 UTC, 15th March
               </h3>
               <h3
                 className="text-white capitalize font-[500] md:text-[35.95px] leadi
-          [53.93px] tracking-[2%]"
+          [53.93px] tracking-[2%] text-[25px]"
               >
                 contract:{" "}
                 <span className="font-[300] text-[10px] md:text-[17px] text-white tracking-[2%]">
@@ -79,14 +79,14 @@ const Hexagon = () => {
           <div className="flex flex-col lg:items-end gap-[2rem] ">
             <img src={program} alt="" />
             <div>
-              <h3 className="gradient  capitalize font-[500] md:text-[35.95px] md:leading:[53.93px] tracking-[2%]">
+              <h3 className="gradient  capitalize font-[500] md:text-[35.95px] md:leading:[53.93px] tracking-[2%] text-[25px]">
                 $GODZ/$BNB LP token stacking
               </h3>
 
-              <h3 className="text-white capitalize font-[500] md:text-[35.95px] md:leading-[53.93px] tracking-[2%]">
+              <h3 className="text-white capitalize font-[500] text-[25px] md:text-[35.95px] md:leading-[53.93px] tracking-[2%]b">
                 maturity:15:56 UTC, 16th March
               </h3>
-              <h3 className="text-white capitalize font-[500] md:text-[35.95px] md:leading-[53.93px] tracking-[2%]">
+              <h3 className="text-white capitalize font-[500] md:text-[35.95px] md:leading-[53.93px] tracking-[2%] text-[25px]">
                 contract:{" "}
                 <span className="font-[300] text-[10px] md:text-[17px] text-white tracking-[2%]">
                   0xd1d9Ad05238993A9C10c5b17c4EC6d03B9D35138
@@ -111,7 +111,7 @@ const Hexagon = () => {
 
       {/*------------ token links-------- */}
       <div>
-        <h1 className="text-[white] text-[55px] lg:text-[77.63px] lg:leading-[100px] font-[500]  capitalize mb-[3rem] mt-[5rem]">
+        <h1 className="text-[white] text-[55px] lg:text-[77.63px] lg:leading-[100px] font-[500]  capitalize mb-[1rem] lg:mb-[3rem] mt-[5rem]">
           <span className="gradient  pb-[1rem]"> $godz </span>
           token links
         </h1>

@@ -20,21 +20,21 @@ const Chain = () => {
       <div className="flex flex-col gap-[2rem] md:grid grid-cols-3 md:gap-[0rem] mt-[2rem] md:mt-[5rem]  items-center">
         {/* ----grid 1---- */}
         <div className="col-start-1 col-end-3 row-start-1 row-end-3 flex flex-col justify-between w-[95%]">
-          <h1 className="text-[white]  text-[47.46px] leading-[60px] font-[500]  capitalize pb-[2rem]">
+          <h1 className="text-[white] text-[25px] lg:text-[47.46px] leading-[60px] font-[500]  capitalize pb-[2rem]">
             <span className="gradient  pb-[1rem]">$GODZINU </span>
             dex aggregrator v.0.5
           </h1>
 
-          <ul className="w-[70%]  pl-[1.5rem]">
-            <li className="list-disc text-[27.79px] pb-[1rem] text-white">
+          <ul className="lg:w-[70%]  pl-[1.5rem]">
+            <li className="list-disc text-[18px] lg:text-[27.79px] pb-[1rem] text-white">
               supports top-rate 19 blockchains including BSC, ETH,Arbitrum,
               Polygon, AVAX,Fantom, etc.
             </li>
-            <li className="list-disc text-[27.79px] pb-[1rem] text-white">
+            <li className="list-disc text-[18px] lg:text-[27.79px] pb-[1rem] text-white">
               supports top-rate 19 blockchains including BSC, ETH,Arbitrum,
               Polygon, AVAX,Fantom, etc.
             </li>
-            <li className="list-disc text-[27.79px] pb-[1rem] text-white">
+            <li className="list-disc text-[18px] lg:text-[27.79px] pb-[1rem] text-white">
               supports top-rate 19 blockchains including BSC, ETH,Arbitrum,
               Polygon, AVAX,Fantom, etc.
             </li>
