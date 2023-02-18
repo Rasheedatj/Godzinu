@@ -241,3 +241,7 @@ input {
   content: url("./assets/play-small.svg");
   top: 20%;
 }
+
+.swiper-button-prev {
+  font-size: 1000px;
+}

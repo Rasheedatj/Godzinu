@@ -40,7 +40,7 @@ const Hexagon = () => {
           our team
         </h1>
         <Swiper
-          className=" gap-[1rem]  lg:gap-[4rem]  mySwiper"
+          className="flex flex-wrap gap-[1rem]  lg:gap-[4rem]  mySwiper "
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={70}
           // slidesPerView={3.5}
@@ -65,7 +65,7 @@ const Hexagon = () => {
           }}
         >
           {/* team member 1 */}
-          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col">
+          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[100%] flex flex-col">
             <img src={opa} alt="" />
             <h1 className="font-[700]  capitalize text-center mt-[1rem] ">
               opa
@@ -73,7 +73,7 @@ const Hexagon = () => {
             <p className="pt-[2rem] capitalize text-center">growth Lead</p>
           </SwiperSlide>
           {/* team member 2 */}
-          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col">
+          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[200%] flex flex-col">
             <img src={jimmy} alt="" />
             <h1 className="font-[700]  capitalize text-center mt-[1rem] ">
               jimmy hope
@@ -83,7 +83,7 @@ const Hexagon = () => {
             </p>
           </SwiperSlide>
           {/* team member 3 */}
-          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col">
+          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[200%] flex flex-col">
             <img src={ayush} alt="" />
             <h1 className="font-[700]  capitalize text-center mt-[1rem] ">
               ayush nurula
@@ -91,7 +91,7 @@ const Hexagon = () => {
             <p className="pt-[2rem] capitalize text-center">UI/UX Specialist</p>
           </SwiperSlide>
           {/* team member 4 */}
-          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col ">
+          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[200%] flex flex-col ">
             <img src={team1} alt="" />
             <h1 className="font-[700]  capitalize text-center mt-[1rem] ">
               tara arora
@@ -101,7 +101,7 @@ const Hexagon = () => {
             </p>
           </SwiperSlide>
           {/* team member 5 */}
-          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col">
+          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[200%] flex flex-col">
             <img src={cerberos} alt="" />
             <h1 className="font-[700]  capitalize text-center mt-[1rem] ">
               cerberos
@@ -109,7 +109,7 @@ const Hexagon = () => {
             <p className="pt-[2rem] capitalize text-center">Advisor</p>
           </SwiperSlide>
           {/* team member 6 */}
-          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col">
+          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[200%] flex flex-col">
             <img src={good} alt="" />
             <h1 className="font-[700]  capitalize text-center mt-[1rem] ">
               good chilla
@@ -117,7 +117,7 @@ const Hexagon = () => {
             <p className="pt-[2rem] capitalize text-center">Advisor</p>
           </SwiperSlide>
           {/* team member 7 */}
-          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col">
+          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[200%] flex flex-col">
             <img src={taiwo} alt="" />
             <h1 className="font-[700]  capitalize text-center mt-[1rem] ">
               taiwo
@@ -127,7 +127,7 @@ const Hexagon = () => {
             </p>
           </SwiperSlide>
           {/* team member 8 */}
-          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col">
+          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[200%] flex flex-col">
             <img src={henry} alt="" />
             <h1 className="font-[700]  capitalize text-center mt-[1rem] ">
               henry gray
@@ -138,7 +138,7 @@ const Hexagon = () => {
           </SwiperSlide>
 
           {/* team member 9 */}
-          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col">
+          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[200%] flex flex-col">
             <img src={bew} alt="" />
             <h1 className="font-[700]  capitalize text-center mt-[1rem] ">
               bew
@@ -146,7 +146,7 @@ const Hexagon = () => {
             <p className="pt-[2rem] capitalize text-center">Advisor</p>
           </SwiperSlide>
           {/* team member 10 */}
-          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[%] flex flex-col">
+          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] w-[200%] flex flex-col">
             <img src={don} alt="" />
             <h1 className="font-[700]  capitalize text-center mt-[1rem] ">
               don zhilla

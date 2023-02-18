@@ -21,7 +21,7 @@ const Footer = () => {
         <h1 className="text-[white] font-[700] text-[29px] leading-[39px] my-[2rem]">
           social media
         </h1>
-        <div className="flex gap-[1rem]">
+        <div className="flex gap-[1rem] items-center">
           <a href="">
             {" "}
             <img src={facebook} alt="" />
@@ -31,10 +31,10 @@ const Footer = () => {
             <img src={twitter} alt="" />
           </a>
 
-          <a href="https://t.me/GODZinu" className="w-[10%]">
+          <a href="https://t.me/GODZinu" className="w-[11%]">
             <img src={telefram} alt="" />
           </a>
-          <a href="https://t.me/GODZinuAnn" className="w-[10%]">
+          <a href="https://t.me/GODZinuAnn" className="w-[11%]">
             <img src={telefram} alt="" />
           </a>
         </div>
