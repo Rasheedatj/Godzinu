@@ -11,7 +11,7 @@ import grid3 from "../assets/grid3.svg";
 
 const Chain = () => {
   return (
-    <div className="px-[2rem] lg:px-[4rem] mt-[6rem] md:mt-[8rem] lg:mt-[-22%]">
+    <div className="px-[2rem] lg:px-[4rem] mt-[4rem] md:mt-[8rem] lg:mt-[-22%]">
       <h1 className="text-[white] text-[35px] md:text-[45px] lg:text-[80px] lg:leading-[100px] font-[500] text-center capitalize">
         <span className="gradient">cross.chain </span>
         made easy
