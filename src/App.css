@@ -165,7 +165,7 @@ header nav a:hover,
 @media screen and (max-width: 1200px) and (min-width: 700px) {
   .hero::after {
     background-size: 250%;
-    background-position: center;
+    background-position: top 0 center;
   }
 }
 

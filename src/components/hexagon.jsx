@@ -40,7 +40,7 @@ const Hexagon = () => {
           our team
         </h1>
         <Swiper
-          className="flex flex-wrap gap-[1rem]  lg:gap-[4rem] justify-center mySwiper"
+          className=" gap-[1rem]  lg:gap-[4rem]  mySwiper"
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={70}
           // slidesPerView={3.5}
