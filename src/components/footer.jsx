@@ -18,27 +18,6 @@ const Footer = () => {
           decided by the community itself through feedback and polls
         </p>
 
-        <h1 className="text-[white] font-[700] text-[29px] leading-[39px] my-[2rem]">
-          social media
-        </h1>
-        <div className="flex gap-[1rem] items-center">
-          <a href="">
-            {" "}
-            <img src={facebook} alt="" />
-          </a>
-          <a href="https://twitter.com/GODZinu_io">
-            {" "}
-            <img src={twitter} alt="" />
-          </a>
-
-          <a href="https://t.me/GODZinu" className="w-[11%]">
-            <img src={telefram} alt="" />
-          </a>
-          <a href="https://t.me/GODZinuAnn" className="w-[11%]">
-            <img src={telefram} alt="" />
-          </a>
-        </div>
-
         <p className="hidden md:block text-[16.39px] leading-[39px] text-[#f9f9f9] mt-[5rem]">
           All rights reserved@2023
         </p>
@@ -77,41 +56,9 @@ const Footer = () => {
                 whitepaper
               </li>
             </a>
-            <a href="" className="link">
+            <a href="https://medium.com/@GODZinu_io" className="link">
               <li className="text-[white] list-none font-[100] leading-[50px] capitalize">
                 blog
-              </li>
-            </a>
-            <a href="" className="link">
-              <li className="text-[white] list-none font-[100] leading-[50px] capitalize">
-                activity
-              </li>
-            </a>
-          </div>
-
-          {/* ------support-------- */}
-          <div>
-            <h3 className="text-[white] capitalize font-[800] text-[20px] leading-[40px]">
-              support
-            </h3>
-            <a href="" className="link">
-              <li className="text-[white] list-none font-[100] leading-[50px] capitalize">
-                help and support
-              </li>
-            </a>
-            <a href="#community" className="link">
-              <li className="text-[white] list-none font-[100] leading-[50px] capitalize">
-                community
-              </li>
-            </a>
-            <a href="" className="link">
-              <li className="text-[white] list-none font-[100] leading-[50px] capitalize">
-                authour profile
-              </li>
-            </a>
-            <a href="" className="link">
-              <li className="text-[white] list-none font-[100] leading-[50px] capitalize">
-                contact
               </li>
             </a>
           </div>

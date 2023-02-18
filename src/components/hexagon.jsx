@@ -273,7 +273,7 @@ const Hexagon = () => {
             </div>
 
             <button className="text-[white] px-[2rem] py-[.7rem] rounded-[10px] capitalize border-[2px] subscribe grad-border mt-[2rem]">
-              <a href="#">deposit</a>
+              <a href="https://swap.godzillaproject.io/">deposit</a>
             </button>
           </section>
 
@@ -295,7 +295,7 @@ const Hexagon = () => {
             </div>
 
             <button className="text-[white] px-[2rem] py-[.7rem] rounded-[10px] capitalize border-[2px] subscribe grad-border  mt-[2rem]">
-              <a href="#">launch</a>
+              <a href="https://swap.godzillaproject.io/">launch</a>
             </button>
           </section>
         </div>
