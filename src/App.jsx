@@ -161,7 +161,7 @@ function App() {
       <div
         className={`section  px-[2rem] lg:px-[4rem] py-[5rem]  ${slideClass}`}
         ref={sectionRef}
-        id="about "
+        id="about"
       >
         <About />
       </div>
