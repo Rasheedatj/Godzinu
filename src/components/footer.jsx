@@ -53,12 +53,32 @@ const Footer = () => {
             </h3>
             <a href="" className="link ">
               <li className="text-[white] list-none font-[100] leading-[50px] capitalize">
-                whitepaper
+                website
+              </li>
+            </a>
+            <a href="https://twitter.com/GODZinu_io" className="link ">
+              <li className="text-[white] list-none font-[100] leading-[50px] capitalize">
+                twitter
+              </li>
+            </a>
+            <a href="https://t.me/GODZinu" className="link ">
+              <li className="text-[white] list-none font-[100] leading-[50px] capitalize">
+                telegram
+              </li>
+            </a>
+            <a href="https://t.me/GODZinuAnn" className="link ">
+              <li className="text-[white] list-none font-[100] leading-[50px] capitalize">
+                telegram announcement
               </li>
             </a>
             <a href="https://medium.com/@GODZinu_io" className="link">
               <li className="text-[white] list-none font-[100] leading-[50px] capitalize">
-                blog
+                medium
+              </li>
+            </a>
+            <a href="" className="link">
+              <li className="text-[white] list-none font-[100] leading-[50px] capitalize">
+                whitepaper
               </li>
             </a>
           </div>

@@ -8,6 +8,7 @@ import cube from "../assets/cube.svg";
 import grid1 from "../assets/grid1.svg";
 import grid2 from "../assets/grid2.svg";
 import grid3 from "../assets/grid3.svg";
+import VideoPlayer from "./vid1";
 
 const Chain = () => {
   return (
@@ -20,15 +21,15 @@ const Chain = () => {
       <div className="flex flex-col gap-[2rem] md:grid grid-cols-3 md:gap-[5rem] mt-[2rem] md:mt-[5rem] video">
         {/* ----grid 1---- */}
         <div className="col-start-1 col-end-3 row-start-1 row-end-3 relative">
-          <img src={grid1} alt="" />
+          <VideoPlayer />
 
           {/* ---overlay----- */}
-          <div className="absolute top-[30%] left-[2%]">
+          {/* <div className="absolute top-[30%] left-[2%]">
             <h1 className="capitalize text-[white] font-[600] text-[25px] md:text-[45px] lg:text-[71.23px] lg:leading-[100px]">
               what is{" "}
               <span className="gradient  block">the godzinu project</span>
             </h1>
-          </div>
+          </div> */}
         </div>
         {/* ----grid 2---- */}
 
