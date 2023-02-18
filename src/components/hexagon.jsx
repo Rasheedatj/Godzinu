@@ -21,7 +21,8 @@ import taiwo from "../assets/taiwo.svg";
 import henry from "../assets/henry.svg";
 import bew from "../assets/bew.svg";
 import don from "../assets/don.svg";
-
+import Buy from "../components/buy";
+import Faq from "../components/faq";
 const Hexagon = () => {
   return (
     <>
@@ -35,6 +36,10 @@ const Hexagon = () => {
           <img src={hexagon} alt="" />
         </div>
       </div>
+
+      {/* buyy */}
+
+      <Buy />
 
       {/* -----staking program-------- */}
       <div>
@@ -426,6 +431,8 @@ const Hexagon = () => {
         </div>
       </div>
 
+      {/* ---faq----- */}
+      <Faq />
       {/* --------join our community------------ */}
       <div id="community">
         <h1 className="text-[white] text-[35px] text-center lg:text-[60.39px] lg:leading-[60px] font-[500]  capitalize mt-[9rem] mb-[4rem]">

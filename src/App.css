@@ -208,6 +208,29 @@ input {
   top: 0%;
 }
 
+.accordion h3 {
+  position: relative;
+}
+
+.accordion h3::after {
+  content: url("./assets/plus.svg");
+  position: absolute;
+
+  right: 0;
+}
+
+.accordion .content.active h3::after {
+  content: url(./assets/minus.svg);
+}
+
+.accordion .answer {
+  transition: all 500ms ease-out;
+}
+
+.content.active .answer {
+  height: 180px;
+}
+
 @media screen and (max-width: 700px) {
   .value {
     background-image: none;
