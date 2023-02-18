@@ -5,7 +5,7 @@ import insta from "../assets/nstagram.svg";
 import telefram from "../assets/Telegram.svg";
 const Footer = () => {
   return (
-    <footer className="flex flex-col md:flex-row justify-between gap-[4rem] lg:gap-[8rem]">
+    <footer className="flex flex-col md:flex-row justify-between gap-[4rem] lg:gap-[8rem] relative">
       {/* -------pack one----- */}
       <section className="w-[100%] lg:border-r-[1px] lg:border-[#ffffff52]">
         <a href="#">
@@ -18,7 +18,7 @@ const Footer = () => {
           decided by the community itself through feedback and polls
         </p>
 
-        <p className="hidden md:block text-[16.39px] leading-[39px] text-[#f9f9f9] mt-[5rem]">
+        <p className="hidden md:block text-[16.39px] leading-[39px] text-[#f9f9f9] mt-[5rem] absolute bottom-[0rem]">
           All rights reserved@2023
         </p>
       </section>
@@ -82,9 +82,31 @@ const Footer = () => {
               </li>
             </a>
           </div>
+
+          {/* ------support-------- */}
+          <div>
+            <h3 className="text-[white] capitalize font-[800] text-[20px] leading-[40px]">
+              token info
+            </h3>
+            <a href="" className="link">
+              <li className="text-[white] list-none font-[100] leading-[50px] capitalize">
+                contact address
+              </li>
+            </a>
+            <a href="#community" className="link">
+              <li className="text-[white] list-none font-[100] leading-[50px] capitalize">
+                pancakeSwap
+              </li>
+            </a>
+            <a href="" className="link">
+              <li className="text-[white] list-none font-[100] leading-[50px] capitalize">
+                desktool
+              </li>
+            </a>
+          </div>
         </div>
 
-        <p className="block md:hidden text-[16.39px] leading-[39px] text-[#f9f9f9] mt-[5rem]">
+        <p className="md:hidden block text-[16.39px] leading-[39px] text-[#f9f9f9] mt-[5rem] absolute bottom-[0rem]">
           All rights reserved@2023
         </p>
       </section>

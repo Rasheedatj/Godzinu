@@ -18,6 +18,18 @@ header nav a:hover,
   color: #7c859f;
 }
 
+.glass {
+  width: 100%;
+
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.03) -30.29%,
+    rgba(255, 255, 255, 0) 144.92%
+  );
+  backdrop-filter: blur(32.3708px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
 .value {
   position: absolute;
   content: "";
