@@ -14,21 +14,35 @@ const Chain = () => {
   return (
     <div className="px-[2rem] lg:px-[4rem] mt-[2rem] md:mt-[9rem] lg:mt-[-22%]">
       <h1 className="text-[white] text-[35px] md:text-[45px] lg:text-[80px] lg:leading-[100px] font-[500] text-center capitalize">
-        <span className="gradient">multi chain </span>- the future
+        <span className="gradient">multiChain </span>- the future
       </h1>
 
-      <div className="flex flex-col gap-[2rem] md:grid grid-cols-3 md:gap-[5rem] mt-[2rem] md:mt-[5rem] video">
+      <div className="flex flex-col gap-[2rem] md:grid grid-cols-3 md:gap-[0rem] mt-[2rem] md:mt-[5rem]  items-center">
         {/* ----grid 1---- */}
-        <div className="col-start-1 col-end-3 row-start-1 row-end-3 relative">
-          <VideoPlayer />
+        <div className="col-start-1 col-end-3 row-start-1 row-end-3 flex flex-col justify-between w-[95%]">
+          <h1 className="text-[white]  text-[47.46px] leading-[60px] font-[500]  capitalize pb-[2rem]">
+            <span className="gradient  pb-[1rem]">$GODZINU </span>
+            dex aggregrator v.0.5
+          </h1>
 
-          {/* ---overlay----- */}
-          {/* <div className="absolute top-[30%] left-[2%]">
-            <h1 className="capitalize text-[white] font-[600] text-[25px] md:text-[45px] lg:text-[71.23px] lg:leading-[100px]">
-              what is{" "}
-              <span className="gradient  block">the godzinu project</span>
-            </h1>
-          </div> */}
+          <ul className="w-[70%]  pl-[1.5rem]">
+            <li className="list-disc text-[27.79px] pb-[1rem] text-white">
+              supports top-rate 19 blockchains including BSC, ETH,Arbitrum,
+              Polygon, AVAX,Fantom, etc.
+            </li>
+            <li className="list-disc text-[27.79px] pb-[1rem] text-white">
+              supports top-rate 19 blockchains including BSC, ETH,Arbitrum,
+              Polygon, AVAX,Fantom, etc.
+            </li>
+            <li className="list-disc text-[27.79px] pb-[1rem] text-white">
+              supports top-rate 19 blockchains including BSC, ETH,Arbitrum,
+              Polygon, AVAX,Fantom, etc.
+            </li>
+          </ul>
+
+          <button className="text-[white] text-[24px] px-[2rem] py-[.7rem] rounded-[10px] capitalize border-[2px] grad-border subscribe mt-[2rem] self-start">
+            <a href="#">launch app</a>
+          </button>
         </div>
         {/* ----grid 2---- */}
 

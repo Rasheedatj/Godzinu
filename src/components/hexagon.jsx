@@ -5,6 +5,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import hexagon from "../assets/hexagon.svg";
+import token from "../assets/token.svg";
 import program from "../assets/program.svg";
 import wallets from "../assets/wallets-bg.svg";
 import safe from "../assets/safe.svg";
@@ -105,6 +106,56 @@ const Hexagon = () => {
         </div>
       </div>
 
+      {/*------------ token links-------- */}
+      <div>
+        <h1 className="text-[white] text-[55px] lg:text-[77.63px] lg:leading-[100px] font-[500]  capitalize mb-[3rem] mt-[5rem]">
+          <span className="gradient  pb-[1rem]"> $godz </span>
+          token links
+        </h1>
+
+        <div className="flex lg:justify-between flex-col lg:flex-row gap-[3rem] lg:gap-[0]">
+          <img src={token} alt="" />
+
+          {/* headings */}
+          <div className="flex flex-col justify-between">
+            <div>
+              <h3
+                className="gradient capitalize pt-[1rem] md:pt-[0] font-[500] text-[25px] md:text-[35.95px] leadi
+          [53.93px] tracking-[2%]"
+              >
+                token contact adress
+              </h3>
+              <p className="text-white pt-[.7rem] text-[24px]">
+                0xd1d9Ad05238993A9C10c5b17c4EC6d03B9D35138
+              </p>
+            </div>
+            {/* heading 2 */}
+            <div>
+              <h3
+                className="gradient text-[25px] capitalize pt-[1rem] md:pt-[0] font-[500] md:text-[35.95px] leadi
+          [53.93px] tracking-[2%]"
+              >
+                token contact adress
+              </h3>
+              <p className="text-white pt-[.7rem] text-[24px]">
+                0xd1d9Ad05238993A9C10c5b17c4EC6d03B9D35138
+              </p>
+            </div>
+            {/* heading 3 */}
+            <div>
+              <h3
+                className="gradient text-[25px] capitalize pt-[1rem] md:pt-[0] font-[500] md:text-[35.95px] leadi
+          [53.93px] tracking-[2%]"
+              >
+                token contact adress
+              </h3>
+              <p className="text-white pt-[.7rem] text-[24px]">
+                0xd1d9Ad05238993A9C10c5b17c4EC6d03B9D35138
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
       {/* ------team-------- */}
       <div id="team">
         <h1 className="gradient my-[4rem] text-center text-[35px] md:text-[45px] lg:text-[72.39px] lg:leading-[60px] font-[500]  capitalize mt-[9rem]">

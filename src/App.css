@@ -162,17 +162,12 @@ input {
   z-index: 1;
 }
 
-.video > div::after {
+.small > div::after {
   position: absolute;
-  content: url("./assets/play.svg");
-  display: grid;
-  top: 40%;
-  right: 40%;
-}
-
-.video > .small::after {
   content: url("./assets/play-small.svg");
+  display: grid;
   top: 20%;
+  right: 40%;
 }
 
 .stage-1,
