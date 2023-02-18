@@ -297,7 +297,7 @@ function App() {
           isVisible ? "visible" : ""
         }`}
       >
-        <Component2 className="" />
+        <Component2 />
       </div>
       {/* component swap*/}
       <div ref={ref} className="  px-[2rem] lg:px-[4rem] py-[5rem]  " id="swap">
