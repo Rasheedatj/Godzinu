@@ -4,7 +4,7 @@ const Swap = () => {
   return (
     <>
       {/* ---EARN----- */}
-      <div className="flex flex-col gap-[4rem] md:flex-row md:items-start justify-between  lg:gap-[0]">
+      <div className="flex flex-col gap-[4rem] md:flex-row md:items-center justify-between  lg:gap-[0]">
         {/* --------container 1----- */}
         <div className="w-[100%] lg:w-[50%] flex flex-col gap-[2rem]">
           <h1 className="text-[white]  text-[40.46px] leading-[60px] font-[500]  capitalize">

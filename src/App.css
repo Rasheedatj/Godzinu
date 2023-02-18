@@ -27,7 +27,7 @@ header nav a:hover,
     rgba(255, 255, 255, 0) 144.92%
   );
   backdrop-filter: blur(32.3708px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid #ffffff4d;
 }
 
 .value {
