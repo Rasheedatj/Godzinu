@@ -79,7 +79,7 @@ const Hexagon = () => {
               jimmy hope
             </h1>
             <p className="pt-[2rem] capitalize text-center">
-              Social Media Specialist .
+              Community Manager
             </p>
           </SwiperSlide>
           {/* team member 3 */}

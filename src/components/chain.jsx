@@ -13,7 +13,7 @@ const Chain = () => {
   return (
     <div className="px-[2rem] lg:px-[4rem] mt-[2rem] md:mt-[9rem] lg:mt-[-22%]">
       <h1 className="text-[white] text-[35px] md:text-[45px] lg:text-[80px] lg:leading-[100px] font-[500] text-center capitalize">
-        <span className="gradient">cross.chain </span>
+        <span className="gradient">cross-chain </span>
         made easy
       </h1>
 

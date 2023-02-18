@@ -2,7 +2,10 @@ import about from "../assets/about0img.svg";
 
 const About = () => {
   return (
-    <div className="flex flex-col lg:flex-row lg:justify-between items-center  gap-[4rem]">
+    <div
+      className="flex flex-col lg:flex-row lg:justify-between items-center  gap-[4rem] section"
+      id="about"
+    >
       {/* --------container 1----- */}
       <div>
         <h1 className="text-[white]  text-[40.46px] leading-[50px] font-[500]  capitalize mb-[1rem]">

@@ -1,9 +1,7 @@
-import React, { useRef, useState } from "react";
-
+import { useState, useEffect, useRef } from "react";
 import { useInView } from "react-intersection-observer";
 import logo from "./assets/logo.png";
 import telegram from "./assets/Telegram.svg";
-
 import discord from "./assets/discord.svg";
 import reddit from "./assets/reddit.svg";
 import twitter from "./assets/twitter.svg";
@@ -25,19 +23,155 @@ function App() {
     setCompanyOpen(!openMenu);
   };
 
-  const sectionRef = useRef(null);
-  const { ref, inView } = useInView({
-    threshold: 0.5,
-  });
+  function useIntersectionObserver(elements) {
+    const [visibleElements, setVisibleElements] = useState([]);
 
-  const slideClass = inView ? "slide-in" : "";
+    useEffect(() => {
+      const observer = new IntersectionObserver(
+        (entries) => {
+          const visibleEntries = entries.filter(
+            (entry) => entry.isIntersecting
+          );
+          const visibleIds = visibleEntries.map((entry) => entry.target.id);
+          setVisibleElements(visibleIds);
+        },
+        {
+          rootMargin: "0px",
+          threshold: 0.5,
+        }
+      );
 
-  const sectionRef2 = useRef(null);
-  const { ref2, inView2 } = useInView({
-    threshold: 0.5,
-  });
+      elements.forEach((element) => {
+        if (element.ref.current) {
+          observer.observe(element.ref.current);
+        }
+      });
 
-  const slideClass2 = inView2 ? "slide-in" : "";
+      return () => {
+        elements.forEach((element) => {
+          if (element.ref.current) {
+            observer.unobserve(element.ref.current);
+          }
+        });
+      };
+    }, [elements]);
+
+    return visibleElements;
+  }
+
+  function Component1() {
+    const ref = useRef(null);
+
+    const isVisible = useIntersectionObserver([
+      {
+        ref: ref,
+        options: {},
+        className: "slidein1",
+      },
+    ]).includes(ref.current?.id);
+
+    return (
+      <div id="component1" ref={ref} className={isVisible ? "visible" : ""}>
+        <Swap />
+      </div>
+    );
+  }
+
+  function Component2() {
+    const ref = useRef(null);
+
+    const isVisible = useIntersectionObserver([
+      {
+        ref: ref,
+        options: {},
+        className: "slidein2",
+      },
+    ]).includes(ref.current?.id);
+
+    return (
+      <div id="component2" ref={ref} className={isVisible ? "visible" : ""}>
+        <About />
+      </div>
+    );
+  }
+
+  function Component3() {
+    const ref = useRef(null);
+
+    const isVisible = useIntersectionObserver([
+      {
+        ref: ref,
+        options: {},
+        className: "slidein2",
+      },
+    ]).includes(ref.current?.id);
+
+    return (
+      <div id="component3" ref={ref} className={isVisible ? "visible" : ""}>
+        <Custody />
+      </div>
+    );
+  }
+
+  function Component4() {
+    const ref = useRef(null);
+
+    const isVisible = useIntersectionObserver([
+      {
+        ref: ref,
+        options: {},
+        className: "slidein2",
+      },
+    ]).includes(ref.current?.id);
+
+    return (
+      <div id="component2" ref={ref} className={isVisible ? "visible" : ""}>
+        <Earn />
+      </div>
+    );
+  }
+  function Component5() {
+    const ref = useRef(null);
+
+    const isVisible = useIntersectionObserver([
+      {
+        ref: ref,
+        options: {},
+        className: "slidein2",
+      },
+    ]).includes(ref.current?.id);
+
+    return (
+      <div id="component5" ref={ref} className={isVisible ? "visible" : ""}>
+        <Hexagon />
+      </div>
+    );
+  }
+
+  const ref = useRef(null);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.5,
+    };
+
+    const observer = new IntersectionObserver(([entry]) => {
+      setIsVisible(entry.isIntersecting);
+    }, options);
+
+    if (ref.current) {
+      observer.observe(ref.current);
+    }
+
+    return () => {
+      if (ref.current) {
+        observer.unobserve(ref.current);
+      }
+    };
+  }, [ref]);
 
   return (
     <div className="bg-[black]  ">
@@ -156,38 +290,33 @@ function App() {
       </div>
       {/* component */}
       <Chain />
-      {/* component */}
-      <div ref={ref} className="trigger" />
+      {/* component about */}
+      <div ref={ref} className="px-[2rem] lg:px-[4rem] py-[5rem]">
+        <Component2 isVisible={isVisible} className="section" />
+      </div>
+      {/* component swap*/}
+      <div ref={ref} className="  px-[2rem] lg:px-[4rem] py-[5rem]  " id="swap">
+        <Component1 isVisible={isVisible} className="section" />
+      </div>
+      {/* component custody*/}
+      <div ref={ref} className="  px-[2rem] lg:px-[4rem] py-[5rem]">
+        <Component3 isVisible={isVisible} className="section" />
+      </div>
+      {/* component earn*/}
+      {/* */}
       <div
-        className={`section  px-[2rem] lg:px-[4rem] py-[5rem]  ${slideClass}`}
-        ref={sectionRef}
-        id="about"
+        ref={ref}
+        className=" px-[2rem] lg:px-[4rem] pb-[0] pt-[5rem] lg:py-[5rem] "
       >
-        <About />
+        <Component4 isVisible={isVisible} className="section" />
       </div>
-      {/* component */}
-      <div ref={ref2} className="trigger" />
+      {/* component hexagon*/}
+      {/* */}
       <div
-        className={`secti  px-[2rem] lg:px-[4rem] py-[5rem]  ${slideClass2}`}
-        ref={sectionRef2}
-        id="swap"
+        ref={ref}
+        className="px-[2rem] lg:px-[4rem] pb-[5rem] pt-[0] lg:py-[5rem]  "
       >
-        <Swap />
-      </div>
-      {/* component */}
-      {/* <div ref={ref} className="trigger" /> */}
-      <div className="  px-[2rem] lg:px-[4rem] py-[5rem]">
-        <Custody />
-      </div>
-      {/* component */}
-      {/* <div ref={ref} className="trigger" /> */}
-      <div className=" px-[2rem] lg:px-[4rem] pb-[0] pt-[5rem] lg:py-[5rem] ">
-        <Earn />
-      </div>{" "}
-      {/* component */}
-      {/* <div ref={ref} className="trigger" /> */}
-      <div className="px-[2rem] lg:px-[4rem] pb-[5rem] pt-[0] lg:py-[5rem]  ">
-        <Hexagon />
+        <Component5 isVisible={isVisible} className="section" />
       </div>
       {/* component */}
       <div className="px-[2rem] lg:px-[4rem] pt-[5rem] pb-[2rem]">
