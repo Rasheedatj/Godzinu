@@ -119,16 +119,27 @@ input {
   color: white;
 }
 
-.section {
+.component {
   opacity: 1;
-  transform: translateX(-50%);
-  transition: opacity 1s ease-out, transform 1s ease-out;
+  transform: translateX(-20px);
+  transition: all 0.5s ease-in-out;
 }
 
 .visible {
   opacity: 1;
-  transform: translateX(0%);
+  transform: translateX(0);
 }
+
+/* .slide-in {
+  opacity: 1;
+  transform: translateX(-10%);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.slide-in.visible {
+  opacity: 1;
+  transform: translateX(0%);
+} */
 .hero::after {
   position: absolute;
   content: "";

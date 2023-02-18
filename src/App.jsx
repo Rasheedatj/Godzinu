@@ -291,8 +291,13 @@ function App() {
       {/* component */}
       <Chain />
       {/* component about */}
-      <div ref={ref} className="px-[2rem] lg:px-[4rem] py-[5rem]">
-        <Component2 isVisible={isVisible} className="section" />
+      <div
+        ref={ref}
+        className={`component px-[2rem] lg:px-[4rem] py-[5rem] ${
+          isVisible ? "visible" : ""
+        }`}
+      >
+        <Component2 className="" />
       </div>
       {/* component swap*/}
       <div ref={ref} className="  px-[2rem] lg:px-[4rem] py-[5rem]  " id="swap">
