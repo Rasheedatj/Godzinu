@@ -106,7 +106,7 @@ function App() {
       </header>
       {/* --------hamburger menu------------ */}
       <div
-        className={`hidden menu justify-center bg-[#00000080] absolute inset-0 z-[10]  ${
+        className={`hidden menu justify-center bg-[#00000080] absolute inset-0 z-[10] overflow-hidden  ${
           openMenu ? "open" : ""
         }`}
       >
