@@ -41,8 +41,11 @@ const Hexagon = () => {
         <div className="flex flex-col items-center lg:items-start lg:flex-row gap-[3rem] lg:gap-[0] justify-between mt-[8rem]">
           {/* program 1 */}
           <div className="flex flex-col justify-between">
-            <h1 className="text-[white]  text-[50.46px] leading-[60px] font-[500]  capitalize">
-              <span className="gradient uppercase block pb-[1rem]"> $godz</span>
+            <h1 className="text-[white] text-[35px] lg:text-[50.46px] leading-[60px] font-[500]  capitalize">
+              <span className="gradient uppercase lg:block pb-[1rem]">
+                {" "}
+                $godz
+              </span>
               stacking program
             </h1>
 
@@ -125,7 +128,7 @@ const Hexagon = () => {
               >
                 token contact adress
               </h3>
-              <p className="text-white pt-[.7rem] text-[24px]">
+              <p className="text-white pt-[.7rem] text-[10px] lg:text-[24px]">
                 0xd1d9Ad05238993A9C10c5b17c4EC6d03B9D35138
               </p>
             </div>
@@ -137,7 +140,7 @@ const Hexagon = () => {
               >
                 token contact adress
               </h3>
-              <p className="text-white pt-[.7rem] text-[24px]">
+              <p className="text-white pt-[.7rem] text-[10px] lg:text-[24px]">
                 0xd1d9Ad05238993A9C10c5b17c4EC6d03B9D35138
               </p>
             </div>
@@ -149,7 +152,7 @@ const Hexagon = () => {
               >
                 token contact adress
               </h3>
-              <p className="text-white pt-[.7rem] text-[24px]">
+              <p className="text-white pt-[.7rem] text-[10px] lg:text-[24px]">
                 0xd1d9Ad05238993A9C10c5b17c4EC6d03B9D35138
               </p>
             </div>

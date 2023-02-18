@@ -60,7 +60,7 @@ const Swap = () => {
             className="flex flex-col gap-[2rem] items-center
            h-[60vh] pt-[3rem] rounded-[19.5px] glass"
           >
-            <h1 className="text-[white]  text-[40.46px] leading-[60px] font-[500]  capitalize gradient">
+            <h1 className="text-[white]  text-[40.46px] leading-[60px] font-[500]  capitalize gradient text-center">
               Staking Rewards
             </h1>
 
