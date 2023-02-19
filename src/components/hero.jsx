@@ -14,10 +14,10 @@ const Hero = () => {
 
       <div className="flex flex-col md:flex-row md:justify-center items-center   gap-[1rem] mt-[3rem] lg:mt-[0]">
         <button className="text-[white] rounded-[8px] w-[176px] h-[55px] capitalize z-[10]  btn hero-blue">
-          <a href="#">get started</a>
+          <a href="#roadmap">get started</a>
         </button>
-        <button className="text-[white] rounded-[8px] w-[176px] h-[55px] capitalize btn2 z-[10]">
-          <a href="#">Ecosystems</a>
+        <button className="text-[black] rounded-[8px] w-[176px] h-[55px] capitalize btn2 z-[10]">
+          <a href="#swap">dex Aggregator</a>
         </button>
       </div>
 

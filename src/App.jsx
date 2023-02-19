@@ -209,7 +209,7 @@ function App() {
               <a href="https://t.me/GODZinu" className="w-[10%]">
                 <img src={telegram} alt="github icon" />
               </a>
-              <a href="#">
+              <a href="discordapp.com">
                 <img src={discord} alt="discord icon" />
               </a>
               <a href="#">

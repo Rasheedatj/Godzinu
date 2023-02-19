@@ -21,7 +21,7 @@ const Swap = () => {
           </p>
 
           <button className="btn btn-hov text-[white] rounded-[8px] w-[176px] h-[55px] capitalize  mt-[1rem] md:mt-[2rem]">
-            <a href="#">start swapping</a>
+            <a href="https://swap.godzillaproject.io/">start swapping</a>
           </button>
         </div>
 

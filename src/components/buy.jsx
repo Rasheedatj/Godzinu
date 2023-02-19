@@ -8,7 +8,7 @@ import buy from "../assets/buy.svg";
 
 const Buy = () => {
   return (
-    <div className="hidden lg:flex my-[5rem]  lg:flex-row lg:justify-between lg:gap-[0] gap-[2rem]">
+    <div className="hidden lg:flex my-[5rem] mt-[10rem]  lg:flex-row lg:justify-between lg:gap-[0] gap-[2rem]">
       <Swiper
         className="flex flex-wrap gap-[2rem]  lg:gap-[4rem]  mySwiper"
         modules={[Navigation, Pagination, Scrollbar, A11y]}

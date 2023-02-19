@@ -23,7 +23,7 @@ const About = () => {
         </p>
 
         <button className="text-[white] px-[2rem] py-[.7rem] rounded-[10px] capitalize border-[2px] grad-border subscribe mt-[2rem]">
-          <a href="#">read more</a>
+          <a href="https://medium.com/@GODZinu_io">read more</a>
         </button>
       </div>
 
