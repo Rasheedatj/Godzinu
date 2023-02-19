@@ -21,7 +21,7 @@ const Hero = () => {
         </button>
       </div>
 
-      <img src={looper} alt="" className="h-[50%] mt-[-30%] ml-[-2rem] " />
+      <img src={looper} alt="" className="h-[220vh] mt-[-30%] ml-[-2rem] " />
     </div>
   );
 };
