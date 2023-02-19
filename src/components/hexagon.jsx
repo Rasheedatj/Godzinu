@@ -121,11 +121,11 @@ const Hexagon = () => {
           token links
         </h1>
 
-        <div className="flex lg:justify-between flex-col lg:flex-row gap-[3rem] ">
+        <div className="flex lg:justify-between flex-col lg:flex-row gap-[3rem] lg:gap-[0] ">
           <img src={token} alt="" />
 
           {/* headings */}
-          <div className="hidden flex-col justify-between ">
+          <div className=" flex-col justify-between ">
             <div>
               <h3
                 className="gradient capitalize pt-[1rem] md:pt-[0] font-[500] text-[25px] md:text-[35.95px] leadi
