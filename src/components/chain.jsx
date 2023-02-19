@@ -67,7 +67,7 @@ const Chain = () => {
       </div>
 
       {/* -----flex boxes */}
-      <div className=" flex gap-[2rem]  flex-wrap md:flex-wrap lg:flex-row lg:gap-[.5rem] justify-center lg:justify-start  mt-[5rem]">
+      <div className=" flex gap-[2rem]  flex-wrap md:flex-wrap lg:flex-row lg:flex-nowrap lg:gap-[.5rem] justify-center lg:justify-start  mt-[5rem]">
         {/* ----------box 1-------- */}
         <div className="bg-[#a92dbf4d] flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
           <img src={cost} alt="" />
