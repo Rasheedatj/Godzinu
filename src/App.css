@@ -257,6 +257,9 @@ footer::after {
     top: 20%;
     right: 40%;
   }
+  footer::after {
+    display: none;
+  }
 }
 @media screen and (max-width: 1200px) {
   .stage-1::after,
