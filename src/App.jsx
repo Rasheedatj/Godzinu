@@ -95,24 +95,6 @@ function App() {
     );
   }
 
-  function Component3() {
-    const ref = useRef(null);
-
-    const isVisible = useIntersectionObserver([
-      {
-        ref: ref,
-        options: {},
-        className: "slidein2",
-      },
-    ]).includes(ref.current?.id);
-
-    return (
-      <div id="component3" ref={ref} className={isVisible ? "visible" : ""}>
-        <Custody />
-      </div>
-    );
-  }
-
   function Component4() {
     const ref = useRef(null);
 
@@ -284,6 +266,7 @@ function App() {
           onClick={() => handleClick()}
         />
       </div>
+
       {/* component */}
       <div className="mt-[3rem] hero px-[2rem]">
         <Hero />
@@ -303,10 +286,7 @@ function App() {
       <div ref={ref} className="  px-[2rem] lg:px-[4rem] py-[5rem]  " id="swap">
         <Component1 isVisible={isVisible} className="section" />
       </div>
-      {/* component custody*/}
-      <div ref={ref} className="  px-[2rem] lg:px-[4rem] py-[5rem]">
-        <Component3 isVisible={isVisible} className="section" />
-      </div>
+
       {/* component earn*/}
       {/* */}
       <div

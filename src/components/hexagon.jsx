@@ -56,8 +56,8 @@ const Hexagon = () => {
 
             <div className="">
               <h3
-                className="gradient capitalize pt-[1rem] md:pt-[0] font-[500] text-[25px] md:text-[35.95px] leadi
-          [53.93px] tracking-[2%]"
+                className="gradient capitalize pb-[1rem]  font-[500] text-[25px] md:text-[35.95px] leadi
+          [53.93px] tracking-[2%] pt-[4rem]"
               >
                 $GODZ token stacking
               </h3>
@@ -102,7 +102,7 @@ const Hexagon = () => {
         </div>
 
         {/* -program button */}
-        <div className="flex flex-col gap-[2rem] md:gap-[0] md:flex-row bg-[#ff1cf72b] px-[2rem] py-[1rem] rounded-[5px] mt-[3rem] border-[1px] border-[#ffffff4d]">
+        <div className="flex flex-col gap-[2rem] md:gap-[0] md:flex-row bg-[#ff1cf72b] px-[2rem] py-[1rem] rounded-[5px] mt-[3rem] border-[1px] border-[#ffffff4d] items-center">
           <h1 className="text-[white] w-[100%]  md:w-[80%] text-[22px] md:text-[25px]  lg:text-[40.46px] lg:leading-[60px] font-[500]  capitalize">
             read more about
             <span className="gradient uppercase "> $GODZ</span> stacking program
@@ -217,7 +217,7 @@ const Hexagon = () => {
               tara arora
             </h1>
             <p className="pt-[2rem] capitalize text-center">
-              content writer and socil media manager
+              content writer and social media manager
             </p>
           </SwiperSlide>
           {/* team member 4 */}
@@ -385,7 +385,7 @@ const Hexagon = () => {
 
         {/* -------sub boxes------ */}
 
-        <div className="flex flex-col  md:gap-[3rem] lg:gap-0 items-center ">
+        <div className="flex flex-col md:flex-row md:gap-[3rem] lg:gap-0 items-center ">
           {/* --box 1--- */}
           <section className=" text-[white] w-[100%]  lg:w-[50%] items-center">
             <div className="flex flex-col md:flex-row p-[1rem] gap-[1rem] defi items-center">
