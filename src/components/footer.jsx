@@ -90,7 +90,7 @@ const Footer = () => {
             </h3>
             <a href="" className="link">
               <li className="text-[white] list-none font-[100] leading-[50px] capitalize">
-                contact address
+                contract address
               </li>
             </a>
             <a href="#community" className="link">
