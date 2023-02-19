@@ -45,7 +45,7 @@ const Hexagon = () => {
       <div>
         <div className="flex flex-col items-center lg:items-start lg:flex-row gap-[3rem] lg:gap-[0] justify-between mt-[8rem]">
           {/* program 1 */}
-          <div className="flex flex-col justify-between">
+          <div className="flex flex-col justify-between lg:gap-[12rem]">
             <h1 className="text-[white] text-[35px] lg:text-[50.46px] leading-[60px] font-[500]  capitalize">
               <span className="gradient uppercase lg:block pb-[1rem]">
                 {" "}
