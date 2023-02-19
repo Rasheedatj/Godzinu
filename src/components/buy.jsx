@@ -95,7 +95,7 @@ const Buy = () => {
         </SwiperSlide>
       </Swiper>
 
-      <img src={buy} alt="" />
+      <img src={buy} alt="" className="lg:w-[40%]" />
     </div>
   );
 };
