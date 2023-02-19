@@ -11,7 +11,6 @@ const Faq = () => {
       <h1 className="text-[white]  text-[25px] lg:text-[100.9px] leading-[120px] font-[500]  text-center capitalize pb-[2rem] gradient">
         FAQs
       </h1>
-
       {/* questions and answer */}
       {/* -----faq 1--- */}
       <div className={`content ${openAccordion ? "active" : ""}`}>
@@ -30,7 +29,7 @@ const Faq = () => {
           community to display their emotions. 
         </div>
       </div>
-      {/* -----faq 2--- */}
+      ;{/* -----faq 2--- */}
       <div className={`content ${openAccordion ? "active" : ""}`}>
         <div className="">
           <h3
@@ -46,8 +45,7 @@ const Faq = () => {
           Bootstrapping, Staking Rewards and Token Burns.
         </div>
       </div>
-
-      {/* -----faq 3--- */}
+      ;{/* -----faq 3--- */}
       <div className={`content ${openAccordion ? "active" : ""}`}>
         <div className="">
           <h3
@@ -66,8 +64,7 @@ const Faq = () => {
           locked and used for personal gains by few centralised figures.
         </div>
       </div>
-
-      {/* -----faq 4--- */}
+      ;{/* -----faq 4--- */}
       <div className={`content ${openAccordion ? "active" : ""}`}>
         <div className="">
           <h3
@@ -83,8 +80,7 @@ const Faq = () => {
           etc).
         </div>
       </div>
-
-      {/* -----faq 5--- */}
+      ;{/* -----faq 5--- */}
       <div className={`content ${openAccordion ? "active" : ""}`}>
         <div className="">
           <h3
@@ -101,7 +97,7 @@ const Faq = () => {
           </a>
         </div>
       </div>
-      {/* -----faq 6--- */}
+      ;{/* -----faq 6--- */}
       <div className={`content ${openAccordion ? "active" : ""}`}>
         <div className="">
           <h3
@@ -117,6 +113,7 @@ const Faq = () => {
           <a href="https://t.me/Godzilla_io ">Telegram</a>
         </div>
       </div>
+      ;
     </div>
   );
 };

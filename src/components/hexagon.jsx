@@ -125,7 +125,7 @@ const Hexagon = () => {
           <img src={token} alt="" />
 
           {/* headings */}
-          <div className="flex flex-col justify-between">
+          <div className="hidden flex-col justify-between ">
             <div>
               <h3
                 className="gradient capitalize pt-[1rem] md:pt-[0] font-[500] text-[25px] md:text-[35.95px] leadi
