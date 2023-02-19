@@ -32,7 +32,7 @@ function VideoPlayer() {
         viewBox="0 0 108 108"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="play-icon absolute left-[50%] translate-x-[-50%] top-[5%] translate-y-[50%]"
+        className="hidden md:block play-icon absolute left-[50%] translate-x-[-50%] top-[5%] translate-y-[50%]"
         onClick={handlePlay}
       >
         <path
@@ -56,7 +56,7 @@ function VideoPlayer() {
         viewBox="0 0 108 108"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="play-icon absolute left-[50%] translate-x-[-50%] top-[5%] translate-y-[50%]"
+        className="play-icon absolute left-[50%] translate-x-[-50%] top-[5%] translate-y-[50%] hidden md:block"
         onClick={handlePause}
       >
         <path

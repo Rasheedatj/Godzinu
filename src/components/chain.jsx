@@ -104,7 +104,7 @@ const Chain = () => {
           <div>
             <p className="text-[13.34px] leading-[30px]">burned supply</p>
             <h1 className="font-[700] text-[29.61px] leading-[44.42px]">
-              5,8%
+              5.8%
             </h1>
           </div>
         </div>
