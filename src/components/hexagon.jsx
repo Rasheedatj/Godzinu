@@ -385,7 +385,7 @@ const Hexagon = () => {
 
         {/* -------sub boxes------ */}
 
-        <div className="flex flex-col md:flex-row md:gap-[3rem] lg:gap-0 items-center ">
+        <div className="flex flex-col  md:gap-[3rem] lg:gap-0 items-center ">
           {/* --box 1--- */}
           <section className=" text-[white] w-[100%]  lg:w-[50%] items-center">
             <div className="flex flex-col md:flex-row p-[1rem] gap-[1rem] defi items-center">
