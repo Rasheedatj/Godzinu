@@ -410,8 +410,8 @@ const Hexagon = () => {
           {/* ------box 2------ */}
 
           <section className=" text-[white]    w-[100%]  lg:w-[50%]">
-            <div className="flex flex-col md:flex-row-reverse items-center lg:flex-row p-[1rem] gap-[1rem] defi">
-              <div>
+            <div className="flex flex-col md:flex-row-reverse items-center lg:flex-row p-[1rem] gap-[1rem] defi ">
+              <div className="lg:w-[65%]">
                 <h1 className="lg:text-[57.66px] font-[700]  text-[30px] md:mb-[1rem] lg:mb-[0]">
                   GODZINUSafe{" "}
                 </h1>

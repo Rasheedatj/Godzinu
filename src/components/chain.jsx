@@ -67,53 +67,55 @@ const Chain = () => {
       </div>
 
       {/* -----flex boxes */}
-      <div className=" flex gap-[2rem]  flex-wrap md:flex-wrap lg:flex-row lg:flex-nowrap lg:gap-[.5rem] justify-center lg:justify-start  mt-[5rem]">
+      <div className=" flex gap-[2rem]  flex-wrap md:flex-wrap lg:flex-row lg:justify-between lg:flex-nowrap lg:gap-[.5rem] justify-center lg:justify-start  mt-[5rem]">
         {/* ----------box 1-------- */}
         <div className="bg-[#a92dbf4d] flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
-          <img src={cost} alt="" />
+          <img src={cost} alt="" className="lg:w-[35%]" />
           <div>
             <p className="text-[13.34px] leading-[30px]">$Godzinu price</p>
-            <h1 className="font-[700] text-[29.61px] leading-[44.42px]">
+            <h1 className="font-[700] text-[24.61px] leading-[44.42px] ">
               $0.00024
             </h1>
           </div>
         </div>
         {/* ----------box 2-------- */}
         <div className="bg-[#a92dbf4d] flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
-          <img src={bold} alt="" />
+          <img src={bold} alt="" className="lg:w-[35%]" />
           <div>
             <p className="text-[13.34px] leading-[30px]">max supply</p>
-            <h1 className="font-[700] text-[29.61px] leading-[44.42px]">
+            <h1 className="font-[700] text-[24.61px] leading-[44.42px] ">
               100 Billion
             </h1>
           </div>
         </div>
         {/* ----------box 3-------- */}
         <div className="bg-[#a92dbf4d] flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
-          <img src={flash} alt="" />
+          <img src={flash} alt="" className="lg:w-[35%]" />
           <div>
             <p className="text-[13.34px] leading-[30px]">Total supply</p>
-            <h1 className="font-[700] text-[29.61px] leading-[44.42px]">
+            <h1 className="font-[700] text-[24.61px] leading-[44.42px] ">
               94.2 Billion
             </h1>
           </div>
         </div>
         {/* ----------box 4-------- */}
         <div className="bg-[#a92dbf4d] flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
-          <img src={rate} alt="" />
+          <img src={rate} alt="" className="lg:w-[35%]" />
           <div>
             <p className="text-[13.34px] leading-[30px]">burned supply</p>
-            <h1 className="font-[700] text-[29.61px] leading-[44.42px]">
+            <h1 className="font-[700] text-[24.61px] leading-[44.42px] ">
               5.8%
             </h1>
           </div>
         </div>
         {/* ----------box 5-------- */}
         <div className="bg-[#a92dbf4d] flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
-          <img src={cube} alt="" />
+          <img src={cube} alt="" className="lg:w-[35%]" />
           <div>
             <p className="text-[13.34px] leading-[30px]">unique users</p>
-            <h1 className="font-[700] text-[29.61px] leading-[44.42px]">566</h1>
+            <h1 className="font-[700] text-[24.61px] leading-[44.42px] ">
+              566
+            </h1>
           </div>
         </div>
       </div>

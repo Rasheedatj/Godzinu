@@ -33,7 +33,7 @@ header nav a:hover,
 .value {
   position: absolute;
   content: "";
-  background-image: url(./assets/accural.svg);
+  background-image: url(./assets/accural.png);
   background-repeat: no-repeat;
   background-size: 60%;
   background-position: right -50%;
