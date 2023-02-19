@@ -20,7 +20,7 @@ const Question = ({ question, answer, links }) => {
         {answer.trim()}{" "}
         {links &&
           links.map((link) => (
-            <a href={link.src} className="underline ">
+            <a href={link.src} className="underline pl-[15px]">
               {link.name.trim()}
             </a>
           ))}

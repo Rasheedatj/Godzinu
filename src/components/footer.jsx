@@ -18,7 +18,7 @@ const Footer = () => {
           decided by the community itself through feedback and polls
         </p>
 
-        <p className="hidden md:block text-[16.39px] leading-[39px] text-[#f9f9f9] mt-[5rem] absolute bottom-[0rem]">
+        <p className="hidden md:block text-[16.39px] leading-[39px] text-[#7c859f] mt-[5rem] absolute bottom-[0rem]">
           All rights reserved@2023
         </p>
       </section>
@@ -106,7 +106,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <p className="md:hidden block text-[16.39px] leading-[39px] text-[#f9f9f9] mt-[5rem] absolute bottom-[-6rem]">
+        <p className="md:hidden block text-[16.39px] leading-[39px] text-[#7c859f]  mt-[5rem] absolute bottom-[-6rem]">
           All rights reserved@2023
         </p>
       </section>
