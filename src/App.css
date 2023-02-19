@@ -216,7 +216,6 @@ input {
 .accordion h3::after {
   content: url("./assets/plus.svg");
   position: absolute;
-
   right: 0;
 }
 
@@ -224,12 +223,12 @@ input {
   content: url(./assets/minus.svg);
 }
 
-.accordion .answer {
-  transition: all 500ms ease-out;
-}
+/* .accordion .answer {
+  transition: height 500ms ease-out;
+} */
 
 .content.active .answer {
-  height: 215px;
+  height: auto;
 }
 
 footer::after {
@@ -260,6 +259,9 @@ footer::after {
   }
   footer::after {
     display: none;
+  }
+  .accordion h3::after {
+    right: -2rem;
   }
 }
 @media screen and (max-width: 1200px) {

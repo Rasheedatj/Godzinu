@@ -43,7 +43,7 @@ const Hexagon = () => {
 
       {/* -----staking program-------- */}
       <div>
-        <div className="flex flex-col items-center lg:items-start lg:flex-row gap-[3rem] lg:gap-[0] justify-between mt-[8rem]">
+        <div className="flex flex-col items-center lg:items-start lg:flex-row gap-[3rem]  mt-[8rem]">
           {/* program 1 */}
           <div className="flex flex-col justify-between lg:gap-[12rem]">
             <h1 className="text-[white] text-[35px] lg:text-[50.46px] leading-[60px] font-[500]  capitalize">
@@ -81,7 +81,7 @@ const Hexagon = () => {
           </div>
 
           {/* program 2 */}
-          <div className="flex flex-col lg:items-end gap-[2rem] ">
+          <div className="flex flex-col items-end gap-[2rem] lg:w-[50%] ">
             <img src={program} alt="" />
             <div>
               <h3 className="gradient  capitalize font-[500] md:text-[35.95px] md:leading:[53.93px] tracking-[2%] text-[25px]">
@@ -108,7 +108,7 @@ const Hexagon = () => {
             <span className="gradient uppercase "> $GODZ</span> stacking program
           </h1>
 
-          <button className="capitalize text-[white] h-[70.77px] md:w-[263.5px] rounded-[8.09px] subscribe text-[23px]">
+          <button className="capitalize text-[white] h-[70.77px] w-[200px] md:w-[263.5px] rounded-[8.09px] subscribe text-[23px]">
             <a href="#">start staking</a>
           </button>
         </div>
