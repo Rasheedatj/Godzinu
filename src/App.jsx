@@ -163,167 +163,157 @@ function App() {
   }, [ref]);
 
   return (
-    <div className="App">
-      {loaded ? (
-        <div className="bg-[black]  App">
-          <header className="flex justify-between px-[1.5rem] py-[2rem] items-center relative z-[2]">
-            <a href="#" className="w-[40%] lg:w-[20%]">
-              <img src={logo} alt="godzilla logo" />
-            </a>
+    <div className="bg-[black]  App">
+      <header className="flex justify-between px-[1.5rem] py-[2rem] items-center relative z-[2]">
+        <a href="#" className="w-[40%] lg:w-[20%]">
+          <img src={logo} alt="godzilla logo" />
+        </a>
 
-            <nav className="hidden lg:flex gap-[2rem] ">
-              <a
-                href="#swap"
-                className="text-[white] font-[400] text-[16px] leading-[32.19px] capitalize"
-              >
-                token overview
-              </a>
-              <a
-                href="#team"
-                className="text-[white] font-[400] text-[16px] leading-[32.19px] capitalize"
-              >
-                team
-              </a>
-              <a
-                href="#community"
-                className="text-[white] font-[400] text-[16px] leading-[32.19px] capitalize"
-              >
-                community
-              </a>
-              <a
-                href="#roadmap"
-                className="text-[white] font-[400] text-[16px] leading-[32.19px] capitalize"
-              >
-                roadmap
-              </a>
-              <a
-                href="#about"
-                className="text-[white] font-[400] text-[16px] leading-[32.19px] capitalize"
-              >
-                about us
-              </a>
-            </nav>
-
-            <div className="hidden lg:flex gap-[1rem]">
-              {" "}
-              <a href="https://t.me/GODZinu" className="w-[10%]">
-                <img src={telegram} alt="github icon" />
-              </a>
-              <a href="discordapp.com">
-                <img src={discord} alt="discord icon" />
-              </a>
-              <a href="#">
-                <img src={reddit} alt="reeddit icon" />
-              </a>
-              <a href="https://twitter.com/GODZinu_io">
-                <img src={twitter} alt="twitter icon" />
-              </a>{" "}
-            </div>
-
-            <div
-              className="flex flex-col gap-[5px] lg:hidden"
-              onClick={() => handleClick()}
-            >
-              <span className="team w-[25px] h-[2px]"></span>
-              <span className="team w-[25px] h-[2px]"></span>
-              <span className="team w-[25px] h-[2px]"></span>
-            </div>
-          </header>
-          {/* --------hamburger menu------------ */}
-          <div
-            className={`hidden menu justify-center bg-[#00000080] absolute inset-0 z-[10] overflow-hidden  ${
-              openMenu ? "open" : ""
-            }`}
+        <nav className="hidden lg:flex gap-[2rem] ">
+          <a
+            href="#swap"
+            className="text-[white] font-[400] text-[16px] leading-[32.19px] capitalize"
           >
-            <nav className="navv flex flex-col pt-[10rem]  items-center gap-[1.5rem] inset-0 bg-[#00000080] absolute left-[30%]">
-              <a
-                href="#swap"
-                className="text-[white] font-[400] text-[16px] leading-[32.19px] capitalize"
-              >
-                token overview
-              </a>
-              <a
-                href="#team"
-                className="text-[white] font-[400] text-[16px] leading-[32.19px] capitalize"
-              >
-                team
-              </a>
-              <a
-                href="#community"
-                className="text-[white] font-[400] text-[16px] leading-[32.19px] capitalize"
-              >
-                community
-              </a>
-              <a
-                href="#roadmap"
-                className="text-[white] font-[400] text-[16px] leading-[32.19px] capitalize"
-              >
-                roadmap
-              </a>
-              <a
-                href="#about"
-                className="text-[white] font-[400] text-[16px] leading-[32.19px] capitalize"
-              >
-                about us
-              </a>
-            </nav>
+            token overview
+          </a>
+          <a
+            href="#team"
+            className="text-[white] font-[400] text-[16px] leading-[32.19px] capitalize"
+          >
+            team
+          </a>
+          <a
+            href="#community"
+            className="text-[white] font-[400] text-[16px] leading-[32.19px] capitalize"
+          >
+            community
+          </a>
+          <a
+            href="#roadmap"
+            className="text-[white] font-[400] text-[16px] leading-[32.19px] capitalize"
+          >
+            roadmap
+          </a>
+          <a
+            href="#about"
+            className="text-[white] font-[400] text-[16px] leading-[32.19px] capitalize"
+          >
+            about us
+          </a>
+        </nav>
 
-            <img
-              src={close}
-              alt=""
-              className="absolute top-[2rem] right-[2rem] team"
-              onClick={() => handleClick()}
-            />
-          </div>
-
-          {/* component */}
-          <div className="mt-[3rem] hero px-[2rem]">
-            <Hero />
-          </div>
-          {/* component */}
-          <Chain />
-          {/* component about */}
-          <div
-            ref={ref}
-            className={`component px-[2rem] lg:px-[4rem] py-[5rem] ${
-              isVisible ? "visible" : ""
-            }`}
-          >
-            <Component2 />
-          </div>
-          {/* component swap*/}
-          <div
-            ref={ref}
-            className="  px-[2rem] lg:px-[4rem] py-[5rem]  "
-            id="swap"
-          >
-            <Component1 isVisible={isVisible} className="section" />
-          </div>
-
-          {/* component earn*/}
-          {/* */}
-          <div
-            ref={ref}
-            className=" px-[2rem] lg:px-[4rem] pb-[0] pt-[5rem] lg:py-[5rem] "
-          >
-            <Component4 isVisible={isVisible} className="section" />
-          </div>
-          {/* component hexagon*/}
-          {/* */}
-          <div
-            ref={ref}
-            className="px-[2rem] lg:px-[4rem] pb-[5rem] pt-[0] lg:py-[5rem]  "
-          >
-            <Component5 isVisible={isVisible} className="section" />
-          </div>
-          {/* component */}
-          <div className="px-[2rem] lg:px-[4rem] pt-[5rem] pb-[6rem] lg:pb-[2rem]">
-            <Footer />
-          </div>
+        <div className="hidden lg:flex gap-[1rem]">
+          {" "}
+          <a href="https://t.me/GODZinu" className="w-[10%]">
+            <img src={telegram} alt="github icon" />
+          </a>
+          <a href="discordapp.com">
+            <img src={discord} alt="discord icon" />
+          </a>
+          <a href="#">
+            <img src={reddit} alt="reeddit icon" />
+          </a>
+          <a href="https://twitter.com/GODZinu_io">
+            <img src={twitter} alt="twitter icon" />
+          </a>{" "}
         </div>
-      ) : (
-        <div style={{ display: "none" }}>Loading...</div>
-      )}
+
+        <div
+          className="flex flex-col gap-[5px] lg:hidden"
+          onClick={() => handleClick()}
+        >
+          <span className="team w-[25px] h-[2px]"></span>
+          <span className="team w-[25px] h-[2px]"></span>
+          <span className="team w-[25px] h-[2px]"></span>
+        </div>
+      </header>
+      {/* --------hamburger menu------------ */}
+      <div
+        className={`hidden menu justify-center bg-[#00000080] absolute inset-0 z-[10] overflow-hidden  ${
+          openMenu ? "open" : ""
+        }`}
+      >
+        <nav className="navv flex flex-col pt-[10rem]  items-center gap-[1.5rem] inset-0 bg-[#00000080] absolute left-[30%]">
+          <a
+            href="#swap"
+            className="text-[white] font-[400] text-[16px] leading-[32.19px] capitalize"
+          >
+            token overview
+          </a>
+          <a
+            href="#team"
+            className="text-[white] font-[400] text-[16px] leading-[32.19px] capitalize"
+          >
+            team
+          </a>
+          <a
+            href="#community"
+            className="text-[white] font-[400] text-[16px] leading-[32.19px] capitalize"
+          >
+            community
+          </a>
+          <a
+            href="#roadmap"
+            className="text-[white] font-[400] text-[16px] leading-[32.19px] capitalize"
+          >
+            roadmap
+          </a>
+          <a
+            href="#about"
+            className="text-[white] font-[400] text-[16px] leading-[32.19px] capitalize"
+          >
+            about us
+          </a>
+        </nav>
+
+        <img
+          src={close}
+          alt=""
+          className="absolute top-[2rem] right-[2rem] team"
+          onClick={() => handleClick()}
+        />
+      </div>
+
+      {/* component */}
+      <div className="mt-[3rem] hero px-[2rem]">
+        <Hero />
+      </div>
+      {/* component */}
+      <Chain />
+      {/* component about */}
+      <div
+        ref={ref}
+        className={`component px-[2rem] lg:px-[4rem] py-[5rem] ${
+          isVisible ? "visible" : ""
+        }`}
+      >
+        <Component2 />
+      </div>
+      {/* component swap*/}
+      <div ref={ref} className="  px-[2rem] lg:px-[4rem] py-[5rem]  " id="swap">
+        <Component1 isVisible={isVisible} className="section" />
+      </div>
+
+      {/* component earn*/}
+      {/* */}
+      <div
+        ref={ref}
+        className=" px-[2rem] lg:px-[4rem] pb-[0] pt-[5rem] lg:py-[5rem] "
+      >
+        <Component4 isVisible={isVisible} className="section" />
+      </div>
+      {/* component hexagon*/}
+      {/* */}
+      <div
+        ref={ref}
+        className="px-[2rem] lg:px-[4rem] pb-[5rem] pt-[0] lg:py-[5rem]  "
+      >
+        <Component5 isVisible={isVisible} className="section" />
+      </div>
+      {/* component */}
+      <div className="px-[2rem] lg:px-[4rem] pt-[5rem] pb-[6rem] lg:pb-[2rem]">
+        <Footer />
+      </div>
     </div>
   );
 }
