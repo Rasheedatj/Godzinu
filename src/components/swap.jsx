@@ -43,13 +43,13 @@ const Swap = () => {
           {/* box1 */}
           <div
             className="flex flex-col gap-[2rem] items-center
-           pt-[3rem] rounded-[19.5px] glass"
+           pt-[3rem] rounded-[19.5px] glass h-[70vh]"
           >
             <h1 className="text-[white]  text-[40.46px] leading-[60px] font-[500]  capitalize gradient">
               taxes
             </h1>
 
-            <p className="text-[white] leading-[30px] lg:leading-[40px] pt-[1rem] lg:text-[20.23px] font-[400] w-[100%] text-center px-[3rem]">
+            <p className="text-[white] leading-[30px] lg:leading-[40px] pt-[1rem] lg:text-[20.23px] font-[400] w-[100%] text-center px-[2rem]">
               A tax is deducted when you buy/sell/transfer. The taxes funds
               Operations, Liquidity Pools, Staking, Token Burns
             </p>
@@ -58,13 +58,13 @@ const Swap = () => {
           {/* -----box 2---- */}
           <div
             className="flex flex-col gap-[2rem] items-center
-           pt-[3rem] rounded-[19.5px] glass"
+           pt-[3rem] rounded-[19.5px] glass h-[70vh]"
           >
             <h1 className="text-[white]  text-[40.46px] leading-[60px] font-[500]  capitalize gradient text-center">
               Staking Rewards
             </h1>
 
-            <p className="text-[white] leading-[30px] lg:leading-[40px] pt-[1rem] lg:text-[20.23px] font-[400] w-[100%] text-center px-[3rem]">
+            <p className="text-[white] leading-[30px] lg:leading-[40px] pt-[1rem] lg:text-[20.23px] font-[400] w-[100%] text-center px-[2rem]">
               Stake your $GODZ tokens and earn Rewards funded by the Buy/Sell
               Tax
             </p>
@@ -74,13 +74,13 @@ const Swap = () => {
 
           <div
             className="flex flex-col gap-[2rem] items-center
-            pt-[3rem] rounded-[19.5px] glass"
+            pt-[3rem] rounded-[19.5px] glass h-[70vh]"
           >
             <h1 className="text-[white]  text-[40.46px] leading-[60px] font-[500]  capitalize gradient">
               Token Burns
             </h1>
 
-            <p className="text-[white] leading-[30px] lg:leading-[40px] pt-[1rem] lg:text-[20.23px] font-[400] w-[100%] text-center px-[3rem]">
+            <p className="text-[white] leading-[30px] lg:leading-[40px] pt-[1rem] lg:text-[20.23px] font-[400] w-[100%] text-center px-[2rem]">
               Each token transfer leads to Token Burn, which makes the $GODZ
               token a hyper-deflationary token.
             </p>
