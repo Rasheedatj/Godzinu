@@ -45,9 +45,9 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="flex   flex-col gap-[2rem] md:flex-row md:gap-[6rem] lg:gap-[10rem] mt-[3rem] pt-[3rem] lg:border-t-[1px] lg:border-[#ffffff52]">
+        <div className="flex   flex-row gap-[2rem]  md:gap-[6rem] lg:gap-[4rem] mt-[3rem] pt-[3rem] lg:border-t-[1px] lg:border-[#ffffff52]">
           {/* -------about us--------- */}
-          <div className="w-[40%]">
+          <div className="w-[50%]">
             <h3 className="text-[white] capitalize font-[800] text-[20px] leading-[40px]">
               about us
             </h3>
@@ -84,7 +84,7 @@ const Footer = () => {
           </div>
 
           {/* ------support-------- */}
-          <div className="w-[60%]">
+          <div className="w-[50%]">
             <h3 className="text-[white] capitalize font-[800] text-[20px] leading-[40px]">
               token info
             </h3>
