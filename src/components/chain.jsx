@@ -69,9 +69,9 @@ const Chain = () => {
       </div>
 
       {/* -----flex boxes */}
-      <div className=" flex gap-[2rem]  flex-wrap md:flex-wrap lg:flex-row lg:gap-[1.5rem] justify-center lg:justify-start  mt-[5rem]">
+      <div className=" flex gap-[2rem]  flex-wrap md:flex-wrap lg:flex-row lg:gap-[.5rem] justify-center lg:justify-start  mt-[5rem]">
         {/* ----------box 1-------- */}
-        <div className="bg-[#a92dbf4d] flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  w-[210.99px] h-[140.85px] justify-center">
+        <div className="bg-[#a92dbf4d] flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  w-[230.99px] h-[140.85px] justify-center lg:justify-start">
           <img src={cost} alt="" />
           <div>
             <p className="text-[13.34px] leading-[30px]">$Godzinu price</p>
@@ -81,7 +81,7 @@ const Chain = () => {
           </div>
         </div>
         {/* ----------box 2-------- */}
-        <div className="bg-[#a92dbf4d] flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  w-[210.99px] h-[140.85px] justify-center">
+        <div className="bg-[#a92dbf4d] flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  w-[230.99px] h-[140.85px] justify-center lg:justify-start">
           <img src={bold} alt="" />
           <div>
             <p className="text-[13.34px] leading-[30px]">$Godzinu price</p>
@@ -91,7 +91,7 @@ const Chain = () => {
           </div>
         </div>
         {/* ----------box 3-------- */}
-        <div className="bg-[#a92dbf4d] flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  w-[210.99px] h-[140.85px] justify-center">
+        <div className="bg-[#a92dbf4d] flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  w-[230.99px] h-[140.85px] justify-center lg:justify-start">
           <img src={flash} alt="" />
           <div>
             <p className="text-[13.34px] leading-[30px]">$Godzinu price</p>
@@ -101,7 +101,7 @@ const Chain = () => {
           </div>
         </div>
         {/* ----------box 4-------- */}
-        <div className="bg-[#a92dbf4d] flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  w-[210.99px] h-[140.85px] justify-center">
+        <div className="bg-[#a92dbf4d] flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  w-[230.99px] h-[140.85px] justify-center lg:justify-start">
           <img src={rate} alt="" />
           <div>
             <p className="text-[13.34px] leading-[30px]">$Godzinu price</p>
@@ -111,7 +111,7 @@ const Chain = () => {
           </div>
         </div>
         {/* ----------box 5-------- */}
-        <div className="bg-[#a92dbf4d] flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  w-[210.99px] h-[140.85px] justify-center">
+        <div className="bg-[#a92dbf4d] flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  w-[230.99px] h-[140.85px] justify-center lg:justify-start">
           <img src={cube} alt="" />
           <div>
             <p className="text-[13.34px] leading-[30px]">$Godzinu price</p>
