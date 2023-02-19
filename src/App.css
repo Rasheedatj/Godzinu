@@ -152,6 +152,7 @@ input {
   opacity: 1;
   transform: translateX(0%);
 } */
+
 .hero::after {
   position: absolute;
   content: "";
@@ -228,7 +229,7 @@ input {
 }
 
 .content.active .answer {
-  height: 180px;
+  height: 215px;
 }
 
 footer::after {

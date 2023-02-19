@@ -71,53 +71,51 @@ const Chain = () => {
       {/* -----flex boxes */}
       <div className=" flex gap-[2rem]  flex-wrap md:flex-wrap lg:flex-row lg:gap-[.5rem] justify-center lg:justify-start  mt-[5rem]">
         {/* ----------box 1-------- */}
-        <div className="bg-[#a92dbf4d] flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  w-[230.99px] h-[140.85px] justify-center lg:justify-start">
+        <div className="bg-[#a92dbf4d] flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
           <img src={cost} alt="" />
           <div>
             <p className="text-[13.34px] leading-[30px]">$Godzinu price</p>
             <h1 className="font-[700] text-[29.61px] leading-[44.42px]">
-              $0.27
+              $0.00024
             </h1>
           </div>
         </div>
         {/* ----------box 2-------- */}
-        <div className="bg-[#a92dbf4d] flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  w-[230.99px] h-[140.85px] justify-center lg:justify-start">
+        <div className="bg-[#a92dbf4d] flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
           <img src={bold} alt="" />
           <div>
-            <p className="text-[13.34px] leading-[30px]">$Godzinu price</p>
+            <p className="text-[13.34px] leading-[30px]">max supply</p>
             <h1 className="font-[700] text-[29.61px] leading-[44.42px]">
-              $0.27
+              100 Billion
             </h1>
           </div>
         </div>
         {/* ----------box 3-------- */}
-        <div className="bg-[#a92dbf4d] flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  w-[230.99px] h-[140.85px] justify-center lg:justify-start">
+        <div className="bg-[#a92dbf4d] flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
           <img src={flash} alt="" />
           <div>
-            <p className="text-[13.34px] leading-[30px]">$Godzinu price</p>
+            <p className="text-[13.34px] leading-[30px]">Total supply</p>
             <h1 className="font-[700] text-[29.61px] leading-[44.42px]">
-              $0.27
+              94.2 Billion
             </h1>
           </div>
         </div>
         {/* ----------box 4-------- */}
-        <div className="bg-[#a92dbf4d] flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  w-[230.99px] h-[140.85px] justify-center lg:justify-start">
+        <div className="bg-[#a92dbf4d] flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
           <img src={rate} alt="" />
           <div>
-            <p className="text-[13.34px] leading-[30px]">$Godzinu price</p>
+            <p className="text-[13.34px] leading-[30px]">burned supply</p>
             <h1 className="font-[700] text-[29.61px] leading-[44.42px]">
-              $0.27
+              5,8%
             </h1>
           </div>
         </div>
         {/* ----------box 5-------- */}
-        <div className="bg-[#a92dbf4d] flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  w-[230.99px] h-[140.85px] justify-center lg:justify-start">
+        <div className="bg-[#a92dbf4d] flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
           <img src={cube} alt="" />
           <div>
-            <p className="text-[13.34px] leading-[30px]">$Godzinu price</p>
-            <h1 className="font-[700] text-[29.61px] leading-[44.42px]">
-              $0.27
-            </h1>
+            <p className="text-[13.34px] leading-[30px]">unique users</p>
+            <h1 className="font-[700] text-[29.61px] leading-[44.42px]">566</h1>
           </div>
         </div>
       </div>
