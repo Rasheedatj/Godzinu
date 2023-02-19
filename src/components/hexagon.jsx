@@ -49,7 +49,7 @@ const Hexagon = () => {
             <h1 className="text-[white] text-[35px] lg:text-[50.46px] leading-[60px] font-[500]  capitalize">
               <span className="gradient uppercase lg:block pb-[1rem]">
                 {" "}
-                $godz
+                $godz &nbsp;
               </span>
               stacking program
             </h1>
@@ -70,7 +70,7 @@ const Hexagon = () => {
               </h3>
               <h3
                 className="text-white capitalize font-[500] md:text-[35.95px] leadi
-          [53.93px] tracking-[2%] text-[25px]"
+          [53.93px] tracking-[2%] text-[15px] lg:text-[25px]"
               >
                 contract:{" "}
                 <span className="font-[300] text-[10px] md:text-[17px] text-white tracking-[2%]">
@@ -91,7 +91,7 @@ const Hexagon = () => {
               <h3 className="text-white capitalize font-[500] text-[25px] md:text-[35.95px] md:leading-[53.93px] tracking-[2%]b">
                 maturity:15:56 UTC, 16th March
               </h3>
-              <h3 className="text-white capitalize font-[500] md:text-[35.95px] md:leading-[53.93px] tracking-[2%] text-[25px]">
+              <h3 className="text-white capitalize font-[500] md:text-[35.95px] md:leading-[53.93px] tracking-[2%] text-[15px] lg:text-[25px]">
                 contract:{" "}
                 <span className="font-[300] text-[10px] md:text-[17px] text-white tracking-[2%]">
                   0xd1d9Ad05238993A9C10c5b17c4EC6d03B9D35138
@@ -121,7 +121,7 @@ const Hexagon = () => {
           token links
         </h1>
 
-        <div className="flex lg:justify-between flex-col lg:flex-row gap-[3rem] lg:gap-[0]">
+        <div className="flex lg:justify-between flex-col lg:flex-row gap-[3rem] ">
           <img src={token} alt="" />
 
           {/* headings */}
@@ -385,7 +385,7 @@ const Hexagon = () => {
 
         {/* -------sub boxes------ */}
 
-        <div className="flex flex-col lg:flex-row md:gap-[3rem] lg:gap-0 items-center">
+        <div className="flex flex-col  md:gap-[3rem] lg:gap-0 items-center ">
           {/* --box 1--- */}
           <section className=" text-[white] w-[100%]  lg:w-[50%] items-center">
             <div className="flex flex-col md:flex-row p-[1rem] gap-[1rem] defi items-center">

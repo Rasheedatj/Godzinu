@@ -7,8 +7,8 @@ const About = () => {
       id="about"
     >
       {/* --------container 1----- */}
-      <div>
-        <h1 className="text-[white]  text-[40.46px] leading-[50px] font-[500]  capitalize mb-[1rem]">
+      <div className="w-[100%] lg:w-[40%]">
+        <h1 className="text-[white]  text-[40.46px] leading-[50px] font-[500]  capitalize mb-[1rem] ">
           {" "}
           about <span className="gradient uppercase"> $Godzinu</span>
         </h1>
@@ -28,7 +28,7 @@ const About = () => {
       </div>
 
       {/* --------container 2----------- */}
-      <img src={about} alt="" />
+      <img src={about} alt="" className="w-[100%] lg:w-[50%]" />
     </div>
   );
 };

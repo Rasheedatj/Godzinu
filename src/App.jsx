@@ -324,7 +324,7 @@ function App() {
         <Component5 isVisible={isVisible} className="section" />
       </div>
       {/* component */}
-      <div className="px-[2rem] lg:px-[4rem] pt-[5rem] pb-[2rem]">
+      <div className="px-[2rem] lg:px-[4rem] pt-[5rem] pb-[6rem] lg:pb-[2rem]">
         <Footer />
       </div>
     </div>

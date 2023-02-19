@@ -231,6 +231,16 @@ input {
   height: 180px;
 }
 
+footer::after {
+  content: "";
+  position: absolute;
+  background-color: #ffffff52;
+  width: 1px;
+  height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 @media screen and (max-width: 700px) {
   .value {
     background-image: none;

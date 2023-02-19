@@ -5,9 +5,9 @@ import insta from "../assets/nstagram.svg";
 import telefram from "../assets/Telegram.svg";
 const Footer = () => {
   return (
-    <footer className="flex flex-col md:flex-row justify-between gap-[4rem] lg:gap-[8rem] relative">
+    <footer className="flex flex-col md:flex-row justify-between gap-[4rem] lg:gap-[8rem] relative footer">
       {/* -------pack one----- */}
-      <section className="w-[100%] lg:border-r-[1px] lg:border-[#ffffff52]">
+      <section className="w-[100%] ">
         <a href="#">
           <img src={logo} alt="godzingu logo" />
         </a>
@@ -106,7 +106,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <p className="md:hidden block text-[16.39px] leading-[39px] text-[#f9f9f9] mt-[5rem] absolute bottom-[0rem]">
+        <p className="md:hidden block text-[16.39px] leading-[39px] text-[#f9f9f9] mt-[5rem] absolute bottom-[-6rem]">
           All rights reserved@2023
         </p>
       </section>
