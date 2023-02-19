@@ -91,9 +91,9 @@ const Hexagon = () => {
               <h3 className="text-white capitalize font-[500] text-[25px] md:text-[35.95px] md:leading-[53.93px] tracking-[2%]b">
                 maturity:15:56 UTC, 16th March
               </h3>
-              <h3 className="text-white capitalize font-[500] md:text-[35.95px] md:leading-[53.93px] tracking-[2%] text-[15px] lg:text-[25px]">
+              <h3 className="text-white capitalize font-[500] md:text-[34.95px] md:leading-[53.93px] tracking-[2%] text-[15px] lg:text-[25px]">
                 contract:{" "}
-                <span className="font-[300] text-[10px] md:text-[17px] text-white tracking-[2%]">
+                <span className="font-[300] text-[10px] md:text-[16px] text-white tracking-[2%]">
                   0xd1d9Ad05238993A9C10c5b17c4EC6d03B9D35138
                 </span>
               </h3>
@@ -399,7 +399,7 @@ const Hexagon = () => {
                 </p>
               </div>
 
-              <img src={wallets} alt="" className="w-[40%]" />
+              <img src={wallets} alt="" className="md:w-[40%]" />
             </div>
 
             <button className="text-[white] px-[2rem] py-[.7rem] rounded-[10px] capitalize border-[2px] subscribe grad-border mt-[2rem]">
@@ -421,7 +421,7 @@ const Hexagon = () => {
                 </p>
               </div>
 
-              <img src={safe} alt="" className="w-[40%]" />
+              <img src={safe} alt="" className="md:w-[40%]" />
             </div>
 
             <button className="text-[white] px-[2rem] py-[.7rem] rounded-[10px] capitalize border-[2px] subscribe grad-border  mt-[2rem]">
