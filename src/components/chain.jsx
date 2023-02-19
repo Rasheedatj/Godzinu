@@ -5,8 +5,6 @@ import bold from "../assets/bolt.svg";
 import flash from "../assets/flash.svg";
 import rate from "../assets/rate.svg";
 import cube from "../assets/cube.svg";
-import grid1 from "../assets/grid1.svg";
-import grid2 from "../assets/grid2.svg";
 import grid3 from "../assets/grid3.svg";
 import VideoPlayer from "./vid1";
 
@@ -46,8 +44,8 @@ const Chain = () => {
         </div>
         {/* ----grid 2---- */}
 
-        <div className="col-start-3 col-end-4  relative small">
-          <img src={grid2} alt="" />
+        <div className="col-start-3 col-end-4 relative">
+          <VideoPlayer />
           {/* ---overlay----- */}
           <div className="absolute top-[15%] left-[3%]">
             <h1 className="capitalize text-[white] font-[500] text-[25px] tracking-[2%] lg:text-[44px] lg:leading-[66.1px] grid-grad">
@@ -57,10 +55,10 @@ const Chain = () => {
         </div>
         {/* ----grid 3---- */}
 
-        <div className="col-start-3 col-end-4 relative small">
-          <img src={grid3} alt="" />
+        <div className="col-start-3 col-end-4 relative ">
+          <VideoPlayer />
           {/* ---overlay----- */}
-          <div className="absolute top-[30%] left-[2%]">
+          <div className="absolute top-[20%] left-[2%]">
             <h1 className="capitalize text-[white] font-[500] text-[25px] tracking-[2%] lg:text-[44px] lg:leading-[66.1px] grid-grad">
               the godzinu swap overview
             </h1>

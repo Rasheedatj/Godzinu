@@ -164,14 +164,6 @@ input {
   z-index: 1;
 }
 
-.small > div::after {
-  position: absolute;
-  content: url("./assets/play-small.svg");
-  display: grid;
-  top: 20%;
-  right: 40%;
-}
-
 .stage-1,
 .stage-2,
 .stage-3 {

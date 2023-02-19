@@ -1,14 +1,80 @@
-import React from "react";
+import React, { useRef } from "react";
 
+import vid from "../assets/about-vid.mp4";
+import playIcon from "../assets/play-small.svg";
 function VideoPlayer() {
+  const videoRef = useRef(null);
+
+  const handlePlay = () => {
+    videoRef.current.play();
+  };
+
+  const handlePause = () => {
+    videoRef.current.pause();
+  };
+
   return (
-    <video width="640" height="360" controls>
-      <source
-        src="https://drive.google.com/file/d/1Y9jXlnoqNuMNTkY4hikPraput2nQenFO/view?usp=share_link"
-        type="video/mp4"
-      />
-      Your browser does not support the video tag.
-    </video>
+    <div className=" rounded-[50%]" width="640" height="360">
+      <video
+        width="640"
+        height="360"
+        className="rounded-[20px] relative border-[1px]"
+        controls
+        ref={videoRef}
+      >
+        <source src={vid} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      <svg
+        width="108"
+        height="108"
+        viewBox="0 0 108 108"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className="play-icon absolute left-[50%] translate-x-[-50%] top-[5%] translate-y-[50%]"
+        onClick={handlePlay}
+      >
+        <path
+          d="M47.0491 40.0752L67.8233 53.9247L47.0491 67.7741V40.0752Z"
+          stroke="#00F0FF"
+          stroke-width="6.92473"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M53.9736 102.397C80.7446 102.397 102.447 80.6953 102.447 53.9243C102.447 27.1533 80.7446 5.45117 53.9736 5.45117C27.2026 5.45117 5.50049 27.1533 5.50049 53.9243C5.50049 80.6953 27.2026 102.397 53.9736 102.397Z"
+          stroke="#00F0FF"
+          stroke-width="9.69463"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <svg
+        width="108"
+        height="108"
+        viewBox="0 0 108 108"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className="play-icon absolute left-[50%] translate-x-[-50%] top-[5%] translate-y-[50%]"
+        onClick={handlePause}
+      >
+        <path
+          d="M47.0491 40.0752L67.8233 53.9247L47.0491 67.7741V40.0752Z"
+          stroke="#00F0FF"
+          stroke-width="6.92473"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M53.9736 102.397C80.7446 102.397 102.447 80.6953 102.447 53.9243C102.447 27.1533 80.7446 5.45117 53.9736 5.45117C27.2026 5.45117 5.50049 27.1533 5.50049 53.9243C5.50049 80.6953 27.2026 102.397 53.9736 102.397Z"
+          stroke="#00F0FF"
+          stroke-width="9.69463"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </div>
   );
 }
 
