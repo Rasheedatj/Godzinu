@@ -122,10 +122,10 @@ const Hexagon = () => {
         </h1>
 
         <div className="flex lg:justify-between flex-col lg:flex-row gap-[3rem]  items-center ">
-          <img src={token} alt="" />
+          <img src={token} alt="" className="w-[100%] lg:w-[40%]" />
 
           {/* headings */}
-          <div className=" flex-col justify-between w-[60%]">
+          <div className=" flex-col justify-between w-[100%] lg:w-[60%]">
             <div>
               <h3
                 className="gradient capitalize pt-[1rem] md:pt-[0] font-[500] text-[25px] md:text-[35.95px] leadi
