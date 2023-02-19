@@ -43,7 +43,7 @@ const Swap = () => {
           {/* box1 */}
           <div
             className="flex flex-col gap-[2rem] items-center
-           pt-[3rem] rounded-[19.5px] glass h-[70vh]"
+           pt-[3rem] rounded-[19.5px] glass h-auto lg:h-[70vh]"
           >
             <h1 className="text-[white]  text-[40.46px] leading-[60px] font-[500]  capitalize gradient">
               taxes
@@ -74,7 +74,7 @@ const Swap = () => {
 
           <div
             className="flex flex-col gap-[2rem] items-center
-            pt-[3rem] rounded-[19.5px] glass h-[70vh]"
+            pt-[3rem] rounded-[19.5px] glass h-auto lg:h-[70vh]"
           >
             <h1 className="text-[white]  text-[40.46px] leading-[60px] font-[500]  capitalize gradient">
               Token Burns

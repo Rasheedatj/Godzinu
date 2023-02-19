@@ -45,7 +45,7 @@ const Hexagon = () => {
       <div>
         <div className="flex flex-col items-center lg:items-start lg:flex-row gap-[3rem]  mt-[8rem]">
           {/* program 1 */}
-          <div className="flex flex-col justify-between lg:gap-[12rem]">
+          <div className="flex flex-col justify-between lg:gap-[12rem] lg:w-[50%]">
             <h1 className="text-[white] text-[35px] lg:text-[50.46px] leading-[60px] font-[500]  capitalize">
               <span className="gradient uppercase lg:block pb-[1rem]">
                 {" "}
@@ -378,16 +378,16 @@ const Hexagon = () => {
       </div>
 
       {/* --------super powers-------- */}
-      <div className="flex flex-col items-center gap-[3rem] lg:gap-[7rem] mt-[4rem]">
+      <div className="flex flex-col  items-center gap-[3rem] lg:gap-[7rem] mt-[4rem]">
         <h1 className="text-[white] text-[35px] text-center lg:text-[72.39px] lg:leading-[60px] font-[500]  capitalize">
           Giving you defi <span className="gradient">super powers</span>
         </h1>
 
         {/* -------sub boxes------ */}
 
-        <div className="flex flex-col  md:gap-[3rem] lg:gap-0 items-center ">
+        <div className="flex flex-col lg:flex-row  md:gap-[3rem] lg:gap-0 items-center ">
           {/* --box 1--- */}
-          <section className=" text-[white] w-[100%]  lg:w-[50%] items-center">
+          <section className=" text-[white] w-[100%]   items-center lg:w-[50%]">
             <div className="flex flex-col md:flex-row p-[1rem] gap-[1rem] defi items-center">
               <div>
                 <h1 className="text-[30px] lg:text-[57.66px] font-[700] md:mb-[1rem] lg:mb-[0]">
@@ -399,7 +399,7 @@ const Hexagon = () => {
                 </p>
               </div>
 
-              <img src={wallets} alt="" />
+              <img src={wallets} alt="" className="w-[40%]" />
             </div>
 
             <button className="text-[white] px-[2rem] py-[.7rem] rounded-[10px] capitalize border-[2px] subscribe grad-border mt-[2rem]">
@@ -421,7 +421,7 @@ const Hexagon = () => {
                 </p>
               </div>
 
-              <img src={safe} alt="" />
+              <img src={safe} alt="" className="w-[40%]" />
             </div>
 
             <button className="text-[white] px-[2rem] py-[.7rem] rounded-[10px] capitalize border-[2px] subscribe grad-border  mt-[2rem]">
