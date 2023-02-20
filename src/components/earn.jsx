@@ -1,7 +1,27 @@
-import godzilla from "../assets/dragon2.svg";
+import { Icons } from "../assets";
+import { useInView } from "react-intersection-observer";
+import { motion, useAnimation } from 'framer-motion';
+import { slideInVariantAnimation } from '../util';
+import { useEffect } from 'react';
 const Earn = () => {
+  const controls = useAnimation();
+  const [ref, inView] = useInView({
+    threshold: 0,
+  });
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    }
+  }, [controls, inView]);
+
   return (
-    <>
+    <motion.div
+    ref={ref}
+    animate={controls}
+    initial="hidden"
+    variants={slideInVariantAnimation}
+    className={` pb-[0] pt-[5rem] lg:py-[5rem] ${inView ? 'slide-in visible' : ''} `}>
       <div className="flex flex-col md:flex-row lg:justify-between items-center  gap-[4rem]">
         {/* -------container 1------- */}
         <div>
@@ -22,7 +42,7 @@ const Earn = () => {
 
         {/* --------container 2---------- */}
         <div>
-          <img src={godzilla} alt="" />
+          <img src={Icons.dragon2} alt="" />
         </div>
       </div>
 
@@ -38,7 +58,7 @@ const Earn = () => {
           discounts and other community perks.
         </p>
       </div>
-    </>
+    </motion.div>
   );
 };
 

@@ -1,8 +1,29 @@
-import box from "../assets/swap.svg";
+import { Icons } from "../assets";
+import { useInView } from "react-intersection-observer";
+import { motion, useAnimation } from 'framer-motion';
+import { slideInVariantAnimation } from '../util';
+import { useEffect } from 'react';
+
 
 const Swap = () => {
+
+  const controls = useAnimation();
+  const [ref, inView] = useInView({
+    threshold: 0,
+  });
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    }
+  }, [controls, inView]);
   return (
-    <>
+    <motion.div
+      ref={ref}
+      animate={controls}
+      initial="hidden"
+      variants={slideInVariantAnimation}
+      className=" py-[5rem]">
       {/* ---EARN----- */}
       <div className="flex flex-col gap-[4rem] md:flex-row md:items-center justify-between  lg:gap-[0]">
         {/* --------container 1----- */}
@@ -27,7 +48,7 @@ const Swap = () => {
 
         {/* --------container 2----------- */}
         <div className="w-[100%] md:w-[80%] lg:w-[50%] flex justify-center">
-          <img src={box} alt="" className="w-[100%] lg:w-[70%]" />
+          <img src={Icons.swap} alt="" className="w-[100%] lg:w-[70%]" />
         </div>
       </div>
 
@@ -87,7 +108,7 @@ const Swap = () => {
           </div>
         </div>
       </section>
-    </>
+    </motion.div>
   );
 };
 

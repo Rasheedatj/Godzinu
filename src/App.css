@@ -9,6 +9,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: black;
 }
 
 header nav a,
@@ -146,7 +147,7 @@ input {
   transform: translateX(0);
 } */
 
-/* .slide-in {
+.slide-in {
   opacity: 1;
   transform: translateX(-10%);
   transition: opacity 1s ease-out, transform 1s ease-out;
@@ -155,7 +156,7 @@ input {
 .slide-in.visible {
   opacity: 1;
   transform: translateX(0%);
-} */
+}
 
 .hero::after {
   position: absolute;
@@ -164,7 +165,7 @@ input {
   background-repeat: no-repeat;
   background-size: 115%;
   inset: 0;
-  z-index: 1;
+  z-index: -1;
 }
 
 .stage-1,

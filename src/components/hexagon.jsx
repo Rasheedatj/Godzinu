@@ -1,49 +1,54 @@
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/scrollbar";
-import anchor from "../assets/anchor.svg";
-import hexagon from "../assets/hexagon.svg";
-import token from "../assets/token.svg";
-import program from "../assets/program.svg";
-import wallets from "../assets/wallets-bg.svg";
-import safe from "../assets/safe.svg";
-import godzilla from "../assets/hunters.svg";
-import icons from "../assets/icons.svg";
-import team1 from "../assets/team.svg";
-import jimmy from "../assets/jimmy.svg";
-import ayush from "../assets/ayush.svg";
-import opa from "../assets/opa.svg";
-import cerberos from "../assets/cerbrone.svg";
-import good from "../assets/good.svg";
-import taiwo from "../assets/taiwo.svg";
-import henry from "../assets/henry.svg";
-import bew from "../assets/bew.svg";
-import don from "../assets/don.svg";
-import Buy from "../components/buy";
-import Faq from "../components/faq";
+import { useInView } from "react-intersection-observer";
+import { motion, useAnimation } from 'framer-motion';
+import { slideInVariantAnimation } from '../util';
+import { useEffect } from 'react';
+import { Icons } from "../assets";
+import Buy from "./buy"
+import Faq from "./faq"
+
+
 const Hexagon = () => {
+  const controls = useAnimation();
+  const [ref, inView] = useInView({
+    threshold: 0,
+  });
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    }
+  }, [controls, inView]);
+
   return (
-    <>
+    <div className="pb-[5rem] pt-[0] lg:py-[5rem]">
       {/* --------hexagon-------- */}
-      <div className="flex flex-col items-center gap-[3rem] lg:gap-[7rem]">
+      <motion.div
+        ref={ref}
+        animate={controls}
+        initial="hidden"
+        variants={slideInVariantAnimation}
+        className="flex flex-col items-center gap-[3rem] lg:gap-[7rem]">
         <h1 className="text-[white] text-[35px] text-center lg:text-[72.39px] lg:leading-[60px] font-[500]  capitalize">
           Godzinu <span className="gradient">tokenomics</span>
         </h1>
 
         <div>
-          <img src={hexagon} alt="" />
+          <img src={Icons.hexagon} alt="" />
         </div>
-      </div>
+      </motion.div>
 
       {/* buyy */}
 
       <Buy />
 
       {/* -----staking program-------- */}
-      <div>
+      <motion.div
+        animate={controls}
+        initial="hidden"
+        variants={slideInVariantAnimation}
+      >
         <div className="flex flex-col items-center lg:items-start lg:flex-row gap-[3rem]  mt-[8rem]">
           {/* program 1 */}
           <div className="flex flex-col justify-between lg:gap-[15rem] lg:w-[48%] ">
@@ -83,7 +88,7 @@ const Hexagon = () => {
 
           {/* program 2 */}
           <div className="flex flex-col items-end gap-[2rem] lg:w-[50%] ">
-            <img src={program} alt="" />
+            <img src={Icons.program} alt="" />
             <div>
               <h3 className="gradient  capitalize font-[500] md:text-[35.95px] md:leading:[53.93px] tracking-[2%] text-[25px]">
                 $GODZ/$BNB LP token stacking
@@ -113,17 +118,21 @@ const Hexagon = () => {
             <a href="https://staking.godzillaproject.io/">start staking</a>
           </button>
         </div>
-      </div>
+      </motion.div>
 
       {/*------------ token links-------- */}
-      <div>
+      <motion.div
+        animate={controls}
+        initial="hidden"
+        variants={slideInVariantAnimation}
+      >
         <h1 className="text-[white] text-[55px] lg:text-[77.63px] lg:leading-[100px] font-[500]  capitalize mb-[1rem] lg:mb-[3rem] mt-[5rem]">
           <span className="gradient  pb-[1rem]"> $godz </span>
           token links
         </h1>
 
         <div className="flex lg:justify-between flex-col lg:flex-row gap-[3rem]  items-center ">
-          <img src={token} alt="" className="w-[100%] lg:w-[40%]" />
+          <img src={Icons.token} alt="" className="w-[100%] lg:w-[40%]" />
 
           {/* headings */}
           <div className=" flex-col justify-between w-[100%] lg:w-[60%]">
@@ -138,7 +147,7 @@ const Hexagon = () => {
                 0xd1d9Ad05238993A9C10c5b17c4EC6d03B9D35138
                 <a href="https://poocoin.app/tokens/0xae7cf30e14e132e43689ebe4fab49706c59a0bf7">
                   {" "}
-                  <img src={anchor} alt="" />
+                  <img src={Icons.anchor} alt="" />
                 </a>
               </p>
             </div>
@@ -154,7 +163,7 @@ const Hexagon = () => {
                 0xd1d9Ad05238993A9C10c5b17c4EC6d03B9D35138
                 <a href="">
                   {" "}
-                  <img src={anchor} alt="" />
+                  <img src={Icons.anchor} alt="" />
                 </a>
               </p>
             </div>
@@ -170,13 +179,13 @@ const Hexagon = () => {
                 0xd1d9Ad05238993A9C10c5b17c4EC6d03B9D35138
                 <a href="https://www.dextools.io/app/en/bnb/pair-explorer/0xd1d9ad05238993a9c10c5b17c4ec6d03b9d35138">
                   {" "}
-                  <img src={anchor} alt="" />
+                  <img src={Icons.anchor} alt="" />
                 </a>
               </p>
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
       {/* ------team-------- */}
       <div id="team">
         <h1 className="gradient my-[4rem] text-center text-[35px] md:text-[45px] lg:text-[72.39px] lg:leading-[60px] font-[500]  capitalize mt-[9rem]">
@@ -190,9 +199,10 @@ const Hexagon = () => {
           navigation
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log("slide change")}
           breakpoints={{
+            300: {
+              slidesPerView: 1,
+            },
             350: {
               slidesPerView: 1.3,
             },
@@ -209,7 +219,7 @@ const Hexagon = () => {
         >
           {/* team member 1 */}
           <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] flex flex-col">
-            <img src={ayush} alt="" />
+            <img src={Icons.ayush} alt="" />
             <h1 className="font-[700]  capitalize text-center mt-[1rem] text-[21px] text-[22px]">
               ayush nurula
             </h1>
@@ -219,7 +229,7 @@ const Hexagon = () => {
           </SwiperSlide>
           {/* team member 2 */}
           <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px]  flex flex-col">
-            <img src={opa} alt="" />
+            <img src={Icons.opa} alt="" />
             <h1 className="font-[700]  capitalize text-center mt-[1rem] text-[21px] ">
               opa
             </h1>
@@ -229,7 +239,7 @@ const Hexagon = () => {
           </SwiperSlide>
           {/* team member 3 */}
           <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px]  flex flex-col ">
-            <img src={team1} alt="" />
+            <img src={Icons.team} alt="" />
             <h1 className="font-[700]  capitalize text-center mt-[1rem] text-[21px] ">
               tara arora
             </h1>
@@ -239,7 +249,7 @@ const Hexagon = () => {
           </SwiperSlide>
           {/* team member 4 */}
           <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px]  flex flex-col">
-            <img src={henry} alt="" />
+            <img src={Icons.henry} alt="" />
             <h1 className="font-[700]  capitalize text-center mt-[1rem] text-[21px] ">
               henry gray
             </h1>
@@ -249,7 +259,7 @@ const Hexagon = () => {
           </SwiperSlide>
           {/* team member 5 */}
           <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px]  flex flex-col">
-            <img src={jimmy} alt="" />
+            <img src={Icons.jimmy} alt="" />
             <h1 className="font-[700]  capitalize text-center mt-[1rem] text-[21px] ">
               jimmy hope
             </h1>
@@ -259,7 +269,7 @@ const Hexagon = () => {
           </SwiperSlide>
           {/* team member 6 */}
           <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px]  flex flex-col">
-            <img src={taiwo} alt="" />
+            <img src={Icons.taiwo} alt="" />
             <h1 className="font-[700]  capitalize text-center mt-[1rem] text-[21px] ">
               taiwo
             </h1>
@@ -269,7 +279,7 @@ const Hexagon = () => {
           </SwiperSlide>
           {/* team member 7 */}
           <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px]  flex flex-col">
-            <img src={don} alt="" />
+            <img src={Icons.don} alt="" />
             <h1 className="font-[700]  capitalize text-center mt-[1rem] text-[21px] ">
               don zhilla
             </h1>
@@ -279,7 +289,7 @@ const Hexagon = () => {
           </SwiperSlide>
           {/* team member 8*/}
           <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px]  flex flex-col">
-            <img src={good} alt="" />
+            <img src={Icons.good} alt="" />
             <h1 className="font-[700]  capitalize text-center mt-[1rem] text-[21px] ">
               good chilla
             </h1>
@@ -289,7 +299,7 @@ const Hexagon = () => {
           </SwiperSlide>
           {/* team member 9 */}
           <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px]  flex flex-col">
-            <img src={cerberos} alt="" />
+            <img src={Icons.cerbrone} alt="" />
             <h1 className="font-[700]  capitalize text-center mt-[1rem] text-[21px] ">
               cerberos
             </h1>
@@ -300,7 +310,7 @@ const Hexagon = () => {
 
           {/* team member 10 */}
           <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px]  flex flex-col">
-            <img src={bew} alt="" />
+            <img src={Icons.bew} alt="" />
             <h1 className="font-[700]  capitalize text-center mt-[1rem] text-[21px] ">
               bew
             </h1>
@@ -320,7 +330,11 @@ const Hexagon = () => {
         {/* --------stages------ */}
         <section className="roadmap  flex flex-col  gap-[4rem] lg:gap-[4rem] text-[white] items-center w-[100%] relative">
           {/* ---stage1-- */}
-          <div className="w-[100%] md:w-[70%]  lg:w-[35%] md:pl-[5rem] lg:pl-[3rem]">
+          <motion.div
+            animate={controls}
+            initial="hidden"
+            variants={slideInVariantAnimation}
+            className="w-[100%] md:w-[70%]  lg:w-[35%] md:pl-[5rem] lg:pl-[3rem]">
             <div className="stage-1 w-[100%] md:w-[100%] pl-[2rem] lg:pl-[6rem] pt-[1rem] md:pt-[1rem] pb-[2rem] lg:w-[100%] ">
               <li className="capitalize md:text-[28.35px] md:leading-[42.52px] list-disc lg:list-none list-outside ">
                 project launch
@@ -344,10 +358,14 @@ const Hexagon = () => {
                 team expansion
               </li>
             </div>
-          </div>
+          </motion.div>
 
           {/* ---stage2-- */}
-          <div className="pt-[0rem]  w-[100%] lg:ml-[15rem] md:w-[70%]  md:pl-[5rem] lg:w-[35%]">
+          <motion.div
+            animate={controls}
+            initial="hidden"
+            variants={slideInVariantAnimation}
+            className="pt-[0rem]  w-[100%] lg:ml-[15rem] md:w-[70%]  md:pl-[5rem] lg:w-[35%]">
             <div className="stage-2 w-[100%] md:w-[100%] pl-[2rem]  py-[2rem] lg:w-[100%] lg:pl-[4rem]">
               <li className="capitalize md:text-[28.35px] md:leading-[35.52px] list-disc lg:list-none list-outside">
                 smart contract creation
@@ -371,10 +389,14 @@ const Hexagon = () => {
                 team expansion
               </li>
             </div>
-          </div>
+          </motion.div>
 
           {/* ---stage3-- */}
-          <div className="w-[100%] md:w-[70%]  lg:w-[35%] md:pl-[5rem] lg:pl-[3rem]">
+          <motion.div
+            animate={controls}
+            initial="hidden"
+            variants={slideInVariantAnimation}
+            className="w-[100%] md:w-[70%]  lg:w-[35%] md:pl-[5rem] lg:pl-[3rem]">
             <div className="stage-3 w-[100%] md:w-[100%] lg:w-[100%] pt-[1rem] md:2t-[4rem] pl-[2rem] lg:pl-[6rem] pb-[2rem]">
               <li className="capitalize md:text-[28.35px] md:leading-[35.52px] list-disc lg:list-none list-outside">
                 native GODZ stacking
@@ -398,12 +420,16 @@ const Hexagon = () => {
                 team expansion
               </li>
             </div>
-          </div>
+          </motion.div>
         </section>
       </div>
 
       {/* --------super powers-------- */}
-      <div className="flex flex-col  items-center gap-[3rem] lg:gap-[7rem] mt-[4rem]">
+      <motion.div
+        animate={controls}
+        initial="hidden"
+        variants={slideInVariantAnimation}
+        className="flex flex-col  items-center gap-[3rem] lg:gap-[7rem] mt-[4rem]">
         <h1 className="text-[white] text-[35px] text-center lg:text-[72.39px] lg:leading-[60px] font-[500]  capitalize">
           Giving you defi <span className="gradient">super powers</span>
         </h1>
@@ -424,7 +450,7 @@ const Hexagon = () => {
                 </p>
               </div>
 
-              <img src={wallets} alt="" className="md:w-[40%]" />
+              <img src={Icons.wallets} alt="" className="md:w-[40%]" />
             </div>
 
             <button className="text-[white] px-[2rem] py-[.7rem] rounded-[10px] capitalize border-[2px] subscribe grad-border mt-[2rem]">
@@ -446,7 +472,7 @@ const Hexagon = () => {
                 </p>
               </div>
 
-              <img src={safe} alt="" className="md:w-[40%]" />
+              <img src={Icons.safe} alt="" className="md:w-[40%]" />
             </div>
 
             <button className="text-[white] px-[2rem] py-[.7rem] rounded-[10px] capitalize border-[2px] subscribe grad-border  mt-[2rem]">
@@ -454,24 +480,28 @@ const Hexagon = () => {
             </button>
           </section>
         </div>
-      </div>
+      </motion.div>
 
       {/* ---faq----- */}
       <Faq />
       {/* --------join our community------------ */}
-      <div id="community">
+      <motion.div
+        animate={controls}
+        initial="hidden"
+        variants={slideInVariantAnimation}
+        id="community">
         <h1 className="text-[white] text-[35px] text-center lg:text-[60.39px] lg:leading-[60px] font-[500]  capitalize mt-[9rem] mb-[4rem]">
           join our community of{" "}
           <span className="gradient">godzinu hunters</span>
         </h1>
         <section className="flex flex-col gap-[4rem] lg:gap-[0] md:flex-row items-center">
-          <img src={godzilla} alt="" className="w-[100%] md:w-[50%]" />
+          <img src={Icons.godzilla} alt="" className="w-[100%] md:w-[50%]" />
           <div className="flex justify-center w-[100%] lg:w-[50%]">
-            <img src={icons} alt="" className="w-[70%]" />
+            <img src={Icons.icons} alt="" className="w-[70%]" />
           </div>
         </section>
-      </div>
-    </>
+      </motion.div>
+    </div>
   );
 };
 

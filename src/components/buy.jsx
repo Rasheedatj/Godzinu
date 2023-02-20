@@ -1,14 +1,33 @@
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { useInView } from "react-intersection-observer";
+import { motion, useAnimation } from 'framer-motion';
+import { slideInVariantAnimation } from '../util';
+import { useEffect } from 'react';
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import buy from "../assets/buy.svg";
+import { Icons } from "../assets";
 
 const Buy = () => {
+  const controls = useAnimation();
+  const [ref, inView] = useInView({
+    threshold: 0,
+  });
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    }
+  }, [controls, inView]);
+
   return (
-    <div className="my-[5rem] mt-[10rem] hidden lg:block">
+    <motion.div ref={ref}
+      animate={controls}
+      initial="hidden"
+      variants={slideInVariantAnimation}
+      className="my-[5rem] mt-[10rem] hidden lg:block" id="buy">
       <h1 className="pb-[2rem] lg:pb-[3rem]  text-[20px] lg:text-[50.46px] leading-[60px] font-[500]  capitalize gradient px-[4rem]">
         buy/Sell taxes
       </h1>
@@ -21,8 +40,6 @@ const Buy = () => {
           navigation
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log("slide change")}
         >
           {/* ------slide 1--- */}
 
@@ -84,9 +101,9 @@ const Buy = () => {
           </SwiperSlide>
         </Swiper>
 
-        <img src={buy} alt="" className="lg:w-[40%]" />
+        <img src={Icons.buy} alt="" className="lg:w-[40%]" />
       </div>
-    </div>
+    </motion.div>
   );
 };
 

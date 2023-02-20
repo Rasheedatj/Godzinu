@@ -44,3 +44,25 @@ export const accordionData = [
     ],
   },
 ];
+
+export const containerVariantAnimation = {
+  hidden: {
+    opacity: 0,
+  },
+  visible: {
+    opacity: 1,
+    transition: { delay: 0, duration: 0.4 },
+  },
+};
+
+export const slideInVariantAnimation = {
+  hidden: {
+    opacity: 0,
+    x: "100%",
+  },
+  visible: {
+    opacity: 1,
+    x: 0,
+    transition: { delay: 0.5, duration: 0.8 },
+  },
+};

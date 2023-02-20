@@ -1,17 +1,31 @@
-import easy from "../assets/easy.svg";
-import vector from "../assets/vector.svg";
-import cost from "../assets/Costdollar.svg";
-import bold from "../assets/bolt.svg";
-import flash from "../assets/flash.svg";
-import rate from "../assets/rate.svg";
-import cube from "../assets/cube.svg";
-import grid3 from "../assets/grid3.svg";
-import VideoPlayer from "./vid1";
+import { Icons } from "../assets";
+import VideoPlayer from "./videoplayer";
+import { useInView } from "react-intersection-observer";
+import { motion, useAnimation } from 'framer-motion';
+import { slideInVariantAnimation } from '../util';
+import { useEffect } from 'react';
 
 const Chain = () => {
+
+
+  const controls = useAnimation();
+  const [ref, inView] = useInView({
+    threshold: 0,
+  });
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    }
+  }, [controls, inView]);
+
   return (
-    <div
-      className="px-[2rem] lg:px-[4rem] mt-[2rem] md:mt-[9rem] lg:mt-[-22%]"
+    <motion.div
+      ref={ref}
+      animate={controls}
+      initial="hidden"
+      variants={slideInVariantAnimation}
+      className={`mt-[2rem] md:mt-[9rem] lg:mt-[-22%] ${inView ? 'slide-in visible' :''}`}
       id="chain"
     >
       <h1 className="text-[white] text-[35px] md:text-[45px] lg:text-[80px] lg:leading-[100px] font-[500] text-center capitalize">
@@ -71,7 +85,7 @@ const Chain = () => {
       <div className=" flex gap-[2rem]  flex-wrap md:flex-wrap lg:flex-row lg:flex-nowrap lg:gap-[.5rem] justify-center lg:justify-start  mt-[5rem]">
         {/* ----------box 1-------- */}
         <div className="bg-[#a92dbf4d]  w-[280px] lg:w-auto flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
-          <img src={cost} alt="" className="lg:w-[35%]" />
+          <img src={Icons.cost} alt="" className="lg:w-[35%]" />
           <div>
             <p className="text-[13.34px] leading-[30px]">$Godzinu price</p>
             <h1 className="font-[700] text-[24.61px] leading-[44.42px] ">
@@ -81,7 +95,7 @@ const Chain = () => {
         </div>
         {/* ----------box 2-------- */}
         <div className="bg-[#a92dbf4d]  w-[280px] lg:w-auto flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
-          <img src={bold} alt="" className="lg:w-[35%]" />
+          <img src={Icons.bolt} alt="" className="lg:w-[35%]" />
           <div>
             <p className="text-[13.34px] leading-[30px]">max supply</p>
             <h1 className="font-[700] text-[24.61px] leading-[44.42px] ">
@@ -91,7 +105,7 @@ const Chain = () => {
         </div>
         {/* ----------box 3-------- */}
         <div className="bg-[#a92dbf4d]  w-[280px] lg:w-auto flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
-          <img src={flash} alt="" className="lg:w-[35%]" />
+          <img src={Icons.flash} alt="" className="lg:w-[35%]" />
           <div>
             <p className="text-[13.34px] leading-[30px]">Total supply</p>
             <h1 className="font-[700] text-[24.61px] leading-[44.42px] ">
@@ -101,7 +115,7 @@ const Chain = () => {
         </div>
         {/* ----------box 4-------- */}
         <div className="bg-[#a92dbf4d]  w-[280px] lg:w-auto flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
-          <img src={rate} alt="" className="lg:w-[35%]" />
+          <img src={Icons.rate} alt="" className="lg:w-[35%]" />
           <div>
             <p className="text-[13.34px] leading-[30px]">burned supply</p>
             <h1 className="font-[700] text-[24.61px] leading-[44.42px] ">
@@ -111,7 +125,7 @@ const Chain = () => {
         </div>
         {/* ----------box 5-------- */}
         <div className="bg-[#a92dbf4d]  w-[280px] lg:w-auto flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
-          <img src={cube} alt="" className="lg:w-[35%]" />
+          <img src={Icons.cube} alt="" className="lg:w-[35%]" />
           <div>
             <p className="text-[13.34px] leading-[30px]">unique users</p>
             <h1 className="font-[700] text-[24.61px] leading-[44.42px] ">
@@ -120,7 +134,7 @@ const Chain = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

@@ -1,5 +1,6 @@
 import { accordionData } from "../util.js";
 import Question from "./question";
+import { v4 as uuidv4 } from 'uuid'
 
 const Faq = () => {
   return (
@@ -11,6 +12,7 @@ const Faq = () => {
       {accordionData &&
         accordionData.map((data) => (
           <Question
+            key={uuidv4()}
             question={data.question}
             answer={data.answer}
             links={data.links}

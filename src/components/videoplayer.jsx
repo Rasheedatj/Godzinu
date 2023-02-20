@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
+import { Icons } from "../assets"
 
-import vid from "../assets/about-vid.mp4";
-import playIcon from "../assets/play-small.svg";
 function VideoPlayer() {
   const videoRef = useRef(null);
 
@@ -22,7 +21,7 @@ function VideoPlayer() {
         controls
         ref={videoRef}
       >
-        <source src={vid} type="video/mp4" />
+        <source src={Icons.aboutVid} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 

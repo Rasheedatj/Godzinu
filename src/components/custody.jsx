@@ -1,9 +1,10 @@
-import godzilla from "../assets/godzilla.svg";
+import { Icons } from "../assets";
+
 const Custody = () => {
   return (
     <div className="flex flex-col md:flex-row  items-center  gap-[4rem] lg:gap-[0]">
       <div className="w-[100%] lg:w-[50%]">
-        <img src={godzilla} alt="" className="w-[100%] lg:w-[70%]" />
+        <img src={Icons.godzilla} alt="" className="w-[100%] lg:w-[70%]" />
       </div>
 
       <div className="w-[100%] lg:w-[50%] mx-auto container">
