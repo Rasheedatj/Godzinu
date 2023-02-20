@@ -38,16 +38,16 @@ function VideoPlayer() {
         <path
           d="M47.0491 40.0752L67.8233 53.9247L47.0491 67.7741V40.0752Z"
           stroke="#00F0FF"
-          stroke-width="6.92473"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="6.92473"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M53.9736 102.397C80.7446 102.397 102.447 80.6953 102.447 53.9243C102.447 27.1533 80.7446 5.45117 53.9736 5.45117C27.2026 5.45117 5.50049 27.1533 5.50049 53.9243C5.50049 80.6953 27.2026 102.397 53.9736 102.397Z"
           stroke="#00F0FF"
-          stroke-width="9.69463"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="9.69463"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </svg>
       <svg
@@ -62,16 +62,16 @@ function VideoPlayer() {
         <path
           d="M47.0491 40.0752L67.8233 53.9247L47.0491 67.7741V40.0752Z"
           stroke="#00F0FF"
-          stroke-width="6.92473"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="6.92473"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M53.9736 102.397C80.7446 102.397 102.447 80.6953 102.447 53.9243C102.447 27.1533 80.7446 5.45117 53.9736 5.45117C27.2026 5.45117 5.50049 27.1533 5.50049 53.9243C5.50049 80.6953 27.2026 102.397 53.9736 102.397Z"
           stroke="#00F0FF"
-          stroke-width="9.69463"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="9.69463"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </svg>
     </div>

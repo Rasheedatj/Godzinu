@@ -14,7 +14,7 @@ const Hero = () => {
 
       <div className="flex flex-col md:flex-row md:justify-center items-center   gap-[1rem] mt-[3rem] lg:mt-[0]">
         <button className="text-[white] rounded-[8px] w-[176px] h-[55px] capitalize z-[10]  btn hero-blue">
-          <a href="#roadmap">get started</a>
+          <a href="#chain">get started</a>
         </button>
         <button className="text-[black] rounded-[8px] w-[176px] h-[55px] capitalize btn2 z-[10]">
           <a href="#swap">dex Aggregator</a>
@@ -24,7 +24,7 @@ const Hero = () => {
       <img
         src={looper}
         alt=""
-        className="h-[70vh] lg:h-[220vh] lg:mt-[-30%] ml-[-2rem] "
+        className="h-[40vh] lg:h-[220vh] lg:mt-[-30%] ml-[-2rem] "
       />
     </div>
   );

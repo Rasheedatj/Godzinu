@@ -10,7 +10,10 @@ import VideoPlayer from "./vid1";
 
 const Chain = () => {
   return (
-    <div className="px-[2rem] lg:px-[4rem] mt-[2rem] md:mt-[9rem] lg:mt-[-22%]">
+    <div
+      className="px-[2rem] lg:px-[4rem] mt-[2rem] md:mt-[9rem] lg:mt-[-22%]"
+      id="chain"
+    >
       <h1 className="text-[white] text-[35px] md:text-[45px] lg:text-[80px] lg:leading-[100px] font-[500] text-center capitalize">
         <span className="gradient">multiChain </span>- the future
       </h1>
@@ -39,7 +42,7 @@ const Chain = () => {
           </ul>
 
           <button className="text-[white] text-[24px] px-[2rem] py-[.7rem] rounded-[10px] capitalize border-[2px] grad-border subscribe mt-[2rem] self-start">
-            <a href="#">launch app</a>
+            <a href="#swap">launch app</a>
           </button>
         </div>
         {/* ----grid 2---- */}
@@ -67,9 +70,9 @@ const Chain = () => {
       </div>
 
       {/* -----flex boxes */}
-      <div className=" flex gap-[2rem]  flex-wrap md:flex-wrap lg:flex-row lg:justify-between lg:flex-nowrap lg:gap-[.5rem] justify-center lg:justify-start  mt-[5rem]">
+      <div className=" flex gap-[2rem]  flex-wrap md:flex-wrap lg:flex-row lg:flex-nowrap lg:gap-[.5rem] justify-center lg:justify-start  mt-[5rem]">
         {/* ----------box 1-------- */}
-        <div className="bg-[#a92dbf4d] flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
+        <div className="bg-[#a92dbf4d]  w-[280px] lg:w-auto flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
           <img src={cost} alt="" className="lg:w-[35%]" />
           <div>
             <p className="text-[13.34px] leading-[30px]">$Godzinu price</p>
@@ -79,7 +82,7 @@ const Chain = () => {
           </div>
         </div>
         {/* ----------box 2-------- */}
-        <div className="bg-[#a92dbf4d] flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
+        <div className="bg-[#a92dbf4d]  w-[280px] lg:w-auto flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
           <img src={bold} alt="" className="lg:w-[35%]" />
           <div>
             <p className="text-[13.34px] leading-[30px]">max supply</p>
@@ -89,7 +92,7 @@ const Chain = () => {
           </div>
         </div>
         {/* ----------box 3-------- */}
-        <div className="bg-[#a92dbf4d] flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
+        <div className="bg-[#a92dbf4d]  w-[280px] lg:w-auto flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
           <img src={flash} alt="" className="lg:w-[35%]" />
           <div>
             <p className="text-[13.34px] leading-[30px]">Total supply</p>
@@ -99,7 +102,7 @@ const Chain = () => {
           </div>
         </div>
         {/* ----------box 4-------- */}
-        <div className="bg-[#a92dbf4d] flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
+        <div className="bg-[#a92dbf4d]  w-[280px] lg:w-auto flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
           <img src={rate} alt="" className="lg:w-[35%]" />
           <div>
             <p className="text-[13.34px] leading-[30px]">burned supply</p>
@@ -109,7 +112,7 @@ const Chain = () => {
           </div>
         </div>
         {/* ----------box 5-------- */}
-        <div className="bg-[#a92dbf4d] flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
+        <div className="bg-[#a92dbf4d]  w-[280px] lg:w-auto flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
           <img src={cube} alt="" className="lg:w-[35%]" />
           <div>
             <p className="text-[13.34px] leading-[30px]">unique users</p>

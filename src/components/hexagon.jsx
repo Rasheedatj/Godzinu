@@ -4,6 +4,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import anchor from "../assets/anchor.svg";
 import hexagon from "../assets/hexagon.svg";
 import token from "../assets/token.svg";
 import program from "../assets/program.svg";
@@ -131,10 +132,14 @@ const Hexagon = () => {
                 className="gradient capitalize pt-[1rem] md:pt-[0] font-[500] text-[25px] md:text-[35.95px] leadi
           [53.93px] tracking-[2%]"
               >
-                token contact adress
+                token contract address
               </h3>
-              <p className="text-white pt-[.7rem] text-[10px] lg:text-[24px]">
+              <p className="text-white pt-[.7rem] text-[10px] lg:text-[24px] flex gap-[1rem] items-center">
                 0xd1d9Ad05238993A9C10c5b17c4EC6d03B9D35138
+                <a href="">
+                  {" "}
+                  <img src={anchor} alt="" />
+                </a>
               </p>
             </div>
             {/* heading 2 */}
@@ -143,10 +148,14 @@ const Hexagon = () => {
                 className="gradient text-[25px] capitalize pt-[1rem] md:pt-[0] font-[500] md:text-[35.95px] leadi
           [53.93px] tracking-[2%]"
               >
-                token contact adress
+                token contract address
               </h3>
-              <p className="text-white pt-[.7rem] text-[10px] lg:text-[24px]">
+              <p className="text-white pt-[.7rem] text-[10px] lg:text-[24px] flex gap-[1rem] items-center">
                 0xd1d9Ad05238993A9C10c5b17c4EC6d03B9D35138
+                <a href="">
+                  {" "}
+                  <img src={anchor} alt="" />
+                </a>
               </p>
             </div>
             {/* heading 3 */}
@@ -155,10 +164,14 @@ const Hexagon = () => {
                 className="gradient text-[25px] capitalize pt-[1rem] md:pt-[0] font-[500] md:text-[35.95px] leadi
           [53.93px] tracking-[2%]"
               >
-                token contact adress
+                token contract address
               </h3>
-              <p className="text-white pt-[.7rem] text-[10px] lg:text-[24px]">
+              <p className="text-white pt-[.7rem] text-[10px] lg:text-[24px] flex gap-[1rem] items-center">
                 0xd1d9Ad05238993A9C10c5b17c4EC6d03B9D35138
+                <a href="">
+                  {" "}
+                  <img src={anchor} alt="" />
+                </a>
               </p>
             </div>
           </div>
