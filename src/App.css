@@ -182,8 +182,8 @@ input {
 .stage-3::after {
   position: absolute;
   content: url(./assets/stage3.svg);
-  left: -40%;
-  top: -60%;
+  left: -45%;
+  top: -50%;
 }
 .stage-1::after {
   position: absolute;

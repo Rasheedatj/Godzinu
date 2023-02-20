@@ -1,5 +1,3 @@
-import about from "../assets/about0img.svg";
-
 const About = () => {
   return (
     <div

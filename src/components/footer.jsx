@@ -103,6 +103,14 @@ const Footer = () => {
                 desktool
               </li>
             </a>
+            <a
+              href="https://github.com/interfinetwork/project-delivery-data/blob/main/Godzilla%20Project/GodzillaProject_AuditReport_InterFi.pdf"
+              className="link"
+            >
+              <li className="text-[white] list-none font-[100] leading-[50px] capitalize">
+                audit
+              </li>
+            </a>
           </div>
         </div>
 
