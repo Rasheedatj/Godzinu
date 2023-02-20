@@ -8,11 +8,11 @@ import buy from "../assets/buy.svg";
 
 const Buy = () => {
   return (
-    <div className="my-[5rem] mt-[10rem] ">
+    <div className="my-[5rem] mt-[10rem] hidden lg:block">
       <h1 className="pb-[2rem] lg:pb-[3rem]  text-[20px] lg:text-[50.46px] leading-[60px] font-[500]  capitalize gradient px-[4rem]">
         buy/Sell taxes
       </h1>
-      <div className="hidden lg:flex   lg:flex-row lg:justify-between lg:gap-[0] gap-[2rem] items-center">
+      <div className=" lg:flex   lg:flex-row lg:justify-between lg:gap-[0] gap-[2rem] items-center">
         <Swiper
           className="flex flex-wrap gap-[2rem]  lg:gap-[4rem]  mySwiper"
           modules={[Navigation, Pagination, Scrollbar, A11y]}
