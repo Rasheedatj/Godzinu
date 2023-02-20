@@ -3,6 +3,9 @@
   scroll-behavior: smooth;
   scroll-padding-top: 3rem;
 }
+html {
+  font-size: 85%;
+}
 
 body {
   font-family: "Poppins", sans-serif;
@@ -173,32 +176,33 @@ input {
 .stage-2::after {
   position: absolute;
   content: url(./assets/stage2.svg);
-  right: -25%;
-  top: -40%;
+  right: -30%;
+  top: -50%;
 }
 .stage-3::after {
   position: absolute;
   content: url(./assets/stage3.svg);
-  left: -45%;
-  top: -35%;
+  left: -40%;
+  top: -60%;
 }
 .stage-1::after {
   position: absolute;
   content: url(./assets/stage1.svg);
-  left: -45%;
-  top: -35%;
+  left: -40%;
+  top: -60%;
 }
 
 .roadmap li {
   position: relative;
   list-style-position: inside;
   padding-top: 1rem;
+  font-size: 1.5rem;
 }
 
 .roadmap li::before {
   position: absolute;
   content: url("./assets/arrow.svg");
-  left: -30%;
+  left: -35%;
   top: 0%;
 }
 

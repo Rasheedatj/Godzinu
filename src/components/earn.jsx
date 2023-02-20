@@ -14,7 +14,9 @@ const Earn = () => {
             Impermanent Loss Protection
           </p>
           <button className="btn btn-hov text-[white] rounded-[8px] w-[176px] h-[55px] capitalize  mt-[1rem]">
-            <a href="#">deposit</a>
+            <a href="https://pancakeswap.finance/info/pairs/0xd1d9ad05238993a9c10c5b17c4ec6d03b9d35138">
+              deposit
+            </a>
           </button>
         </div>
 

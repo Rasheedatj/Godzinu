@@ -18,7 +18,7 @@ const Chain = () => {
         <span className="gradient">multiChain </span>- the future
       </h1>
 
-      <div className="flex flex-col gap-[2rem] md:grid grid-cols-3 md:gap-[0rem] mt-[2rem] md:mt-[5rem]  items-center">
+      <div className="flex flex-col gap-[2rem] md:grid grid-cols-3 md:gap-[2rem] mt-[2rem] md:mt-[5rem]  items-center">
         {/* ----grid 1---- */}
         <div className="col-start-1 col-end-3 row-start-1 row-end-3 flex flex-col justify-between w-[95%]">
           <h1 className="text-[white] text-[25px] lg:text-[47.46px] leading-[60px] font-[500]  capitalize pb-[2rem]">
@@ -27,17 +27,15 @@ const Chain = () => {
           </h1>
 
           <ul className="lg:w-[70%]  pl-[1.5rem]">
-            <li className="list-disc text-[18px] lg:text-[27.79px] pb-[1rem] text-white">
+            <li className="list-disc text-[18px] lg:text-[24.79px] pb-[1rem] text-white">
               supports top-rate 19 blockchains including BSC, ETH,Arbitrum,
               Polygon, AVAX,Fantom, etc.
             </li>
-            <li className="list-disc text-[18px] lg:text-[27.79px] pb-[1rem] text-white">
-              supports top-rate 19 blockchains including BSC, ETH,Arbitrum,
-              Polygon, AVAX,Fantom, etc.
+            <li className="list-disc text-[18px] lg:text-[24.79px] pb-[1rem] text-white">
+              Non-EVM chains to be added(BTC, osmosis etc)
             </li>
-            <li className="list-disc text-[18px] lg:text-[27.79px] pb-[1rem] text-white">
-              supports top-rate 19 blockchains including BSC, ETH,Arbitrum,
-              Polygon, AVAX,Fantom, etc.
+            <li className="list-disc text-[18px] lg:text-[24.79px] pb-[1rem] text-white">
+              An Aggregrator of Aggregrators(linch, paraswap etc).
             </li>
           </ul>
 
