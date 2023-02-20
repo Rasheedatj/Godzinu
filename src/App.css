@@ -287,3 +287,7 @@ footer::after {
     transform: translateX(0);
   }
 }
+
+.swiper-pagination-bullet {
+  background-color: blue;
+}
