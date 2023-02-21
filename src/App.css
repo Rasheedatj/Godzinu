@@ -156,7 +156,7 @@ input {
   position: absolute;
   content: url(./assets/stage2.svg);
   right: -30%;
-  top: -50%;
+  top: -55%;
 }
 .stage-3::after {
   position: absolute;
