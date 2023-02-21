@@ -183,13 +183,13 @@ input {
 .stage-3::after {
   position: absolute;
   content: url(./assets/stage3.svg);
-  left: -45%;
+  left: -35%;
   top: -50%;
 }
 .stage-1::after {
   position: absolute;
   content: url(./assets/stage1.svg);
-  left: -40%;
+  left: -30%;
   top: -60%;
 }
 
@@ -203,7 +203,7 @@ input {
 .roadmap li::before {
   position: absolute;
   content: url("./assets/arrow.svg");
-  left: -35%;
+  left: -30%;
   top: 0%;
 }
 
@@ -236,6 +236,7 @@ footer::after {
   width: 1px;
   height: 100%;
   left: 50%;
+  bottom: 2rem;
   transform: translateX(-50%);
 }
 

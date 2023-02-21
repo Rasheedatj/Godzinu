@@ -22,7 +22,6 @@ function App() {
         <Hexagon />
       </DefautLayout>
     </AnimatePresence>
-
   );
 }
 
