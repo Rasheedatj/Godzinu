@@ -63,6 +63,6 @@ export const slideInVariantAnimation = {
   visible: {
     opacity: 1,
     x: 0,
-    transition: { delay: 0.5, duration: 0.8 },
+    transition: { delay: 0.1, duration: 0.8 },
   },
 };
