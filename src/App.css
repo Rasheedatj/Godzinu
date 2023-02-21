@@ -181,7 +181,7 @@ input {
 .roadmap li::before {
   position: absolute;
   content: url("./assets/arrow.svg");
-  left: -30%;
+  left: -35%;
   top: 0%;
 }
 
