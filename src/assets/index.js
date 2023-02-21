@@ -13,6 +13,10 @@ import buy from "./buy.svg";
 import cerbrone from "./cerberos.png";
 import close from "./close.svg";
 import cost from "./Costdollar.svg";
+import comtwitter from "./comtwitter.png";
+import comtelegram from "./comtelegram.png";
+import comother from "./commedium.png";
+import comreddit from "./comreddit.svg";
 import cube from "./cube.svg";
 import discord from "./discord.svg";
 import don from "./don.svg";
@@ -69,6 +73,10 @@ export const Icons = {
   cerbrone,
   close,
   cost,
+  comreddit,
+  comtwitter,
+  comtelegram,
+  comother,
   cube,
   discord,
   don,

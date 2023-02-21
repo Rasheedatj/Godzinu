@@ -1,13 +1,11 @@
 import { Icons } from "../assets";
 import VideoPlayer from "./videoplayer";
 import { useInView } from "react-intersection-observer";
-import { motion, useAnimation } from 'framer-motion';
-import { slideInVariantAnimation } from '../util';
-import { useEffect } from 'react';
+import { motion, useAnimation } from "framer-motion";
+import { slideInVariantAnimation } from "../util";
+import { useEffect } from "react";
 
 const Chain = () => {
-
-
   const controls = useAnimation();
   const [ref, inView] = useInView({
     threshold: 0,
@@ -25,7 +23,9 @@ const Chain = () => {
       animate={controls}
       initial="hidden"
       variants={slideInVariantAnimation}
-      className={`mt-[2rem] md:mt-[9rem] lg:mt-[-22%] ${inView ? 'slide-in visible' :''}`}
+      className={`mt-[2rem] md:mt-[9rem] lg:mt-[-22%] ${
+        inView ? "slide-in visible" : ""
+      }`}
       id="chain"
     >
       <h1 className="text-[white] text-[35px] md:text-[45px] lg:text-[80px] lg:leading-[100px] font-[500] text-center capitalize">
@@ -127,9 +127,9 @@ const Chain = () => {
         <div className="bg-[#a92dbf4d]  w-[280px] lg:w-auto flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
           <img src={Icons.cube} alt="" className="lg:w-[35%]" />
           <div>
-            <p className="text-[13.34px] leading-[30px]">unique users</p>
+            <p className="text-[13.34px] leading-[30px]">community members</p>
             <h1 className="font-[700] text-[24.61px] leading-[44.42px] ">
-              566
+              5,700
             </h1>
           </div>
         </div>

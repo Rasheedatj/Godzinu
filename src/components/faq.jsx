@@ -1,10 +1,10 @@
 import { accordionData } from "../util.js";
 import Question from "./question";
-import { v4 as uuidv4 } from 'uuid'
+import { v4 as uuidv4 } from "uuid";
 
 const Faq = () => {
   return (
-    <div className="my-[5rem] accordion">
+    <div className="my-[5rem] accordion px-[10rem]">
       <h1 className="text-[white]  text-[35px] lg:text-[100.9px] lg:leading-[120px] font-[500]  text-center capitalize md:pb-[2rem] gradient">
         FAQs
       </h1>

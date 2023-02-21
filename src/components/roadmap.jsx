@@ -29,7 +29,7 @@ const Roadmap = () => {
         className="roadmap  flex flex-col  gap-[4rem] lg:gap-[4rem] text-[white] items-center w-[100%] relative"
       >
         {/* ---stage1-- */}
-        <div className="w-[35%]">
+        <div className="lg:w-[35%] w-[100%]">
           <div className="stage-1 w-[100%]  pl-[2rem]  py-[2rem]  lg:pl-[8rem] ">
             <li className="capitalize md:text-[28.35px] md:leading-[42.52px] list-disc lg:list-none list-outside ">
               project launch
@@ -56,7 +56,7 @@ const Roadmap = () => {
         </div>
 
         {/* ---stage2-- */}
-        <div className="w-[35%] lg:ml-[20rem]">
+        <div className="lg:w-[35%] lg:ml-[20rem] w-[100%]">
           <div className="stage-2 w-[100%]  pl-[2rem]  py-[2rem]  lg:pl-[8rem]">
             <li className="capitalize md:text-[28.35px] md:leading-[35.52px] list-disc lg:list-none list-outside">
               smart contract creation
@@ -83,10 +83,10 @@ const Roadmap = () => {
         </div>
 
         {/* ---stage3-- */}
-        <div className="w-[35%]">
+        <div className="lg:w-[35%] w-[100%]">
           <div className="stage-3 w-[100%]  pl-[2rem]  py-[2rem]  lg:pl-[8rem]">
             <li className="capitalize md:text-[28.35px] md:leading-[35.52px] list-disc lg:list-none list-outside">
-              native GODZ stacking
+              native GODZ staking
             </li>
             <li className="capitalize md:text-[28.35px] md:leading-[35.52px] list-disc lg:list-none list-outside">
               token bridge & <br /> uniswap pool

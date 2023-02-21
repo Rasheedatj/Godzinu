@@ -116,11 +116,7 @@ const Team = () => {
           </SwiperSlide>
           {/* team member 9 */}
           <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px]  flex flex-col">
-            <img
-              src={Icons.cerbrone}
-              alt=""
-              className="rounded-[50%] w-[350px] h-[320px]"
-            />
+            <img src={Icons.cerbrone} alt="" />
             <h1 className="font-[700]  capitalize text-center mt-[1rem] text-[21px] ">
               cerberos
             </h1>

@@ -30,7 +30,7 @@ const Staking = () => {
               {" "}
               $godz &nbsp;
             </span>
-            stacking program
+            staking program
           </h1>
 
           <div className="">
@@ -38,7 +38,7 @@ const Staking = () => {
               className="gradient capitalize pb-[1rem]  font-[500] text-[25px] md:text-[35.95px] leadi
           [53.93px] tracking-[2%] pt-[4rem]"
             >
-              $GODZ token stacking
+              $GODZ token staking
             </h3>
 
             <h3
@@ -64,7 +64,7 @@ const Staking = () => {
           <img src={Icons.program} alt="" />
           <div>
             <h3 className="gradient  capitalize font-[500] md:text-[35.95px] md:leading:[53.93px] tracking-[2%] text-[25px]">
-              $GODZ/$BNB LP token stacking
+              $GODZ/$BNB LP token staking
             </h3>
 
             <h3 className="text-white capitalize font-[500] text-[25px] md:text-[35.95px] md:leading-[53.93px] tracking-[2%]b">
@@ -84,7 +84,7 @@ const Staking = () => {
       <div className="flex flex-col gap-[2rem] md:gap-[0] md:flex-row bg-[#ff1cf72b] px-[2rem] py-[1rem] rounded-[5px] mt-[3rem] border-[1px] border-[#ffffff4d] items-center">
         <h1 className="text-[white] w-[100%]  md:w-[80%] text-[22px] md:text-[25px]  lg:text-[40.46px] lg:leading-[60px] font-[500]  capitalize">
           read more about
-          <span className="gradient uppercase "> $GODZ</span> stacking program
+          <span className="gradient uppercase "> $GODZ</span> staking program
         </h1>
 
         <button className="capitalize text-[white] h-[70.77px] w-[200px] md:w-[263.5px] rounded-[8.09px] subscribe text-[23px]">
