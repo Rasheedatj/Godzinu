@@ -1,12 +1,10 @@
 import { Icons } from "../assets";
 import { useInView } from "react-intersection-observer";
-import { motion, useAnimation } from 'framer-motion';
-import { slideInVariantAnimation } from '../util';
-import { useEffect } from 'react';
-
+import { motion, useAnimation } from "framer-motion";
+import { slideInVariantAnimation } from "../util";
+import { useEffect } from "react";
 
 const Swap = () => {
-
   const controls = useAnimation();
   const [ref, inView] = useInView({
     threshold: 0,
@@ -23,7 +21,9 @@ const Swap = () => {
       animate={controls}
       initial="hidden"
       variants={slideInVariantAnimation}
-      className=" py-[5rem]">
+      className=" py-[5rem]"
+      id="swap"
+    >
       {/* ---EARN----- */}
       <div className="flex flex-col gap-[4rem] md:flex-row md:items-center justify-between  lg:gap-[0]">
         {/* --------container 1----- */}

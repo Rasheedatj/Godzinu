@@ -32,7 +32,7 @@ const Community = () => {
           alt=""
           className="w-[100%] md:w-[50%] gap-[5rem]"
         />
-        <div className="flex flex-wrap justify-center w-[100%] lg:w-[50%] lg:ml-[5rem]">
+        <div className="flex flex-wrap  w-[100%] lg:w-[50%] lg:ml-[5rem] pl-[5rem] lg:pl-[0]">
           <a href="#" className="w-[50%]">
             <img src={Icons.comreddit} alt="" className="w-[50%]" />
           </a>
