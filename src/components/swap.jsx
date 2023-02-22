@@ -53,7 +53,7 @@ const Swap = () => {
       </div>
 
       {/* ---------- token --------- */}
-      <section className="pt-[5rem]">
+      <section className="pt-[5rem]" id="tokencapture">
         <h1 className="text-[white]  text-[40.46px] leading-[60px] font-[500]  capitalize text-center">
           token value
           <span className="gradient"> capture</span>

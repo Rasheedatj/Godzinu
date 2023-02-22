@@ -23,7 +23,7 @@ const Header = () => {
 
         <nav className="hidden lg:flex gap-[2rem] ">
           <a
-            href="#swap"
+            href="#tokencapture"
             className="text-[white] font-[400] text-[16px] leading-[32.19px] capitalize"
           >
             token overview
