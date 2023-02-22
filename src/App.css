@@ -55,10 +55,6 @@ header nav a:hover,
   background: linear-gradient(180deg, #d1d3e2 0%, #75629d 100%);
 }
 
-.roadmap > div {
-  background: linear-gradient(180deg, #497cff 0%, #001664 100%);
-}
-
 .subscribe {
   border: 5px solid;
   border-image: linear-gradient(
@@ -146,45 +142,6 @@ input {
   z-index: -1;
 }
 
-.stage-1,
-.stage-2,
-.stage-3 {
-  position: relative;
-}
-
-.stage-2::after {
-  position: absolute;
-  content: url(./assets/stage2.svg);
-  right: -30%;
-  top: -55%;
-}
-.stage-3::after {
-  position: absolute;
-  content: url(./assets/stage3.svg);
-  left: -35%;
-  top: -50%;
-}
-.stage-1::after {
-  position: absolute;
-  content: url(./assets/stage1.svg);
-  left: -30%;
-  top: -60%;
-}
-
-.roadmap li {
-  position: relative;
-  list-style-position: inside;
-  padding-top: 1rem;
-  font-size: 1.5rem;
-}
-
-.roadmap li::before {
-  position: absolute;
-  content: url("./assets/arrow.svg");
-  left: -35%;
-  top: 0%;
-}
-
 .accordion h3 {
   position: relative;
 }
@@ -242,15 +199,6 @@ footer::after {
   }
 }
 @media screen and (max-width: 1200px) {
-  .stage-1::after,
-  .stage-2::after,
-  .stage-3::after {
-    content: "";
-    inset: 0;
-  }
-  .roadmap li::before {
-    content: "";
-  }
   .team {
     height: auto;
   }

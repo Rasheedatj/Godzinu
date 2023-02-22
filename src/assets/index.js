@@ -56,8 +56,18 @@ import twittericon from "./twittericon.svg";
 import vector from "./vector.svg";
 import vectoricon from "./Vectoricon.svg";
 import wallets from "./wallets-bg.svg";
+import interfi from "./interfi.svg";
+import zah from "./zah.svg";
+import coin from "./coinofficial.svg";
+import rango from "./rango.svg";
+import road from "./road.svg";
 
 export const Icons = {
+  coin,
+  road,
+  rango,
+  zah,
+  interfi,
   anchor,
   aboutVid,
   hexagon,

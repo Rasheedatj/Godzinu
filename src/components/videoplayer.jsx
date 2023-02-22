@@ -1,7 +1,10 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { Icons } from "../assets";
 
+import YouTube from "react-youtube";
+
 function VideoPlayer() {
+  // const [videoId, setVideoId] = useState("https://youtu.be/uKHZUjmWEP0");
   const videoRef = useRef(null);
 
   const handlePlay = () => {
@@ -20,6 +23,8 @@ function VideoPlayer() {
         <source src={Icons.aboutVid} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
+
+      {/* <YouTube videoId={videoId} /> */}
 
       <svg
         width="108"

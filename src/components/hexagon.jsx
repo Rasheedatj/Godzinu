@@ -10,6 +10,7 @@ import Buy from "./buy";
 import Faq from "./faq";
 import Roadmap from "./roadmap";
 import SuperPower from "./superpowers";
+import Partner from "./partner";
 import Community from "./community";
 
 const Hexagon = () => {
@@ -51,6 +52,8 @@ const Hexagon = () => {
       <Token />
       {/* ------team-------- */}
       <Team />
+      {/* -------oartner */}
+      <Partner />
       {/* -------roadmap-------- */}
       <Roadmap />
 
