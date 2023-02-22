@@ -1,5 +1,6 @@
 import { Icons } from "../assets";
 import VideoPlayer from "./videoplayer";
+import VidPlayer2 from "./vidplayer2";
 import { useInView } from "react-intersection-observer";
 import { motion, useAnimation } from "framer-motion";
 import { slideInVariantAnimation } from "../util";
@@ -60,7 +61,7 @@ const Chain = () => {
         {/* ----grid 2---- */}
 
         <div className="col-start-3 col-end-4 relative">
-          <VideoPlayer />
+          <VideoPlayer embedId="uKHZUjmWEP0" />
           {/* ---overlay----- */}
           <div className="absolute top-[15%] left-[3%]">
             <h1 className="capitalize text-[white] font-[500] text-[25px] tracking-[2%] lg:text-[44px] lg:leading-[66.1px] grid-grad">
@@ -71,7 +72,8 @@ const Chain = () => {
         {/* ----grid 3---- */}
 
         <div className="col-start-3 col-end-4 relative ">
-          <VideoPlayer />
+          <VideoPlayer embedId="XkUjLYRWnTA" />
+
           {/* ---overlay----- */}
           <div className="absolute top-[20%] left-[2%]">
             <h1 className="capitalize text-[white] font-[500] text-[25px] tracking-[2%] lg:text-[44px] lg:leading-[66.1px] grid-grad">

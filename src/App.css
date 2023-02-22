@@ -55,6 +55,21 @@ header nav a:hover,
   background: linear-gradient(180deg, #d1d3e2 0%, #75629d 100%);
 }
 
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
 .subscribe {
   border: 5px solid;
   border-image: linear-gradient(

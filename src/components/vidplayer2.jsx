@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 
 import PropTypes from "prop-types";
 
-function VideoPlayer({ embedId }) {
+function VideoPlayer2({ embedId }) {
   const videoRef = useRef(null);
 
   const handlePlay = () => {
@@ -48,7 +48,7 @@ function VideoPlayer({ embedId }) {
     </div>
   );
 }
-VideoPlayer.propTypes = {
+VideoPlayer2.propTypes = {
   embedId: PropTypes.string.isRequired,
 };
-export default VideoPlayer;
+export default VideoPlayer2;
