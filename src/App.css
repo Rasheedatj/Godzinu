@@ -199,13 +199,7 @@ footer::after {
     background: url("./assets/mobile-hero.svg");
     background-position: center;
   }
-  .video > div::after {
-    position: absolute;
-    content: url("./assets/play.svg");
-    display: grid;
-    top: 20%;
-    right: 40%;
-  }
+
   footer::after {
     display: none;
   }

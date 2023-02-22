@@ -60,7 +60,7 @@ const Chain = () => {
         </div>
         {/* ----grid 2---- */}
 
-        <div className="col-start-3 col-end-4 relative">
+        <div className="col-start-3 col-end-4 relative w-[100%]">
           <VideoPlayer embedId="uKHZUjmWEP0" />
           {/* ---overlay----- */}
           <div className="absolute top-[15%] left-[3%]">
@@ -71,7 +71,7 @@ const Chain = () => {
         </div>
         {/* ----grid 3---- */}
 
-        <div className="col-start-3 col-end-4 relative ">
+        <div className="col-start-3 col-end-4 relative w-[100%]">
           <VideoPlayer embedId="XkUjLYRWnTA" />
 
           {/* ---overlay----- */}

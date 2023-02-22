@@ -16,12 +16,18 @@ const Roadmap = () => {
     }
   }, [controls, inView]);
   return (
-    <div className="py-[5rem]" id="roadmap">
-      <h1 className="gradient text-[35px] mb-[3rem] md:mb-[15rem] lg:text-[60.39px] lg:leading-[60px] font-[500]  capitalize mt-[4rem] text-center">
+    <div className="py-[5rem] " id="roadmap">
+      <h1 className="gradient text-[35px] mb-[1rem] md:mb-[15rem] lg:text-[60.39px] lg:leading-[60px] font-[500]  capitalize mt-[4rem] text-center">
         roadmap
       </h1>
 
-      <img src={Icons.road} alt="" className="w-[100%] lg:w-[90%] mb-[8rem]" />
+      <div className="w-[100%] flex justify-center">
+        <img
+          src={Icons.road}
+          alt=""
+          className="w-[100%] lg:w-[50%] mb-[3rem]"
+        />
+      </div>
 
       {/* --------stages------ */}
       <motion.div
