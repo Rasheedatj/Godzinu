@@ -36,7 +36,7 @@ import henry from "./henry.svg";
 import hunters from "./hunters.svg";
 import icons from "./icons.svg";
 import jimmy from "./jimmy.svg";
-import logo from "./logo.png";
+import logo from "./logo.svg";
 import minus from "./minus.svg";
 import instagram from "./instagram.svg";
 import opa from "./opa.svg";

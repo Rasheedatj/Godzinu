@@ -57,7 +57,7 @@ const Token = () => {
             </h3>
             <p className="text-white pt-[.7rem] text-[10px] lg:text-[24px] flex gap-[1rem] items-center">
               0xd1d9Ad05238993A9C10c5b17c4EC6d03B9D35138
-              <a href="">
+              <a href="https://pancakeswap.finance/info/pairs/0xd1d9ad05238993a9c10c5b17c4ec6d03b9d35138">
                 {" "}
                 <img src={Icons.anchor} alt="" />
               </a>

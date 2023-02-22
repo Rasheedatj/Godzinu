@@ -85,19 +85,28 @@ const Footer = () => {
             <h3 className="text-[white] capitalize font-[800] text-[20px] leading-[40px]">
               token info
             </h3>
-            <a href="" className="link">
+            <a
+              href="https://poocoin.app/tokens/0xae7cf30e14e132e43689ebe4fab49706c59a0bf7"
+              className="link"
+            >
               <li className="text-[white] list-none font-[100] leading-[50px] capitalize">
                 contract address
               </li>
             </a>
-            <a href="#community" className="link">
+            <a
+              href="https://pancakeswap.finance/info/pairs/0xd1d9ad05238993a9c10c5b17c4ec6d03b9d35138"
+              className="link"
+            >
               <li className="text-[white] list-none font-[100] leading-[50px] capitalize">
                 pancakeSwap
               </li>
             </a>
-            <a href="" className="link">
+            <a
+              href="https://www.dextools.io/app/en/bnb/pair-explorer/0xd1d9ad05238993a9c10c5b17c4ec6d03b9d35138"
+              className="link"
+            >
               <li className="text-[white] list-none font-[100] leading-[50px] capitalize">
-                desktool
+                dextools
               </li>
             </a>
             <a
