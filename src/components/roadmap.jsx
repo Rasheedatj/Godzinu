@@ -17,7 +17,7 @@ const Roadmap = () => {
   }, [controls, inView]);
   return (
     <div className="py-[5rem] " id="roadmap">
-      <h1 className="gradient text-[35px] mb-[1rem] md:mb-[15rem] lg:text-[60.39px] lg:leading-[60px] font-[500]  capitalize mt-[4rem] text-center">
+      <h1 className="gradient text-[35px] mb-[3rem] md:mb-[5rem] lg:text-[60.39px] lg:leading-[60px] font-[500]  capitalize mt-[4rem] text-center">
         roadmap
       </h1>
 
@@ -35,21 +35,21 @@ const Roadmap = () => {
         animate={controls}
         initial="hidden"
         variants={slideInVariantAnimation}
-        className="flex flex-col md:flex-row gap-[4rem] items-center w-[100%]"
+        className="flex flex-col md:flex-row gap-[4rem] lg:gap-[0] items-center w-[100%]"
       >
         {/* ---stage1-- */}
         <div className=" w-[100%] flex justify-center">
-          <img src={Icons.stage1} alt="stage1" />
+          <img src={Icons.stage1} alt="stage1" className="w-[90%] lg:w-[70%]" />
         </div>
 
         {/* ---stage2-- */}
         <div className="  w-[100%] flex justify-center">
-          <img src={Icons.stage2} alt="stage2" />
+          <img src={Icons.stage2} alt="stage2" className="w-[90%] lg:w-[70%]" />
         </div>
 
         {/* ---stage3-- */}
         <div className=" w-[100%] flex justify-center">
-          <img src={Icons.stage3} alt="stage3" />
+          <img src={Icons.stage3} alt="stage3" className="w-[90%] lg:w-[70%]" />
         </div>
       </motion.div>
     </div>
