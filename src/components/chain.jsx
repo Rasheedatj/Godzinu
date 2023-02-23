@@ -63,23 +63,11 @@ const Chain = () => {
         <div className="col-start-3 col-end-4 relative w-[100%]">
           <VideoPlayer embedId="uKHZUjmWEP0" />
           {/* ---overlay----- */}
-          <div className="absolute top-[15%] left-[3%]">
-            <h1 className="capitalize text-[white] font-[500] text-[25px] tracking-[2%] lg:text-[44px] lg:leading-[66.1px] grid-grad">
-              the godzinu aggregrator
-            </h1>
-          </div>
         </div>
         {/* ----grid 3---- */}
 
         <div className="col-start-3 col-end-4 relative w-[100%]">
           <VideoPlayer embedId="XkUjLYRWnTA" />
-
-          {/* ---overlay----- */}
-          <div className="absolute top-[20%] left-[2%]">
-            <h1 className="capitalize text-[white] font-[500] text-[25px] tracking-[2%] lg:text-[44px] lg:leading-[66.1px] grid-grad">
-              the godzinu swap overview
-            </h1>
-          </div>
         </div>
       </div>
 

@@ -10,7 +10,7 @@ function VideoPlayer({ embedId }) {
   };
 
   return (
-    <div className=" border-[2px] video-responsive" width="640" height="360">
+    <div className=" border-[1px] video-responsive" width="640" height="360">
       <iframe
         width="853"
         height="480"

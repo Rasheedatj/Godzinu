@@ -1,5 +1,5 @@
 import { Icons } from "../assets";
-
+import Form from "./form";
 const Footer = () => {
   return (
     <footer className="flex flex-col md:flex-row justify-between gap-[4rem] lg:gap-[8rem] pb-[4rem] relative footer py-4">
@@ -27,20 +27,7 @@ const Footer = () => {
         </h1>
 
         {/* -----search----- */}
-        <div className="flex border-[3px] subscribe w-[100%] ">
-          <form action="" className="w-[70%]">
-            <input
-              type="email"
-              name="email"
-              placeholder="Email address"
-              id="email"
-              className="bg-[black] p-[.5rem] lg:p-[1rem] text-[white]  w-[100%]"
-            />
-          </form>
-          <p className="btn flex items-center justify-center text-[white] w-[30%] lg:text-[21.39px] ">
-            submit
-          </p>
-        </div>
+        <Form />
 
         <div className="flex   flex-row gap-[2rem]  md:gap-[6rem] lg:gap-[4rem] mt-[3rem] pt-[3rem] lg:border-t-[1px] lg:border-[#ffffff52]">
           {/* -------about us--------- */}
@@ -73,7 +60,10 @@ const Footer = () => {
                 medium
               </li>
             </a>
-            <a href="" className="link">
+            <a
+              href="https://godzillaproject.io/GodzillaWhitepaper.pdf"
+              className="link"
+            >
               <li className="text-[white] list-none font-[100] leading-[50px] capitalize">
                 whitepaper
               </li>
