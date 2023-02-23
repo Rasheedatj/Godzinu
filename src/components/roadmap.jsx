@@ -21,13 +21,13 @@ const Roadmap = () => {
         roadmap
       </h1>
 
-      <div className="w-[100%] flex justify-center">
+      {/* <div className="w-[100%] flex justify-center">
         <img
           src={Icons.road}
           alt=""
           className="w-[100%] lg:w-[50%] mb-[3rem]"
         />
-      </div>
+      </div> */}
 
       {/* --------stages------ */}
       <motion.div
@@ -39,18 +39,22 @@ const Roadmap = () => {
       >
         {/* ---stage1-- */}
         <div className=" w-[100%] flex justify-center">
+          <img src={Icons.stages} alt="stage1" className="w-[90%] lg:w-[70%]" />
+        </div>
+        {/* ---stage1--
+        <div className=" w-[100%] flex justify-center">
           <img src={Icons.stage1} alt="stage1" className="w-[90%] lg:w-[70%]" />
         </div>
 
-        {/* ---stage2-- */}
+        ---stage2--
         <div className="  w-[100%] flex justify-center">
           <img src={Icons.stage2} alt="stage2" className="w-[90%] lg:w-[70%]" />
         </div>
 
-        {/* ---stage3-- */}
+        ---stage3--
         <div className=" w-[100%] flex justify-center">
           <img src={Icons.stage3} alt="stage3" className="w-[90%] lg:w-[70%]" />
-        </div>
+        </div> */}
       </motion.div>
     </div>
   );

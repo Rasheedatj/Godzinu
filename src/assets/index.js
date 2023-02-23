@@ -47,6 +47,7 @@ import safe from "./safe.svg";
 import stage1 from "./stage1.svg";
 import stage2 from "./stage2.svg";
 import stage3 from "./stage3.svg";
+import stages from "./stages.svg";
 import swap from "./swap.svg";
 import taiwo from "./taiwo.svg";
 import team from "./team.svg";
@@ -115,6 +116,7 @@ export const Icons = {
   stage1,
   stage2,
   stage3,
+  stages,
   roadmap,
   safe,
   swap,
