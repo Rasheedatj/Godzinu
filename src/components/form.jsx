@@ -3,7 +3,7 @@ import { useEffect } from "react";
 const Form = () => {
   useEffect(() => {
     const script = document.createElement("script");
-    script.src = "https://app.convertkit.com/landing_pages/bfc985ae66/embed";
+    script.src = "https://app.convertkit.com/landing_pages/f0585b8ebc/embed";
     script.async = true;
     document.body.appendChild(script);
   }, []);
@@ -16,7 +16,7 @@ const Form = () => {
         </div>
         <form
           className="subscribe flex w-[100%] btn"
-          action="https://godzinu.ck.page/bfc985ae66"
+          action="https://godzinu.ck.page/f0585b8ebc"
           data-remote="true"
         >
           <p className="w-[70%]">
