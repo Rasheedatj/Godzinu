@@ -12,6 +12,7 @@ import Roadmap from "./roadmap";
 import SuperPower from "./superpowers";
 import Partner from "./partner";
 import Community from "./community";
+import TwitterTimeline from "./tweets";
 
 const Hexagon = () => {
   const controls = useAnimation();
@@ -56,6 +57,8 @@ const Hexagon = () => {
       <Partner />
       {/* -------roadmap-------- */}
       <Roadmap />
+      {/* -------roadmap-------- */}
+      <TwitterTimeline />
 
       {/* --------super powers-------- */}
       <SuperPower />

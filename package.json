@@ -16,6 +16,7 @@
     "react-scroll": "^1.8.9",
     "react-youtube": "^10.1.0",
     "swiper": "^9.0.5",
+    "twitter-widgets": "^2.0.0",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
