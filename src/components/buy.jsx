@@ -1,34 +1,14 @@
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { useInView } from "react-intersection-observer";
-import { motion, useAnimation } from 'framer-motion';
-import { slideInVariantAnimation } from '../util';
-import { useEffect } from 'react';
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/scrollbar";
+import ScrollAnimation from 'react-animate-on-scroll';
 import { Icons } from "../assets";
 
-const Buy = () => {
-  const controls = useAnimation();
-  const [ref, inView] = useInView({
-    threshold: 0,
-  });
-
-  useEffect(() => {
-    if (inView) {
-      controls.start("visible");
-    }
-  }, [controls, inView]);
-
+const Buy = ({ offset }) => {
   return (
-    <motion.div ref={ref}
-      animate={controls}
-      initial="hidden"
-      variants={slideInVariantAnimation}
+    <div 
       className="my-[5rem] mt-[10rem] hidden lg:block" id="buy">
-      <h1 className="pb-[2rem] lg:pb-[3rem]  text-[20px] lg:text-[50.46px] leading-[60px] font-[500]  capitalize gradient px-[4rem]">
+         <ScrollAnimation animateIn="animate-slideRight" offset={offset}>
+         <h1 className="pb-[2rem] lg:pb-[3rem]  text-[20px] lg:text-[50.46px] leading-[60px] font-[500]  capitalize gradient px-[4rem]">
         buy/Sell taxes
       </h1>
       <div className=" lg:flex   lg:flex-row lg:justify-between lg:gap-[0] gap-[2rem] items-center">
@@ -103,7 +83,8 @@ const Buy = () => {
 
         <img src={Icons.buy} alt="" className="lg:w-[40%]" />
       </div>
-    </motion.div>
+         </ScrollAnimation>
+    </div>
   );
 };
 

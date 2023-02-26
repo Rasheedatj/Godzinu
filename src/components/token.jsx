@@ -1,27 +1,11 @@
-import { useInView } from "react-intersection-observer";
-import { motion, useAnimation } from "framer-motion";
-import { slideInVariantAnimation } from "../util";
-import { useEffect } from "react";
 import { Icons } from "../assets";
+import ScrollAnimation from 'react-animate-on-scroll';
 
-const Token = () => {
-  const controls = useAnimation();
-  const [ref, inView] = useInView({
-    threshold: 0,
-  });
 
-  useEffect(() => {
-    if (inView) {
-      controls.start("visible");
-    }
-  }, [controls, inView]);
+const Token = ({offset}) => {
+
   return (
-    <motion.div
-      ref={ref}
-      animate={controls}
-      initial="hidden"
-      variants={slideInVariantAnimation}
-    >
+    <ScrollAnimation animateIn="animate-slideRight" offset={offset}>
       <h1 className="text-[white] text-[55px] lg:text-[77.63px] lg:leading-[100px] font-[500]  capitalize mb-[1rem] lg:mb-[3rem] mt-[5rem]">
         <span className="gradient  pb-[1rem]"> $godz </span>
         token links
@@ -81,7 +65,7 @@ const Token = () => {
           </div>
         </div>
       </div>
-    </motion.div>
+    </ScrollAnimation>
   );
 };
 

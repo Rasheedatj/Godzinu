@@ -1,29 +1,13 @@
-import { useInView } from "react-intersection-observer";
-import { motion, useAnimation } from "framer-motion";
-import { slideInVariantAnimation } from "../util";
-import { useEffect } from "react";
+import ScrollAnimation from 'react-animate-on-scroll';
 import { Icons } from "../assets";
 
-const Community = () => {
-  const controls = useAnimation();
-  const [ref, inView] = useInView({
-    threshold: 0,
-  });
-
-  useEffect(() => {
-    if (inView) {
-      controls.start("visible");
-    }
-  }, [controls, inView]);
+const Community = ({offset}) => {
   return (
-    <motion.div
-      ref={ref}
-      animate={controls}
-      initial="hidden"
-      variants={slideInVariantAnimation}
+    <div
       id="community"
     >
-      <h1 className="text-[white] text-[35px] text-center lg:text-[60.39px] lg:leading-[60px] font-[500]  capitalize mt-[9rem] mb-[4rem]">
+         <ScrollAnimation animateIn="animate-slideRight" offset={offset}>
+         <h1 className="text-[white] text-[35px] text-center lg:text-[60.39px] lg:leading-[60px] font-[500]  capitalize mt-[9rem] mb-[4rem]">
         join our community of <span className="gradient">godzinu hunters</span>
       </h1>
       <section className="flex flex-col gap-[4rem] lg:gap-[0] md:flex-row items-center">
@@ -50,7 +34,8 @@ const Community = () => {
           </a>
         </div>
       </section>
-    </motion.div>
+         </ScrollAnimation>
+    </div>
   );
 };
 
