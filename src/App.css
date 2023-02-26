@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;1,700&display=swap");
+
 :root {
   scroll-behavior: smooth;
   scroll-padding-top: 3rem;
 }
+
 html {
   font-size: 85%;
 }
@@ -16,6 +18,7 @@ header nav a,
 .link li {
   transition: transform 500ms ease;
 }
+
 header nav a:hover,
 .link li:hover {
   transform: translateY(-5px);
@@ -25,11 +28,9 @@ header nav a:hover,
 .glass {
   width: 100%;
 
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.03) -30.29%,
-    rgba(255, 255, 255, 0) 144.92%
-  );
+  background: linear-gradient(180deg,
+      rgba(255, 255, 255, 0.03) -30.29%,
+      rgba(255, 255, 255, 0) 144.92%);
   backdrop-filter: blur(32.3708px);
   border: 1px solid #ffffff4d;
 }
@@ -72,20 +73,15 @@ header nav a:hover,
 
 .subscribe {
   border: 5px solid;
-  border-image: linear-gradient(
-      45deg,
+  border-image: linear-gradient(45deg,
       rgba(89, 44, 184, 1),
-      rgba(0, 240, 255, 1)
-    )
-    1;
+      rgba(0, 240, 255, 1)) 1;
 }
 
 .grid-grad {
-  background: linear-gradient(
-    91.06deg,
-    rgba(255, 255, 255, 0.51) 2.26%,
-    #00f0ff 100%
-  );
+  background: linear-gradient(91.06deg,
+      rgba(255, 255, 255, 0.51) 2.26%,
+      #00f0ff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -122,12 +118,9 @@ header nav a:hover,
 .btn-hov:hover {
   background: none;
   border: 2px solid;
-  border-image: linear-gradient(
-      45deg,
+  border-image: linear-gradient(45deg,
       rgba(89, 44, 184, 1),
-      rgba(0, 240, 255, 1)
-    )
-    1;
+      rgba(0, 240, 255, 1)) 1;
   scale: 1.1;
 }
 
@@ -203,10 +196,12 @@ footer::after {
   footer::after {
     display: none;
   }
+
   .accordion h3::after {
     right: -2rem;
   }
 }
+
 @media screen and (max-width: 1200px) {
   .team {
     height: auto;
@@ -224,6 +219,7 @@ footer::after {
   from {
     transform: translateX(100%);
   }
+
   to {
     transform: translateX(0);
   }
@@ -231,4 +227,21 @@ footer::after {
 
 .swiper-pagination-bullet {
   background-color: blue;
+}
+
+.animate-slideRight {
+  position: relative;
+  animation: animateright 0.5s;
+}
+
+@keyframes animateright {
+  from {
+    right: -500px;
+    opacity: 0;
+  }
+
+  to {
+    right: 0;
+    opacity: 1;
+  }
 }

@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-
 import PropTypes from "prop-types";
 
 function VideoPlayer({ embedId }) {

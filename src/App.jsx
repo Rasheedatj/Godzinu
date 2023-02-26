@@ -1,27 +1,11 @@
-import DefautLayout from "./layouts";
-import Chain from "./components/chain";
-import About from "./components/about";
-import Swap from "./components/swap";
-import Earn from "./components/earn";
-import Hexagon from "./components/hexagon";
-import "./App.css";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/scrollbar";
-import { AnimatePresence } from "framer-motion";
+import { Routes, Route } from "react-router-dom"
+import HomePage from "./page/HomePage"
 
 function App() {
   return (
-    <AnimatePresence mode="wait">
-      <DefautLayout>
-        <Chain />
-        <About />
-        <Swap />
-        <Earn />
-        <Hexagon />
-      </DefautLayout>
-    </AnimatePresence>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+    </Routes>
   );
 }
 

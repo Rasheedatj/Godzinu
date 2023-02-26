@@ -1,7 +1,4 @@
-import { useInView } from "react-intersection-observer";
-import { motion, useAnimation } from "framer-motion";
-import { slideInVariantAnimation } from "../util";
-import { useEffect } from "react";
+
 import { Icons } from "../assets";
 import Team from "./team";
 import Staking from "./staking";
@@ -14,59 +11,44 @@ import Partner from "./partner";
 import Community from "./community";
 import TwitterTimeline from "./tweets";
 
-const Hexagon = () => {
-  const controls = useAnimation();
-  const [ref, inView] = useInView({
-    threshold: 0,
-  });
-
-  useEffect(() => {
-    if (inView) {
-      controls.start("visible");
-    }
-  }, [controls, inView]);
-
+const Hexagon = ({ offset }) => {
   return (
     <div className="pb-[5rem] pt-[0] lg:py-[5rem]">
-      {/* --------hexagon-------- */}
-      <motion.div
-        ref={ref}
-        animate={controls}
-        initial="hidden"
-        variants={slideInVariantAnimation}
-        className="flex flex-col items-center gap-[3rem] lg:gap-[7rem]"
-      >
-        <h1 className="text-[white] text-[35px] text-center lg:text-[72.39px] lg:leading-[60px] font-[500]  capitalize">
-          Godzinu <span className="gradient">tokenomics</span>
-        </h1>
+        {/* --------hexagon-------- */}
+        <div
 
-        <div>
-          <img src={Icons.hexagon} alt="" />
+          className="flex flex-col items-center gap-[3rem] lg:gap-[7rem]"
+        >
+          <h1 className="text-[white] text-[35px] text-center lg:text-[72.39px] lg:leading-[60px] font-[500]  capitalize">
+            Godzinu <span className="gradient">tokenomics</span>
+          </h1>
+
+          <div>
+            <img src={Icons.hexagon} alt="" />
+          </div>
         </div>
-      </motion.div>
+        {/* buy */}
+        <Buy offset={offset} />
+        {/* -----staking program-------- */}
+        <Staking offset={offset} />
+        {/*------------ token links-------- */}
+        <Token offset={offset}/>
+        {/* ------team-------- */}
+        <Team />
+        {/* -----Partner */}
+        <Partner offset={offset}/>
+        {/* -------roadmap-------- */}
+        <Roadmap offset={offset}/>
+        {/* -------roadmap-------- */}
+        <TwitterTimeline offset={offset}/>
 
-      {/* buyy */}
-      <Buy />
-      {/* -----staking program-------- */}
-      <Staking />
-      {/*------------ token links-------- */}
-      <Token />
-      {/* ------team-------- */}
-      <Team />
-      {/* -------oartner */}
-      <Partner />
-      {/* -------roadmap-------- */}
-      <Roadmap />
-      {/* -------roadmap-------- */}
-      <TwitterTimeline />
+        {/* --------super powers-------- */}
+        <SuperPower offset={offset}/>
 
-      {/* --------super powers-------- */}
-      <SuperPower />
-
-      {/* ---faq----- */}
-      <Faq />
-      {/* --------join our community------------ */}
-      <Community />
+        {/* ---faq----- */}
+        <Faq />
+        {/* --------join our community------------ */}
+        <Community offset={offset}/>
     </div>
   );
 };

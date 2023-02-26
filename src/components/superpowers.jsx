@@ -1,27 +1,11 @@
-import { useInView } from "react-intersection-observer";
-import { motion, useAnimation } from "framer-motion";
-import { slideInVariantAnimation } from "../util";
-import { useEffect } from "react";
+import ScrollAnimation from 'react-animate-on-scroll';
 import { Icons } from "../assets";
 
-const SuperPower = () => {
-  const controls = useAnimation();
-  const [ref, inView] = useInView({
-    threshold: 0,
-  });
-
-  useEffect(() => {
-    if (inView) {
-      controls.start("visible");
-    }
-  }, [controls, inView]);
+const SuperPower = ({offset}) => {
   return (
-    <>
-      <motion.div
-        ref={ref}
-        animate={controls}
-        initial="hidden"
-        variants={slideInVariantAnimation}
+    <ScrollAnimation animateIn="animate-slideRight" offset={offset}>
+      <div
+   
         className="flex flex-col  items-center gap-[3rem] lg:gap-[7rem] mt-[4rem]"
       >
         <h1 className="text-[white] text-[35px] text-center lg:text-[72.39px] lg:leading-[60px] font-[500]  capitalize">
@@ -74,8 +58,8 @@ const SuperPower = () => {
             </button>
           </section>
         </div>
-      </motion.div>
-    </>
+      </div>
+    </ScrollAnimation>
   );
 };
 

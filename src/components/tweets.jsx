@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
+import ScrollAnimation from 'react-animate-on-scroll';
 
-const TwitterTimeline = () => {
+
+const TwitterTimeline = ({offset}) => {
   useEffect(() => {
     const script = document.createElement("script");
     script.async = true;
@@ -14,7 +16,8 @@ const TwitterTimeline = () => {
 
   return (
     <div className="my-[5rem] lg:px-[10rem]">
-      <h1 className="text-[white] text-[25px] pb-[3rem] md:text-[35px] lg:text-[50px]  font-[500] text-center capitalize gradient">
+         <ScrollAnimation animateIn="animate-slideRight" offset={offset}>
+         <h1 className="text-[white] text-[25px] pb-[3rem] md:text-[35px] lg:text-[50px]  font-[500] text-center capitalize gradient">
         tweets by godzinu
       </h1>
       <a
@@ -25,6 +28,7 @@ const TwitterTimeline = () => {
       >
         Tweets by Medium
       </a>
+         </ScrollAnimation>
     </div>
   );
 };

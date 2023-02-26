@@ -1,27 +1,10 @@
-import { useInView } from "react-intersection-observer";
-import { motion, useAnimation } from "framer-motion";
-import { slideInVariantAnimation } from "../util";
-import { useEffect } from "react";
+import ScrollAnimation from 'react-animate-on-scroll';
+
 import { Icons } from "../assets";
 
-const Staking = () => {
-  const controls = useAnimation();
-  const [ref, inView] = useInView({
-    threshold: 0,
-  });
-
-  useEffect(() => {
-    if (inView) {
-      controls.start("visible");
-    }
-  }, [controls, inView]);
+const Staking = ({ offset }) => {
   return (
-    <motion.div
-      ref={ref}
-      animate={controls}
-      initial="hidden"
-      variants={slideInVariantAnimation}
-    >
+    <ScrollAnimation animateIn="animate-slideRight" offset={offset}>
       <div className="flex flex-col items-center lg:items-start lg:flex-row gap-[3rem]  mt-[8rem]">
         {/* program 1 */}
         <div className="flex flex-col justify-between lg:gap-[15rem] lg:w-[48%] ">
@@ -91,7 +74,7 @@ const Staking = () => {
           <a href="https://staking.godzillaproject.io/">start staking</a>
         </button>
       </div>
-    </motion.div>
+    </ScrollAnimation>
   );
 };
 

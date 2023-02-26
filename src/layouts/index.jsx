@@ -5,7 +5,7 @@ const DefautLayout = ({ children }) => {
     return (
         <div className='px-4 md:px-8 lg:px-16 overflow-hidden'>
             <Header />
-            {...children}
+            {children}
             <Footer />
         </div>
     )

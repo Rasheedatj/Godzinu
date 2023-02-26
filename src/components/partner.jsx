@@ -1,9 +1,11 @@
 import { Icons } from "../assets";
+import ScrollAnimation from 'react-animate-on-scroll';
 
-const Partner = () => {
+const Partner = ({offset}) => {
   return (
     <div className="mt-[7rem]">
-      <h1 className="text-[white] text-center  text-[25px] lg:text-[50.46px] lg:leading-[50px] font-[500]  capitalize gradient mb-[5rem]">
+         <ScrollAnimation animateIn="animate-slideRight" offset={offset}>
+         <h1 className="text-[white] text-center  text-[25px] lg:text-[50.46px] lg:leading-[50px] font-[500]  capitalize gradient mb-[5rem]">
         we partner with
       </h1>
 
@@ -37,6 +39,7 @@ const Partner = () => {
           </p>
         </div>
       </section>
+         </ScrollAnimation>
     </div>
   );
 };
