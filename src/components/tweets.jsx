@@ -20,7 +20,7 @@ const TwitterTimeline = () => {
       <a
         className="twitter-timeline"
         data-height="600"
-        data-theme="light"
+        data-theme="dark"
         href="https://twitter.com/GODZinu_io?s=20"
       >
         Tweets by Medium

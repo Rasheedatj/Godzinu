@@ -4,9 +4,34 @@ import VidPlayer2 from "./vidplayer2";
 import { useInView } from "react-intersection-observer";
 import { motion, useAnimation } from "framer-motion";
 import { slideInVariantAnimation } from "../util";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 const Chain = () => {
+  // const [price, setPrice] = useState(null);
+
+  // useEffect(() => {
+  //   const fetchPrice = async () => {
+  //     const response = await fetch(
+  //       "https://poocoin.app/tokens/0xae7cf30e14e132e43689ebe4fab49706c59a0bf7",
+  //       {
+  //         method: "GET",
+  //         headers: {
+  //           "Content-Type": "application/json",
+  //         },
+  //       }
+  //     );
+  //     const data = await response.json();
+  //     setPrice(data.data.price);
+  //   };
+
+  //   fetchPrice();
+  //   const interval = setInterval(() => {
+  //     fetchPrice();
+  //   }, 10000);
+
+  //   return () => clearInterval(interval);
+  // }, []);
+
   const controls = useAnimation();
   const [ref, inView] = useInView({
     threshold: 0,
@@ -78,6 +103,14 @@ const Chain = () => {
           <img src={Icons.cost} alt="" className="lg:w-[35%]" />
           <div>
             <p className="text-[13.34px] leading-[30px]">$Godzinu price</p>
+            {/* {price ? (
+              <p className="font-[700] text-[24.61px] leading-[44.42px] ">
+                The current price is {price}
+              </p>
+            ) : (
+              <p>Loading...</p>
+            )} */}
+
             <h1 className="font-[700] text-[24.61px] leading-[44.42px] ">
               $0.00024
             </h1>
