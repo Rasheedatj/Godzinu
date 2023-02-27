@@ -94,6 +94,10 @@ header nav a:hover,
   background-clip: text;
 }
 
+.ham {
+  background: linear-gradient(91.06deg, #ff1cf7 2.26%, #00f0ff 100%);
+}
+
 .team {
   background: linear-gradient(91.06deg, #ff1cf7 2.26%, #00f0ff 100%);
   height: 70vh;
