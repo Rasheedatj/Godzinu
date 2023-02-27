@@ -1,4 +1,3 @@
-
 import { Icons } from "../assets";
 import Team from "./team";
 import Staking from "./staking";
@@ -14,41 +13,38 @@ import TwitterTimeline from "./tweets";
 const Hexagon = ({ offset }) => {
   return (
     <div className="pb-[5rem] pt-[0] lg:py-[5rem]">
-        {/* --------hexagon-------- */}
-        <div
+      {/* --------hexagon-------- */}
+      <div className="flex flex-col items-center gap-[3rem] lg:gap-[7rem]">
+        <h1 className="text-[white] text-[35px] text-center lg:text-[72.39px] lg:leading-[60px] font-[500]  capitalize">
+          Godzinu <span className="gradient">tokenomics</span>
+        </h1>
 
-          className="flex flex-col items-center gap-[3rem] lg:gap-[7rem]"
-        >
-          <h1 className="text-[white] text-[35px] text-center lg:text-[72.39px] lg:leading-[60px] font-[500]  capitalize">
-            Godzinu <span className="gradient">tokenomics</span>
-          </h1>
-
-          <div>
-            <img src={Icons.hexagon} alt="" />
-          </div>
+        <div>
+          <img src={Icons.hexagon} alt="" />
         </div>
-        {/* buy */}
-        <Buy offset={offset} />
-        {/* -----staking program-------- */}
-        <Staking offset={offset} />
-        {/*------------ token links-------- */}
-        <Token offset={offset}/>
-        {/* ------team-------- */}
-        <Team />
-        {/* -----Partner */}
-        <Partner offset={offset}/>
-        {/* -------roadmap-------- */}
-        <Roadmap offset={offset}/>
-        {/* -------roadmap-------- */}
-        <TwitterTimeline offset={offset}/>
+      </div>
+      {/* buy */}
+      <Buy offset={offset} />
+      {/* -----staking program-------- */}
+      <Staking offset={offset} />
+      {/*------------ token links-------- */}
+      <Token offset={offset} />
+      {/* ------team-------- */}
+      <Team />
+      {/* -----Partner */}
+      <Partner offset={offset} />
+      {/* -------roadmap-------- */}
+      <Roadmap offset={offset} />
+      {/* -------roadmap-------- */}
+      <TwitterTimeline offset={offset} />
 
-        {/* --------super powers-------- */}
-        <SuperPower offset={offset}/>
+      {/* --------super powers-------- */}
+      <SuperPower offset={offset} />
 
-        {/* ---faq----- */}
-        <Faq />
-        {/* --------join our community------------ */}
-        <Community offset={offset}/>
+      {/* ---faq----- */}
+      <Faq />
+      {/* --------join our community------------ */}
+      <Community offset={offset} />
     </div>
   );
 };

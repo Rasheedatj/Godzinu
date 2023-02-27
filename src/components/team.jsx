@@ -1,6 +1,10 @@
 import { Icons } from "../assets";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+// import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 const Team = () => {
   return (
     <>
@@ -9,7 +13,7 @@ const Team = () => {
           our team
         </h1>
         <Swiper
-          className="flex flex-wrap gap-[2rem]  lg:gap-[4rem]  mySwiper "
+          className="flex gap-[2rem]  lg:gap-[4rem]  mySwiper  pb-[5rem]"
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={50}
           slidesPerView={3.5}
@@ -35,7 +39,7 @@ const Team = () => {
           }}
         >
           {/* team member 1 */}
-          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] flex flex-col">
+          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] flex flex-col relative">
             <img src={Icons.ayush} alt="" />
             <h1 className="font-[700]  capitalize text-center mt-[1rem]  text-[22px]">
               ayush nurula
@@ -55,7 +59,7 @@ const Team = () => {
             </p>
           </SwiperSlide>
           {/* team member 3 */}
-          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px]  flex flex-col ">
+          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px]  flex flex-col">
             <img src={Icons.team} alt="" />
             <h1 className="font-[700]  capitalize text-center mt-[1rem] text-[21px] ">
               tara arora
