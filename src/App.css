@@ -23,6 +23,7 @@ header nav a:hover,
 .link li:hover {
   transform: translateY(-5px);
   color: #7c859f;
+  /* color: #7c859f; */
 }
 
 .glass {
