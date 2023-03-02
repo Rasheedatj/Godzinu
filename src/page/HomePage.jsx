@@ -6,7 +6,7 @@ import Earn from "../components/earn";
 import Hexagon from "../components/hexagon";
 import MediumPost from "../api/mediumPost";
 const HomePage = () => {
-  const postId = "90a01549d8db";
+  const postId = "GODZinu_io";
   const apiKey = "5424b54b56msh33a2871700b6e9dp156c33jsn6683997ba1c6";
   const offset = 150;
   return (
