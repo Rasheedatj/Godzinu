@@ -52,74 +52,62 @@ const Chain = ({ offset }) => {
         <div className=" flex gap-[2rem]  flex-wrap md:flex-wrap lg:flex-row lg:flex-nowrap lg:gap-[.5rem] justify-center lg:justify-center  mt-[5rem] ">
           {/* ----------box 1-------- */}
           <div className="bg-[#a92dbf4d]  w-[280px] lg:w-auto flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
-            <img src={Icons.cost} alt="" className="lg:w-[35%]" />
+            <img src={Icons.cost} alt="" className="lg:w-[25%]" />
             <div>
-              <p className="text-[13.34px] leading-[30px] capitalize">
+              <p className="text-[14px] leading-[30px] capitalize">
                 $GODZinu price
               </p>
-              <h1 className="font-[700] text-[24.61px] leading-[44.42px] ">
-                $0.00024
-              </h1>
+              <h1 className="font-[700] text-[20px]  ">$0.00024</h1>
             </div>
           </div>
           {/* ----------box 2-------- */}
           <div className="bg-[#a92dbf4d]  w-[280px] lg:w-auto flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
-            <img src={Icons.bolt} alt="" className="lg:w-[35%]" />
+            <img src={Icons.bolt} alt="" className="lg:w-[25%]" />
             <div>
-              <p className="text-[13.34px] leading-[30px] capitalize">
+              <p className="text-[14px] leading-[30px] capitalize">
                 max supply
               </p>
-              <h1 className="font-[700] text-[24.61px] leading-[44.42px] ">
-                100 Billion
-              </h1>
+              <h1 className="font-[700] text-[20px]  ">100 Billion</h1>
             </div>
           </div>
           {/* ----------box 3-------- */}
           <div className="bg-[#a92dbf4d]  w-[280px] lg:w-auto flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
-            <img src={Icons.rate} alt="" className="lg:w-[35%]" />
+            <img src={Icons.rate} alt="" className="lg:w-[25%]" />
             <div>
-              <p className="text-[13.34px] leading-[30px] capitalize">
+              <p className="text-[14px] leading-[30px] capitalize">
                 Total supply
               </p>
-              <h1 className="font-[700] text-[24.61px] leading-[44.42px] ">
-                94.2 Billion
-              </h1>
+              <h1 className="font-[700] text-[20px]  ">94.2 Billion</h1>
             </div>
           </div>
           {/* ----------box 4-------- */}
           <div className="bg-[#a92dbf4d]  w-[280px] lg:w-auto flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
-            <img src={Icons.flash} alt="" className="lg:w-[35%]" />
+            <img src={Icons.flash} alt="" className="lg:w-[25%]" />
             <div>
-              <p className="text-[13.34px] leading-[30px] capitalize">
+              <p className="text-[14px] leading-[30px] capitalize">
                 burned supply
               </p>
-              <h1 className="font-[700] text-[24.61px] leading-[44.42px] ">
-                5.8%
-              </h1>
+              <h1 className="font-[700] text-[20px]  ">5.8%</h1>
             </div>
           </div>
           {/* ----------box 4-------- */}
           <div className="bg-[#a92dbf4d]  w-[280px] lg:w-auto flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
-            <img src={Icons.flash} alt="" className="lg:w-[35%]" />
+            <img src={Icons.flash} alt="" className="lg:w-[25%]" />
             <div>
-              <p className="text-[13.34px] leading-[30px] capitalize">
+              <p className="text-[14px] leading-[30px] capitalize">
                 token holders
               </p>
-              <h1 className="font-[700] text-[24.61px] leading-[44.42px] ">
-                566
-              </h1>
+              <h1 className="font-[700] text-[20px]  ">566</h1>
             </div>
           </div>
           {/* ----------box 5-------- */}
           <div className="bg-[#a92dbf4d]  w-[280px] lg:w-auto flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
-            <img src={Icons.cube} alt="" className="lg:w-[35%]" />
+            <img src={Icons.cube} alt="" className="lg:w-[25%]" />
             <div>
-              <p className="text-[13.34px] leading-[30px] capitalize">
+              <p className="text-[14px] leading-[30px] capitalize">
                 community members
               </p>
-              <h1 className="font-[700] text-[24.61px] leading-[44.42px] ">
-                3,880
-              </h1>
+              <h1 className="font-[700] text-[20px]  ">3,880</h1>
             </div>
           </div>
         </div>
