@@ -67,7 +67,7 @@ const Chain = ({ offset }) => {
               <p className="text-[14px] leading-[30px] capitalize">
                 max supply
               </p>
-              <h1 className="font-[700] text-[20px]  ">100 Billion</h1>
+              <h1 className="font-[700] text-[19px]  ">100 Billion</h1>
             </div>
           </div>
           {/* ----------box 3-------- */}
@@ -92,7 +92,7 @@ const Chain = ({ offset }) => {
           </div>
           {/* ----------box 4-------- */}
           <div className="bg-[#a92dbf4d]  w-[280px] lg:w-auto flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
-            <img src={Icons.flash} alt="" className="lg:w-[25%]" />
+            <img src={Icons.cube} alt="" className="lg:w-[25%]" />
             <div>
               <p className="text-[14px] leading-[30px] capitalize">
                 token holders

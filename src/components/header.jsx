@@ -47,13 +47,13 @@ const Header = () => {
           </a>
         </nav>
 
-        <div className="hidden lg:flex gap-[1rem]">
+        <div className="hidden lg:flex gap-[1rem] items-center">
           {" "}
-          <a href="https://t.me/GODZinu" className="w-[10%]">
-            <img src={Icons.telegram} alt="github icon" />
-          </a>
           <a href="https://medium.com/@GODZinu_io">
             <img src={Icons.reddit} alt="medium icon" />
+          </a>
+          <a href="https://t.me/GODZinu" className="w-[10%]">
+            <img src={Icons.telegram} alt="github icon" />
           </a>
           <a href="https://twitter.com/GODZinu_io">
             <img src={Icons.twitter} alt="twitter icon" />
