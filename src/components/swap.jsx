@@ -1,12 +1,9 @@
 import { Icons } from "../assets";
-import ScrollAnimation from 'react-animate-on-scroll';
+import ScrollAnimation from "react-animate-on-scroll";
 
-const Swap = ({offset}) => {
+const Swap = ({ offset }) => {
   return (
-    <div
-      className="py-[5rem]"
-      id="swap"
-    >
+    <div className="py-[5rem]" id="swap">
       <ScrollAnimation animateIn="animate-slideRight" offset={offset}>
         {/* ---EARN----- */}
         <div className="flex flex-col gap-[4rem] md:flex-row md:items-center justify-between  lg:gap-[0]">
@@ -19,14 +16,14 @@ const Swap = ({offset}) => {
             </h1>
 
             <p className="text-[white] leading-[30px] lg:leading-[40px] pt-[1rem] lg:text-[20.23px] font-[400] w-[100%]">
-              The Godzinu DEX Aggregator connects liquidity across 9 blockchains
+              The GODZinu DEX Aggregator connects liquidity across 9 blockchains
               and compares pricing from numerous Aggregators (1inch, Matcha) &
-              DEXs (Uniswap, Sushiswap, Pangolin) to give you the best cross-chain
-              swap in one click.
+              DEXs (Uniswap, Sushiswap, Pangolin) to give you the best
+              cross-chain swap in one click.
             </p>
 
             <button className="btn btn-hov text-[white] rounded-[8px] w-[176px] h-[55px] capitalize  mt-[1rem] md:mt-[2rem]">
-              <a href="https://swap.godzillaproject.io/">start swapping</a>
+              <a href="https://swap.godzinu.com/">start swapping</a>
             </button>
           </div>
 

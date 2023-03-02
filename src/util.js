@@ -1,6 +1,6 @@
 export const accordionData = [
   {
-    question: "1. What is the Godzinu project",
+    question: "1. What is the GODZinu project",
     answer:
       "GODZinu began as a decentralised and fair MEME project backed by a great storyline and a narrative of turbulence faced by the crypto investors over the past year. GODZinu acts as a medium for the community to display their emotions.",
   },
@@ -10,7 +10,7 @@ export const accordionData = [
       "$GODZ token is the native token of the project and is used as medium to generate income to fund Operations, Marketing, Liquidity Bootstrapping, Staking Rewards and Token Burns.",
   },
   {
-    question: "3. What is the Godzinu Dex Aggregrator",
+    question: "3. What is the GODZinu Dex Aggregrator",
     answer:
       "The Multi-chain Dex Aggregator is a product where any crypto user will be able to connect their own “non-custodial” wallet and be able to swap their tokens to any other tokens without the need of any mediator or central authority. This becomes very essential in the recent considering the FTX fiasco which led to billions of user-funds getting locked and used for personal gains by few centralised figures.",
   },
@@ -30,8 +30,8 @@ export const accordionData = [
     ],
   },
   {
-    question: " 6. Where is the Godzinu community available?",
-    answer: " Godzinu community is available on Twitter & Telegram. ",
+    question: " 6. Where is the GODZinu community available?",
+    answer: " GODZinu community is available on Twitter & Telegram. ",
     links: [
       {
         name: "Twitter ",

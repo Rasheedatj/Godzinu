@@ -10,7 +10,7 @@ const Footer = () => {
         </a>
 
         <p className="mt-[2rem] text-[white] leading-[30px] lg:leading-[40px] pt-[1rem] lg:text-[20.23px] font-[400] items-center  lg:w-[100%]">
-          Godzinu is a community run project. The progress speed of the project
+          GODZinu is a community run project. The progress speed of the project
           will be boosted by community involvement, and the way forward will be
           decided by the community itself through feedback and polls
         </p>
@@ -61,7 +61,7 @@ const Footer = () => {
               </li>
             </a>
             <a
-              href="https://godzillaproject.io/GodzillaWhitepaper.pdf"
+              href="https://godzinu.com/Godzilla%20Whitepaper%20V2.pdf"
               className="link"
             >
               <li className="text-[white] list-none font-[100] leading-[50px] capitalize">

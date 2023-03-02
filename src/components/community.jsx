@@ -20,7 +20,11 @@ const Community = ({ offset }) => {
               href="https://godzillaproject.io/GodzillaWhitepaper.pdf"
               className="w-[50%]"
             >
-              <img src={Icons.comreddit} alt="" className="w-[40 %]" />
+              <img
+                src={Icons.comreddit}
+                alt=""
+                className="lg:w-[40 %]  w-[40%]"
+              />
             </a>
             <a href="https://twitter.com/GODZinu_io" className="w-[50%]">
               <img src={Icons.comtwitter} alt="" className="w-[50%]" />

@@ -20,14 +20,14 @@ const Partner = ({ offset }) => {
           {/* ---partner 2--- */}
           <div className="flex flex-col gap items-center">
             <img src={Icons.rango} alt="rango" />
-            <p className="text-[white] leading-[35px] lg:leading-[40px] pt-[1rem] lg:text-[25px] font-[600] lg:w-[60%] text-center capitalize">
-              rango
+            <p className="text-[white] leading-[35px] lg:leading-[40px] pt-[1rem] lg:text-[25px] font-[600]  text-center capitalize">
+              rango exchange
             </p>
           </div>
           {/* ----patner 3---- */}
           <div className="flex flex-col gap  items-center">
             <img src={Icons.zah} alt="rango" />
-            <p className="text-[white] leading-[35px] lg:leading-[40px] pt-[1rem] lg:text-[25px] font-[600] lg:w-[60%] text-center capitalize">
+            <p className="text-[white] leading-[35px] lg:leading-[40px] pt-[1rem] lg:text-[25px] font-[600]  text-center capitalize">
               Zahnymous
             </p>
           </div>

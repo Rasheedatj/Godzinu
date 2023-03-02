@@ -52,7 +52,7 @@ const Header = () => {
           <a href="https://t.me/GODZinu" className="w-[10%]">
             <img src={Icons.telegram} alt="github icon" />
           </a>
-          <a href="https://godzillaproject.io/GodzillaWhitepaper.pdf">
+          <a href="https://godzinu.com/Godzilla%20Whitepaper%20V2.pdf">
             <img src={Icons.reddit} alt="reeddit icon" />
           </a>
           <a href="https://twitter.com/GODZinu_io">

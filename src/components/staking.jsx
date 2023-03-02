@@ -68,9 +68,7 @@ const Staking = ({ offset }) => {
         </h1>
 
         <button className="capitalize text-[white] h-[70.77px] w-[200px] md:w-[263.5px] rounded-[8.09px] subscribe text-[23px]">
-          <a href="https://medium.com/@GODZinu_io/godz-staking-now-live-403749ea6f4c">
-            start staking
-          </a>
+          <a href="https://staking.godzinu.com/">start staking</a>
         </button>
       </div>
     </ScrollAnimation>

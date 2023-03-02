@@ -16,7 +16,7 @@ const Hexagon = ({ offset }) => {
       {/* --------hexagon-------- */}
       <div className="flex flex-col items-center gap-[3rem] lg:gap-[7rem]">
         <h1 className="text-[white] text-[35px] text-center lg:text-[72.39px] lg:leading-[60px] font-[500]  capitalize">
-          Godzinu <span className="gradient">tokenomics</span>
+          GODZinu <span className="gradient">tokenomics</span>
         </h1>
 
         <div>

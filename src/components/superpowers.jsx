@@ -19,7 +19,7 @@ const SuperPower = ({ offset }) => {
                 <h1 className="text-[30px] lg:text-[57.66px] font-[700] md:mb-[1rem] lg:mb-[0]">
                   Wallets+
                 </h1>
-                <p className="text-[white] font-[400]  lg:text-[24px] leading-[30px]">
+                <p className="text-[white] font-[400]  lg:text-[20px] leading-[30px]">
                   Robust multi-chain wallet support: Trade directly from your
                   own wallet. Be your own bank
                 </p>
@@ -38,10 +38,10 @@ const SuperPower = ({ offset }) => {
           <section className=" text-[white]    w-[100%]  lg:w-[100%]  gray">
             <div className="flex flex-col md:flex-row-reverse items-center lg:flex-row p-[1rem] gap-[1rem] defi ">
               <div className="lg:w-[65%]">
-                <h1 className="lg:text-[45.66px] font-[700]  text-[30px] md:mb-[1rem] lg:mb-[0]">
+                <h1 className="lg:text-[35px] font-[700]  text-[30px] md:mb-[1rem] lg:mb-[0]">
                   GODZINU NFTs{" "}
                 </h1>
-                <p className="text-[white] font-[400] lg:text-[24px] leading-[30px]">
+                <p className="text-[white] font-[400] lg:text-[20px] leading-[30px]">
                   GODZinu NFTs giving more utilities and another mode of
                   expression to the #GODZillian community.
                 </p>

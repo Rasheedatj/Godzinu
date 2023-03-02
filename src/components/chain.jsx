@@ -14,7 +14,7 @@ const Chain = ({ offset }) => {
           {/* ----grid 1---- */}
           <div className="col-start-1 col-end-3 row-start-1 row-end-3 flex flex-col justify-between w-[95%]">
             <h1 className="text-[white] text-[25px] lg:text-[47.46px] leading-[60px] font-[500]  capitalize pb-[2rem]">
-              <span className="gradient  pb-[1rem]">$GODZINU </span>
+              <span className="gradient  pb-[1rem]">$GODZinu </span>
               dex aggregrator v.0.5
             </h1>
 
@@ -32,7 +32,7 @@ const Chain = ({ offset }) => {
             </ul>
 
             <button className="text-[white] text-[24px] px-[2rem] py-[.7rem] rounded-[10px] capitalize border-[2px] grad-border subscribe mt-[2rem] self-start">
-              <a href="#swap">launch app</a>
+              <a href="https://swap.godzinu.com/">launch app</a>
             </button>
           </div>
           {/* ----grid 2---- */}

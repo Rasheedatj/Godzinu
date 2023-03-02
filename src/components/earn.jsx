@@ -35,7 +35,7 @@ const Earn = ({ offset }) => {
       <ScrollAnimation animateIn="animate-slideRight" offset={offset}>
         <div className="flex flex-col w-[100%] lg:w-[60%] container mx-auto py-[2rem] value relative  my-[10rem]">
           <h1 className="text-[white] text-[35px] lg:text-[80.46px] lg:leading-[100px] font-[500]  capitalize">
-            <span className="gradient block lg:leading-[150px]">GODZINU</span>{" "}
+            <span className="gradient block lg:leading-[150px]">GODZinu</span>{" "}
             staking rewards
           </h1>
           <p className="text-[white] leading-[40px] pt-[1rem] text-[20.23px] font-[400] items-center ">
