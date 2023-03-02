@@ -61,7 +61,7 @@ const Footer = () => {
               </li>
             </a>
             <a
-              href="https://godzinu.com/Godzilla%20Whitepaper%20V2.pdf"
+              href="https://docs.google.com/document/d/13AvWQIBLk0UxCW6HqfE2gHAkr-SsWnF_8Z5eVuXOVgU/edit?usp=sharing"
               className="link"
             >
               <li className="text-[white] list-none font-[100] leading-[50px] capitalize">
