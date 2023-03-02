@@ -1,32 +1,29 @@
-import ScrollAnimation from 'react-animate-on-scroll';
+import ScrollAnimation from "react-animate-on-scroll";
 
 import { Icons } from "../assets";
 
 const Staking = ({ offset }) => {
   return (
     <ScrollAnimation animateIn="animate-slideRight" offset={offset}>
+      <h1 className="text-[white] text-[35px] lg:text-[50.46px] leading-[60px] font-[500]  capitalize text-center">
+        <span className="gradient uppercase  pb-[1rem]"> $godz &nbsp;</span>
+        staking program
+      </h1>
       <div className="flex flex-col items-center lg:items-start lg:flex-row gap-[3rem]  mt-[8rem]">
         {/* program 1 */}
         <div className="flex flex-col justify-between lg:gap-[15rem] lg:w-[48%] ">
-          <h1 className="text-[white] text-[35px] lg:text-[50.46px] leading-[60px] font-[500]  capitalize">
-            <span className="gradient uppercase lg:block pb-[1rem]">
-              {" "}
-              $godz &nbsp;
-            </span>
-            staking program
-          </h1>
-
           <div className="">
+            <img src={Icons.staker} alt="" />
             <h3
               className="gradient capitalize pb-[1rem]  font-[500] text-[25px] md:text-[35.95px] leadi
-          [53.93px] tracking-[2%] pt-[4rem]"
+          [53.93px] tracking-[2%] pt-[2rem]"
             >
               $GODZ token staking
             </h3>
 
             <h3
               className="text-white capitalize font-[500] md:text-[35.95px] leadi
-          [53.93px] tracking-[2%] text-[25px]"
+          [53.93px] tracking-[2%] text-[25px] "
             >
               maturity:16:22 UTC, 15th March
             </h3>
@@ -71,7 +68,9 @@ const Staking = ({ offset }) => {
         </h1>
 
         <button className="capitalize text-[white] h-[70.77px] w-[200px] md:w-[263.5px] rounded-[8.09px] subscribe text-[23px]">
-          <a href="https://staking.godzillaproject.io/">start staking</a>
+          <a href="https://medium.com/@GODZinu_io/godz-staking-now-live-403749ea6f4c">
+            start staking
+          </a>
         </button>
       </div>
     </ScrollAnimation>

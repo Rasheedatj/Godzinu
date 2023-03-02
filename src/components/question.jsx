@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { v4 as uuidv4 } from 'uuid'
+import { v4 as uuidv4 } from "uuid";
 
 const Question = ({ question, answer, links }) => {
   const [openAccordion, setAccordionOpen] = useState(false);
@@ -21,9 +21,7 @@ const Question = ({ question, answer, links }) => {
         {answer.trim()}{" "}
         {links &&
           links.map((link) => (
-            <a
-              key={uuidv4()}
-              href={link.src} className="underline pl-[15px]">
+            <a key={uuidv4()} href={link.src} className="underline pr-[15px]">
               {link.name.trim()}
             </a>
           ))}

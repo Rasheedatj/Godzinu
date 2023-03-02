@@ -1,5 +1,4 @@
 import anchor from "./anchor.svg";
-import aboutVid from "./about-vid.mp4";
 import aboutImg from "./about0img.svg";
 import hexagon from "./hexagon.svg";
 import token from "./token.svg";
@@ -16,7 +15,7 @@ import cost from "./Costdollar.svg";
 import comtwitter from "./comtwitter.png";
 import comtelegram from "./comtelegram.png";
 import comother from "./commedium.png";
-import comreddit from "./comreddit.svg";
+import comreddit from "./comreddit.png";
 import cube from "./cube.svg";
 import discord from "./discord.svg";
 import don from "./don.svg";
@@ -41,12 +40,10 @@ import minus from "./minus.svg";
 import instagram from "./instagram.svg";
 import opa from "./opa.svg";
 import rate from "./rate.svg";
-import reddit from "./reddit.svg";
+import reddit from "./reddit.png";
 import roadmap from "./roadmap.svg";
 import safe from "./safe.svg";
-import stage1 from "./stage1.svg";
-import stage2 from "./stage2.svg";
-import stage3 from "./stage3.svg";
+import staker from "./staker.svg";
 import stages from "./stages.svg";
 import swap from "./swap.svg";
 import taiwo from "./taiwo.svg";
@@ -70,7 +67,6 @@ export const Icons = {
   zah,
   interfi,
   anchor,
-  aboutVid,
   hexagon,
   token,
   program,
@@ -116,6 +112,7 @@ export const Icons = {
   stages,
   roadmap,
   safe,
+  staker,
   swap,
   taiwo,
   team,

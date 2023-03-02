@@ -41,90 +41,81 @@ const Team = () => {
           {/* team member 1 */}
           <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px] flex flex-col relative">
             <img src={Icons.ayush} alt="" />
-            <h1 className="font-[700]  capitalize text-center mt-[1rem]  text-[22px]">
+            <h1 className="font-[700]  capitalize text-center mt-[1rem]  text-[25px]">
               ayush nurula
             </h1>
-            <p className="pt-[1.5rem] text-[16px] capitalize text-center">
+            <p className="pt-[1rem] text-[20px] capitalize text-center">
               project lead
             </p>
           </SwiperSlide>
           {/* team member 2 */}
           <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px]  flex flex-col">
             <img src={Icons.opa} alt="" />
-            <h1 className="font-[700]  capitalize text-center mt-[1rem] text-[21px] ">
+            <h1 className="font-[700]  capitalize text-center mt-[1rem] text-[25px] ">
               opa
             </h1>
-            <p className="pt-[1.5rem] text-[16px] capitalize text-center">
+            <p className="pt-[1rem] text-[20px] capitalize text-center">
               growth Lead
             </p>
           </SwiperSlide>
           {/* team member 3 */}
           <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px]  flex flex-col">
             <img src={Icons.team} alt="" />
-            <h1 className="font-[700]  capitalize text-center mt-[1rem] text-[21px] ">
+            <h1 className="font-[700]  capitalize text-center mt-[1rem] text-[25px] ">
               tara arora
             </h1>
-            <p className="pt-[1.5rem] text-[16px] capitalize text-center">
+            <p className="pt-[1rem] text-[20px] capitalize text-center">
               content writer and social media manager
             </p>
           </SwiperSlide>
           {/* team member 4 */}
           <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px]  flex flex-col">
             <img src={Icons.henry} alt="" />
-            <h1 className="font-[700]  capitalize text-center mt-[1rem] text-[21px] ">
+            <h1 className="font-[700]  capitalize text-center mt-[1rem] text-[25px] ">
               henry gray
             </h1>
-            <p className="pt-[1.5rem] text-[16px] capitalize text-center">
+            <p className="pt-[1rem] text-[20px] capitalize text-center">
               Community Manager
             </p>
           </SwiperSlide>
           {/* team member 5 */}
           <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px]  flex flex-col">
             <img src={Icons.jimmy} alt="" />
-            <h1 className="font-[700]  capitalize text-center mt-[1rem] text-[21px] ">
+            <h1 className="font-[700]  capitalize text-center mt-[1rem] text-[25px] ">
               jimmy hope
             </h1>
-            <p className="pt-[1.5rem] text-[16px] capitalize text-center">
+            <p className="pt-[1rem] text-[20px] capitalize text-center">
               Community Manager
             </p>
           </SwiperSlide>
           {/* team member 6 */}
           <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px]  flex flex-col">
             <img src={Icons.taiwo} alt="" />
-            <h1 className="font-[700]  capitalize text-center mt-[1rem] text-[21px] ">
+            <h1 className="font-[700]  capitalize text-center mt-[1rem] text-[25px] ">
               taiwo
             </h1>
-            <p className="pt-[1.5rem] text-[16px] capitalize text-center">
+            <p className="pt-[1rem] text-[20px] capitalize text-center">
               Graphics Designer
             </p>
           </SwiperSlide>
-          {/* team member 7 */}
-          <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px]  flex flex-col">
-            <img src={Icons.don} alt="" />
-            <h1 className="font-[700]  capitalize text-center mt-[1rem] text-[21px] ">
-              don zhilla
-            </h1>
-            <p className="pt-[1.5rem] text-[16px] capitalize text-center">
-              Advisor
-            </p>
-          </SwiperSlide>
+
           {/* team member 8*/}
           <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px]  flex flex-col">
             <img src={Icons.good} alt="" />
-            <h1 className="font-[700]  capitalize text-center mt-[1rem] text-[21px] ">
+            <h1 className="font-[700]  capitalize text-center mt-[1rem] text-[25px] ">
               good chilla
             </h1>
-            <p className="pt-[1.5rem] text-[16px] capitalize text-center">
+            <p className="pt-[1rem] text-[20px] capitalize text-center">
               Advisor
             </p>
           </SwiperSlide>
           {/* team member 9 */}
           <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px]  flex flex-col">
             <img src={Icons.cerbrone} alt="" />
-            <h1 className="font-[700]  capitalize text-center mt-[1rem] text-[21px] ">
+            <h1 className="font-[700]  capitalize text-center mt-[1rem] text-[25px] ">
               cerberos
             </h1>
-            <p className="pt-[1.5rem] text-[16px] capitalize text-center">
+            <p className="pt-[1rem] text-[20px] capitalize text-center">
               Advisor
             </p>
           </SwiperSlide>
@@ -132,10 +123,10 @@ const Team = () => {
           {/* team member 10 */}
           <SwiperSlide className="team px-[1rem] py-[2rem] rounded-[18px]  flex flex-col">
             <img src={Icons.bew} alt="" />
-            <h1 className="font-[700]  capitalize text-center mt-[1rem] text-[21px] ">
+            <h1 className="font-[700]  capitalize text-center mt-[1rem] text-[25px] ">
               bew
             </h1>
-            <p className="pt-[1.5rem] text-[16px] capitalize text-center">
+            <p className="pt-[1rem] text-[20px] capitalize text-center">
               Advisor
             </p>
           </SwiperSlide>

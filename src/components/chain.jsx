@@ -20,7 +20,7 @@ const Chain = ({ offset }) => {
 
             <ul className="lg:w-[70%]  pl-[1.5rem]">
               <li className="list-disc text-[18px] lg:text-[24.79px] pb-[1rem] text-white">
-                supports top-rate 19 blockchains including BSC, ETH,Arbitrum,
+                Supports top-rate 19 blockchains including BSC, ETH,Arbitrum,
                 Polygon, AVAX,Fantom, etc.
               </li>
               <li className="list-disc text-[18px] lg:text-[24.79px] pb-[1rem] text-white">
@@ -38,23 +38,25 @@ const Chain = ({ offset }) => {
           {/* ----grid 2---- */}
 
           <div className="col-start-3 col-end-4 relative w-[100%]">
-            <VideoPlayer embedId="uKHZUjmWEP0" />
+            <VideoPlayer embedId="DwC-ZO28GUc" />
             {/* ---overlay----- */}
           </div>
           {/* ----grid 3---- */}
 
           <div className="col-start-3 col-end-4 relative w-[100%]">
-            <VideoPlayer embedId="XkUjLYRWnTA" />
+            <VideoPlayer embedId="p3Q_wQ6Bph4" />
           </div>
         </div>
 
         {/* -----flex boxes */}
-        <div className=" flex gap-[2rem]  flex-wrap md:flex-wrap lg:flex-row lg:flex-nowrap lg:gap-[.5rem] justify-center lg:justify-start  mt-[5rem]">
+        <div className=" flex gap-[2rem]  flex-wrap md:flex-wrap lg:flex-row lg:flex-nowrap lg:gap-[.5rem] justify-center lg:justify-center  mt-[5rem] ">
           {/* ----------box 1-------- */}
           <div className="bg-[#a92dbf4d]  w-[280px] lg:w-auto flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
             <img src={Icons.cost} alt="" className="lg:w-[35%]" />
             <div>
-              <p className="text-[13.34px] leading-[30px]">$Godzinu price</p>
+              <p className="text-[13.34px] leading-[30px] capitalize">
+                $GODZinu price
+              </p>
               <h1 className="font-[700] text-[24.61px] leading-[44.42px] ">
                 $0.00024
               </h1>
@@ -64,7 +66,9 @@ const Chain = ({ offset }) => {
           <div className="bg-[#a92dbf4d]  w-[280px] lg:w-auto flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
             <img src={Icons.bolt} alt="" className="lg:w-[35%]" />
             <div>
-              <p className="text-[13.34px] leading-[30px]">max supply</p>
+              <p className="text-[13.34px] leading-[30px] capitalize">
+                max supply
+              </p>
               <h1 className="font-[700] text-[24.61px] leading-[44.42px] ">
                 100 Billion
               </h1>
@@ -72,9 +76,11 @@ const Chain = ({ offset }) => {
           </div>
           {/* ----------box 3-------- */}
           <div className="bg-[#a92dbf4d]  w-[280px] lg:w-auto flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
-            <img src={Icons.flash} alt="" className="lg:w-[35%]" />
+            <img src={Icons.rate} alt="" className="lg:w-[35%]" />
             <div>
-              <p className="text-[13.34px] leading-[30px]">Total supply</p>
+              <p className="text-[13.34px] leading-[30px] capitalize">
+                Total supply
+              </p>
               <h1 className="font-[700] text-[24.61px] leading-[44.42px] ">
                 94.2 Billion
               </h1>
@@ -82,11 +88,25 @@ const Chain = ({ offset }) => {
           </div>
           {/* ----------box 4-------- */}
           <div className="bg-[#a92dbf4d]  w-[280px] lg:w-auto flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
-            <img src={Icons.rate} alt="" className="lg:w-[35%]" />
+            <img src={Icons.flash} alt="" className="lg:w-[35%]" />
             <div>
-              <p className="text-[13.34px] leading-[30px]">burned supply</p>
+              <p className="text-[13.34px] leading-[30px] capitalize">
+                burned supply
+              </p>
               <h1 className="font-[700] text-[24.61px] leading-[44.42px] ">
                 5.8%
+              </h1>
+            </div>
+          </div>
+          {/* ----------box 4-------- */}
+          <div className="bg-[#a92dbf4d]  w-[280px] lg:w-auto flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
+            <img src={Icons.flash} alt="" className="lg:w-[35%]" />
+            <div>
+              <p className="text-[13.34px] leading-[30px] capitalize">
+                token holders
+              </p>
+              <h1 className="font-[700] text-[24.61px] leading-[44.42px] ">
+                566
               </h1>
             </div>
           </div>
@@ -94,13 +114,19 @@ const Chain = ({ offset }) => {
           <div className="bg-[#a92dbf4d]  w-[280px] lg:w-auto flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
             <img src={Icons.cube} alt="" className="lg:w-[35%]" />
             <div>
-              <p className="text-[13.34px] leading-[30px]">community members</p>
+              <p className="text-[13.34px] leading-[30px] capitalize">
+                community members
+              </p>
               <h1 className="font-[700] text-[24.61px] leading-[44.42px] ">
-                5,700
+                3,880
               </h1>
             </div>
           </div>
         </div>
+
+        <p className="text-[#7c859f] block text-[16.39px] leading-[39px] text-end pr-[3rem] pt-[.5rem] ">
+          As of 18th Feb, 2023
+        </p>
       </ScrollAnimation>
     </div>
   );

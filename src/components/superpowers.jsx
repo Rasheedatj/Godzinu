@@ -1,26 +1,23 @@
-import ScrollAnimation from 'react-animate-on-scroll';
+import ScrollAnimation from "react-animate-on-scroll";
 import { Icons } from "../assets";
 
-const SuperPower = ({offset}) => {
+const SuperPower = ({ offset }) => {
   return (
     <ScrollAnimation animateIn="animate-slideRight" offset={offset}>
-      <div
-   
-        className="flex flex-col  items-center gap-[3rem] lg:gap-[7rem] mt-[4rem]"
-      >
+      <div className="flex flex-col  items-center gap-[3rem] lg:gap-[7rem] mt-[4rem] mb-[10rem]">
         <h1 className="text-[white] text-[35px] text-center lg:text-[72.39px] lg:leading-[60px] font-[500]  capitalize">
           Giving you defi <span className="gradient">super powers</span>
         </h1>
 
         {/* -------sub boxes------ */}
 
-        <div className="flex flex-col lg:flex-row  md:gap-[3rem] lg:gap-0 items-center ">
+        <div className="flex flex-col lg:flex-row  md:gap-[3rem] lg:gap-[2rem] items-center ">
           {/* --box 1--- */}
-          <section className=" text-[white] w-[100%]   items-center lg:w-[50%]">
+          <section className=" text-[white] w-[100%]   items-center lg:w-[100%]  gray">
             <div className="flex flex-col md:flex-row p-[1rem] gap-[1rem] defi items-center">
               <div>
                 <h1 className="text-[30px] lg:text-[57.66px] font-[700] md:mb-[1rem] lg:mb-[0]">
-                  wallets+
+                  Wallets+
                 </h1>
                 <p className="text-[white] font-[400]  lg:text-[24px] leading-[30px]">
                   Robust multi-chain wallet support: Trade directly from your
@@ -38,15 +35,15 @@ const SuperPower = ({offset}) => {
 
           {/* ------box 2------ */}
 
-          <section className=" text-[white]    w-[100%]  lg:w-[50%]">
+          <section className=" text-[white]    w-[100%]  lg:w-[100%]  gray">
             <div className="flex flex-col md:flex-row-reverse items-center lg:flex-row p-[1rem] gap-[1rem] defi ">
               <div className="lg:w-[65%]">
-                <h1 className="lg:text-[57.66px] font-[700]  text-[30px] md:mb-[1rem] lg:mb-[0]">
-                  GODZINUSafe{" "}
+                <h1 className="lg:text-[45.66px] font-[700]  text-[30px] md:mb-[1rem] lg:mb-[0]">
+                  GODZINU NFTs{" "}
                 </h1>
                 <p className="text-[white] font-[400] lg:text-[24px] leading-[30px]">
-                  Create and manage THORChain multi-sig wallets for enhanced
-                  self-custody and governance.
+                  GODZinu NFTs giving more utilities and another mode of
+                  expression to the #GODZillian community.
                 </p>
               </div>
 

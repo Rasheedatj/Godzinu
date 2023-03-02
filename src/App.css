@@ -19,11 +19,14 @@ header nav a,
   transition: transform 500ms ease;
 }
 
-header nav a:hover,
 .link li:hover {
   transform: translateY(-5px);
   color: #7c859f;
   /* color: #7c859f; */
+}
+
+header nav a:hover {
+  transform: translateY(-5px);
 }
 
 .glass {
@@ -102,6 +105,11 @@ header nav a:hover,
 .team {
   background: linear-gradient(91.06deg, #ff1cf7 2.26%, #00f0ff 100%);
   height: 70vh;
+  padding-bottom: 2rem;
+}
+
+.team img {
+  margin-bottom: 1.3rem;
 }
 
 .swiper-pagination-bullet {
@@ -129,6 +137,16 @@ header nav a:hover,
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+.gray {
+  border-radius: 10px;
+  padding: 15px 20px;
+  background: linear-gradient(
+    to right,
+    rgba(30, 30, 30, 1),
+    rgba(30, 30, 30, 0)
+  );
 }
 
 .btn {

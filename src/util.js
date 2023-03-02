@@ -1,11 +1,11 @@
 export const accordionData = [
   {
-    question: "1. what is the Godzinu project",
+    question: "1. What is the Godzinu project",
     answer:
       "GODZinu began as a decentralised and fair MEME project backed by a great storyline and a narrative of turbulence faced by the crypto investors over the past year. GODZinu acts as a medium for the community to display their emotions.",
   },
   {
-    question: "2. what is the $GODZ token",
+    question: "2. What is the $GODZ token",
     answer:
       "$GODZ token is the native token of the project and is used as medium to generate income to fund Operations, Marketing, Liquidity Bootstrapping, Staking Rewards and Token Burns.",
   },
@@ -21,7 +21,7 @@ export const accordionData = [
   },
   {
     question: "   5. Is there a Staking Program live?",
-    answer: " Yes details",
+    answer: " Yes,  details",
     links: [
       {
         name: "here",
