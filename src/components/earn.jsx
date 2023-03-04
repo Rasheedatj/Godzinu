@@ -14,7 +14,7 @@ const Earn = ({ offset }) => {
           {/* -------container 1------- */}
 
           <div>
-            <h1 className="gradient text-[white] text-[35px] lg:text-[50.46px] lg:leading-[100px] font-[500]  capitalize text-center lg:text-start">
+            <h1 className="gradient text-[white] text-[20px] lg:text-[50.46px] lg:leading-[100px] font-[500]  capitalize text-center lg:text-start">
               taxes
             </h1>
             <p className="text-[white] leading-[35px] lg:leading-[40px] pt-[1rem] lg:text-[20.23px] font-[400] lg:w-[60%]">
@@ -44,7 +44,7 @@ const Earn = ({ offset }) => {
           {/* -------container 1------- */}
 
           <div className="flex  flex-col w-[100%] lg:w-[60%] value   container mx-auto">
-            <h1 className="text-[white] text-center lg:text-start text-[25px] lg:text-[50.46px]  font-[500]  capitalize">
+            <h1 className="text-[white] text-center lg:text-start text-[20px] lg:text-[50.46px]  font-[500]  capitalize">
               <span className="gradient lg:block ">GODZinu</span> staking
               rewards
             </h1>
@@ -66,27 +66,29 @@ const Earn = ({ offset }) => {
       </ScrollAnimation>
 
       {/* ---------token burn--------- */}
-      <div className="flex flex-col md:flex-row lg:justify-between items-center gap-[4rem]">
-        {/* -------container 1------- */}
+      <ScrollAnimation animateIn="animate-slideRight" offset={offset}>
+        <div className="flex flex-col md:flex-row lg:justify-between items-center gap-[4rem]">
+          {/* -------container 1------- */}
 
-        <div>
-          <h1 className="gradient text-[white] text-center lg:text-start text-[35px] lg:text-[50.46px] lg:leading-[100px] font-[500]  capitalize">
-            token burn
-          </h1>
-          <p className="text-[white] leading-[35px] lg:leading-[40px] pt-[1rem] lg:text-[20.23px] font-[400] lg:w-[60%]">
-            Each token transfer leads to Token Burn, which makes the $GODZ token
-            a hyper-deflationary token.
-          </p>
-        </div>
+          <div>
+            <h1 className="gradient text-[white] text-center lg:text-start text-[20px] lg:text-[50.46px] lg:leading-[100px] font-[500]  capitalize">
+              token burn
+            </h1>
+            <p className="text-[white] leading-[35px] lg:leading-[40px] pt-[1rem] lg:text-[20.23px] font-[400] lg:w-[60%]">
+              Each token transfer leads to Token Burn, which makes the $GODZ
+              token a hyper-deflationary token.
+            </p>
+          </div>
 
-        {/* --------container 2---------- */}
-        <div>
-          <img
-            src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877970/buy_huuuvb.svg"
-            alt=""
-          />
+          {/* --------container 2---------- */}
+          <div>
+            <img
+              src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877970/buy_huuuvb.svg"
+              alt=""
+            />
+          </div>
         </div>
-      </div>
+      </ScrollAnimation>
     </div>
   );
 };
