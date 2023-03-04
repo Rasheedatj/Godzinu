@@ -14,7 +14,7 @@ const Earn = ({ offset }) => {
           {/* -------container 1------- */}
 
           <div>
-            <h1 className="gradient text-[white] text-[35px] lg:text-[50.46px] lg:leading-[100px] font-[500]  capitalize">
+            <h1 className="gradient text-[white] text-[35px] lg:text-[50.46px] lg:leading-[100px] font-[500]  capitalize text-center lg:text-start">
               taxes
             </h1>
             <p className="text-[white] leading-[35px] lg:leading-[40px] pt-[1rem] lg:text-[20.23px] font-[400] lg:w-[60%]">
@@ -44,11 +44,11 @@ const Earn = ({ offset }) => {
           {/* -------container 1------- */}
 
           <div className="flex  flex-col w-[100%] lg:w-[60%] value   container mx-auto">
-            <h1 className="text-[white] text-[25px] lg:text-[50.46px]  font-[500]  capitalize">
+            <h1 className="text-[white] text-center lg:text-start text-[25px] lg:text-[50.46px]  font-[500]  capitalize">
               <span className="gradient lg:block ">GODZinu</span> staking
               rewards
             </h1>
-            <p className="text-[white] leading-[40px] pt-[1rem] text-[20.23px] font-[400] items-center ">
+            <p className="text-[white] leading-[35px] lg:leading-[40px] pt-[1rem] lg:text-[20.23px]  ">
               Stake your $GODZ tokens and earn Rewards funded by the Buy/Sell
               Tax.
             </p>
@@ -70,7 +70,7 @@ const Earn = ({ offset }) => {
         {/* -------container 1------- */}
 
         <div>
-          <h1 className="gradient text-[white] text-[35px] lg:text-[50.46px] lg:leading-[100px] font-[500]  capitalize">
+          <h1 className="gradient text-[white] text-center lg:text-start text-[35px] lg:text-[50.46px] lg:leading-[100px] font-[500]  capitalize">
             token burn
           </h1>
           <p className="text-[white] leading-[35px] lg:leading-[40px] pt-[1rem] lg:text-[20.23px] font-[400] lg:w-[60%]">
