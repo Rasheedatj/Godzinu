@@ -244,6 +244,12 @@ footer::after {
     background-size: 250%;
     background-position: top 0 center;
   }
+  .looper {
+    margin-top: 60%;
+  }
+  html {
+    font-size: 120%;
+  }
 }
 
 @keyframes sideBar {
