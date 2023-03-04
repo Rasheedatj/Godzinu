@@ -5,7 +5,7 @@ const Community = ({ offset }) => {
   return (
     <div id="community">
       <ScrollAnimation animateIn="animate-slideRight" offset={offset}>
-        <h1 className="text-[white] text-[35px] text-center lg:text-[60.39px] lg:leading-[60px] font-[500]  capitalize mt-[9rem] mb-[4rem]">
+        <h1 className="text-[white] text-[35px] text-center lg:text-[60.39px] lg:leading-[80px] font-[500]  capitalize mt-[9rem] mb-[4rem]">
           join our community of{" "}
           <span className="gradient">GODZinu hunters</span>
         </h1>
@@ -27,16 +27,28 @@ const Community = ({ offset }) => {
               />
             </a>
             <a href="https://twitter.com/GODZinu_io" className="w-[50%]">
-              <img src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877979/comtwitter_rfq1dd.png" alt="" className="w-[50%]" />
+              <img
+                src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877979/comtwitter_rfq1dd.png"
+                alt=""
+                className="w-[50%]"
+              />
             </a>
             <a
               href="https://medium.com/@GODZinu_io"
               className="w-[50%] mt-[5rem]"
             >
-              <img src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877974/commedium_rl9atl.png" alt="" className="w-[50%]" />
+              <img
+                src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877974/commedium_rl9atl.png"
+                alt=""
+                className="w-[50%]"
+              />
             </a>
             <a href="https://t.me/GODZinu" className="w-[50%] mt-[5rem]">
-              <img src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877979/comtelegram_qrty08.png" alt="" className="w-[50%]" />
+              <img
+                src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877979/comtelegram_qrty08.png"
+                alt=""
+                className="w-[50%]"
+              />
             </a>
           </div>
         </section>
