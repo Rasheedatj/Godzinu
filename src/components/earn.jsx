@@ -31,7 +31,7 @@ const Earn = ({ offset }) => {
           {/* --------container 2---------- */}
           <div>
             <img
-              src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877991/dragon2_wieuvf.svg"
+              src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677956824/Rectangle_1071taxes_r4hznl.svg"
               alt=""
             />
           </div>
