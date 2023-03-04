@@ -16,7 +16,7 @@ const Roadmap = ({offset}) => {
         >
           {/* ---stage1-- */}
           <div className=" w-[100%] flex justify-center">
-            <img src={Icons.stages} alt="stage1" className="w-[90%] lg:w-[70%]" />
+            <img src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877994/stages_mb4lqu.svg" alt="stage1" className="w-[90%] lg:w-[70%]" />
           </div>
       
         </div>

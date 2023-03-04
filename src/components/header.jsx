@@ -11,7 +11,7 @@ const Header = () => {
     <div className="hero">
       <header className="flex justify-between  py-[2rem] items-center relative z-[2]">
         <a href="#" className="w-[40%] lg:w-[20%]">
-          <img src={Icons.logo} alt="godzilla logo" />
+          <img src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877988/logo_cbzwfv.svg" alt="godzilla logo" />
         </a>
 
         <nav className="hidden lg:flex gap-[2rem] ">
@@ -143,7 +143,7 @@ const Header = () => {
           </div>
 
           <img
-            src={Icons.looper}
+            src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877969/Glooperbg_spsytr.svg"
             alt=""
             className="h-[40vh] lg:h-[220vh] lg:mt-[-30%] ml-[-4rem] md:ml-[-8rem] "
           />

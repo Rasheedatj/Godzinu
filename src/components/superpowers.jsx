@@ -25,7 +25,7 @@ const SuperPower = ({ offset }) => {
                 </p>
               </div>
 
-              <img src={Icons.wallets} alt="" className="md:w-[40%]" />
+              <img src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677878013/wallets-bg_uysu9y.svg" alt="" className="md:w-[40%]" />
             </div>
 
             <button className="text-[white] px-[2rem] py-[.7rem] rounded-[10px] capitalize border-[2px] subscribe grad-border mt-[2rem]">
@@ -47,7 +47,7 @@ const SuperPower = ({ offset }) => {
                 </p>
               </div>
 
-              <img src={Icons.safe} alt="" className="md:w-[40%]" />
+              <img src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877996/safe_rlffsx.svg" alt="" className="md:w-[40%]" />
             </div>
 
             <button className="text-[white] px-[2rem] py-[.7rem] rounded-[10px] capitalize border-[2px] subscribe grad-border  mt-[2rem]">
