@@ -42,7 +42,6 @@ header nav a:hover {
 }
 
 .value {
-  position: absolute;
   content: "";
   background-image: url("https://res.cloudinary.com/dn25ccoss/image/upload/v1677877963/accural_ef8v5w.jpg");
   background-repeat: no-repeat;

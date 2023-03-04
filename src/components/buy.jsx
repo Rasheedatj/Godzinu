@@ -39,7 +39,7 @@ const Buy = ({ offset }) => {
             {/* ------slide 2--- */}
             <SwiperSlide className="px-[4rem] w-[200px]">
               <h1 className="pb-[1rem] text-[white]  text-[20px] lg:text-[50.46px] leading-[60px] font-[500]  capitalize">
-                operations and maerketing
+                operations and marketing
               </h1>
               <p className="text-white font-[300] text-[18px] lg:text-[26.96px]">
                 Parts of the funds received from the Buy/Sell tax will fund
@@ -84,7 +84,11 @@ const Buy = ({ offset }) => {
             </SwiperSlide>
           </Swiper>
 
-          <img src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877970/buy_huuuvb.svg" alt="" className="lg:w-[40%]" />
+          <img
+            src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877970/buy_huuuvb.svg"
+            alt=""
+            className="lg:w-[40%]"
+          />
         </div>
       </ScrollAnimation>
     </div>

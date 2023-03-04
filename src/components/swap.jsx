@@ -29,66 +29,13 @@ const Swap = ({ offset }) => {
 
           {/* --------container 2----------- */}
           <div className="w-[100%] md:w-[80%] lg:w-[50%] flex justify-center">
-            <img src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877995/swap_lcp9yc.svg" alt="" className="w-[100%] lg:w-[70%]" />
+            <img
+              src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877995/swap_lcp9yc.svg"
+              alt=""
+              className="w-[100%] lg:w-[70%]"
+            />
           </div>
         </div>
-
-        {/* ---------- token --------- */}
-        <section className="pt-[5rem]" id="tokencapture">
-          <h1 className="text-[white]  text-[40.46px] leading-[60px] font-[500]  capitalize text-center">
-            token value
-            <span className="gradient"> capture</span>
-          </h1>
-
-          {/* -------flex boxes------- */}
-          <div className="flex flex-col lg:flex-row items-center gap-[2rem] mt-[4rem]">
-            {/* box1 */}
-            <div
-              className="flex flex-col gap-[2rem] items-center
-           pt-[3rem] rounded-[19.5px] glass h-auto pb-[5rem] lg:pb-[0] lg:h-[70vh]"
-            >
-              <h1 className="text-[white]  text-[40.46px] leading-[60px] font-[500]  capitalize gradient">
-                taxes
-              </h1>
-
-              <p className="text-[white] leading-[30px] lg:leading-[40px] pt-[1rem] lg:text-[20.23px] font-[400] w-[100%] text-center px-[2rem]">
-                A tax is deducted when you buy/sell/transfer. The taxes funds
-                Operations, Liquidity Pools, Staking, Token Burns
-              </p>
-            </div>
-
-            {/* -----box 2---- */}
-            <div
-              className="flex flex-col gap-[2rem] items-center
-           pt-[3rem] rounded-[19.5px] glass h-auto pb-[5rem] lg:pb-[0] lg:h-[70vh]"
-            >
-              <h1 className="text-[white]  text-[40.46px] leading-[60px] font-[500]  capitalize gradient text-center">
-                Staking Rewards
-              </h1>
-
-              <p className="text-[white] leading-[30px] lg:leading-[40px] pt-[1rem] lg:text-[20.23px] font-[400] w-[100%] text-center px-[2rem]">
-                Stake your $GODZ tokens and earn Rewards funded by the Buy/Sell
-                Tax
-              </p>
-            </div>
-
-            {/* -----box 3---- */}
-
-            <div
-              className="flex flex-col gap-[2rem] items-center
-            pt-[3rem] rounded-[19.5px] glass h-auto pb-[5rem] lg:pb-[0] lg:h-[70vh]"
-            >
-              <h1 className="text-[white]  text-[40.46px] leading-[60px] font-[500]  capitalize gradient">
-                Token Burns
-              </h1>
-
-              <p className="text-[white] leading-[30px] lg:leading-[40px] pt-[1rem] lg:text-[20.23px] font-[400] w-[100%] text-center px-[2rem]">
-                Each token transfer leads to Token Burn, which makes the $GODZ
-                token a hyper-deflationary token.
-              </p>
-            </div>
-          </div>
-        </section>
       </ScrollAnimation>
     </div>
   );
