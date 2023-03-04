@@ -25,7 +25,7 @@ const Swap = ({ offset }) => {
               cross-chain swap in one click.
             </p>
 
-            <button className="btn btn-hov text-[white] rounded-[8px] w-[176px] h-[55px] capitalize  mt-[1rem] md:mt-[2rem]">
+            <button className="btn btn-hov text-[white] rounded-[8px]  px-[2rem] py-[1rem] md:px-[0] py:-[0] w-[176px] md:h-[55px]  capitalize  mt-[1rem] md:mt-[2rem]">
               <a href="https://swap.godzinu.com/">start swapping</a>
             </button>
           </div>

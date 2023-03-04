@@ -21,7 +21,7 @@ const Earn = ({ offset }) => {
               A tax is deducted when you buy/sell/transfer. The taxes funds
               Operations, Liquidity Pools, Staking, Token Burns”
             </p>
-            <button className="btn btn-hov text-[white] rounded-[8px] w-[176px] h-[55px] capitalize  mt-[1rem]">
+            <button className="btn btn-hov text-[white] rounded-[8px]  px-[2rem] py-[1rem] md:px-[0] py:-[0] w-[110px] md:w-[176px] md:h-[55px] capitalize  mt-[1rem]">
               <a href="https://pancakeswap.finance/info/pairs/0xd1d9ad05238993a9c10c5b17c4ec6d03b9d35138">
                 deposit
               </a>
