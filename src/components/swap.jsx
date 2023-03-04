@@ -9,7 +9,7 @@ const Swap = ({ offset }) => {
         <div className="flex flex-col gap-[4rem] md:flex-row md:items-center justify-between  lg:gap-[0]">
           {/* --------container 1----- */}
           <div className="w-[100%] lg:w-[50%] flex flex-col gap-[2rem]">
-            <h1 className="text-[white] text-center md:text-start  text-[25px] lg:text-[60.46px]  font-[500]  capitalize">
+            <h1 className="text-[white] text-center md:text-start  text-[25px] lg:text-[40px]  font-[500]  capitalize">
               <span className="gradient uppercase lg:block pb-[1rem]">
                 {" "}
                 swap &nbsp;

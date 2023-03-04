@@ -4,7 +4,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 const Token = ({ offset }) => {
   return (
     <ScrollAnimation animateIn="animate-slideRight" offset={offset}>
-      <h1 className="text-[white] text-[25px] lg:text-[77.63px] lg:leading-[100px] font-[500]  capitalize mb-[3rem]  mt-[5rem] text-center">
+      <h1 className="text-[white] text-[25px] lg:text-[60.63px] lg:leading-[100px] font-[500]  capitalize mb-[3rem]  mt-[5rem] text-center">
         <span className="gradient  pb-[1rem] uppercase"> $godz </span>
         token links
       </h1>

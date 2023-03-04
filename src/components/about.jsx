@@ -11,7 +11,7 @@ const About = ({ offset }) => {
         >
           {/* --------container 1----- */}
           <div className="w-[100%] lg:w-[40%]">
-            <h1 className="text-[white]  text-[25px] leading-[50px] lg:text-[60.46px] font-[500]  capitalize mb-[1rem] ">
+            <h1 className="text-[white]  text-[25px] leading-[50px] lg:text-[40px] font-[500]  capitalize mb-[1rem] ">
               {" "}
               about <span className="gradient"> $GODZinu</span>
             </h1>
