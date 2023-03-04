@@ -15,12 +15,15 @@ const Hexagon = ({ offset }) => {
     <div className="pb-[5rem] pt-[0] lg:py-[5rem]">
       {/* --------hexagon-------- */}
       <div className="flex flex-col items-center gap-[3rem] lg:gap-[7rem]">
-        <h1 className="text-[white] text-[35px] text-center lg:text-[72.39px] lg:leading-[60px] font-[500]  capitalize">
+        <h1 className="text-[white] text-[25px] text-center lg:text-[72.39px] lg:leading-[60px] font-[500]  capitalize">
           GODZinu <span className="gradient">tokenomics</span>
         </h1>
 
         <div>
-          <img src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877977/hexagon_teqaom.svg" alt="" />
+          <img
+            src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877977/hexagon_teqaom.svg"
+            alt=""
+          />
         </div>
       </div>
       {/* buy */}

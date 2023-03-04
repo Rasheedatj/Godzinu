@@ -5,7 +5,7 @@ import { Icons } from "../assets";
 const Staking = ({ offset }) => {
   return (
     <ScrollAnimation animateIn="animate-slideRight" offset={offset}>
-      <h1 className="text-[white] text-[35px] lg:text-[50.46px] leading-[60px] font-[500]  capitalize text-center mt-[10rem]">
+      <h1 className="text-[white] text-[25px] lg:text-[50.46px] leading-[60px] font-[500]  capitalize text-center mt-[10rem]">
         <span className="gradient uppercase  pb-[1rem]"> $godz &nbsp;</span>
         staking program
       </h1>
@@ -19,14 +19,14 @@ const Staking = ({ offset }) => {
             />
             <div className="mt-[2rem]">
               <h3
-                className="gradient capitalize pb-[1rem]  font-[500] text-[25px] md:text-[35.95px] leadi
+                className="gradient capitalize pb-[1rem]  font-[500] text-[25px] md:text-[30.95px] leadi
           [53.93px] tracking-[2%] pt-[2rem]"
               >
                 $GODZ token staking
               </h3>
 
               <h3
-                className="text-white capitalize font-[500] md:text-[35.95px] leadi
+                className="text-white capitalize font-[500] md:text-[30.95px] leadi
           [53.93px] tracking-[2%] text-[25px] "
               >
                 maturity: 16:22 UTC, 15th March
@@ -75,7 +75,7 @@ const Staking = ({ offset }) => {
           <span className="gradient uppercase "> $GODZ</span> staking program
         </h1>
 
-        <div className="flex gap-[1rem]">
+        <div className="flex flex-col md:flex-row gap-[1rem]">
           <button className="capitalize text-[white] h-[70.77px] w-[200px] md:w-[263.5px] rounded-[8.09px] subscribe text-[23px]">
             <a href="https://staking.godzinu.com/">start staking</a>
           </button>

@@ -52,7 +52,7 @@ const Chain = ({ offset }) => {
         <div className=" flex gap-[2rem]  flex-wrap md:flex-wrap lg:flex-row lg:flex-nowrap lg:gap-[.5rem] justify-center lg:justify-center  mt-[5rem] ">
           {/* ----------box 1-------- */}
           <div className="bg-[#a92dbf4d]  w-[280px] lg:w-auto flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
-            <img src={Icons.cost} alt="" className="lg:w-[25%]" />
+            <img src={Icons.cost} alt="" className="w-[25%]" />
             <div>
               <p className="text-[14px] leading-[30px] capitalize">
                 $GODZinu price
@@ -62,7 +62,7 @@ const Chain = ({ offset }) => {
           </div>
           {/* ----------box 2-------- */}
           <div className="bg-[#a92dbf4d]  w-[280px] lg:w-auto flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
-            <img src={Icons.bolt} alt="" className="lg:w-[25%]" />
+            <img src={Icons.bolt} alt="" className="w-[25%]" />
             <div>
               <p className="text-[14px] leading-[30px] capitalize">
                 max supply
@@ -72,7 +72,7 @@ const Chain = ({ offset }) => {
           </div>
           {/* ----------box 3-------- */}
           <div className="bg-[#a92dbf4d]  w-[280px] lg:w-auto flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
-            <img src={Icons.rate} alt="" className="lg:w-[25%]" />
+            <img src={Icons.rate} alt="" className="w-[25%]" />
             <div>
               <p className="text-[14px] leading-[30px] capitalize">
                 Total supply
@@ -82,7 +82,7 @@ const Chain = ({ offset }) => {
           </div>
           {/* ----------box 4-------- */}
           <div className="bg-[#a92dbf4d]  w-[280px] lg:w-auto flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
-            <img src={Icons.flash} alt="" className="lg:w-[25%]" />
+            <img src={Icons.flash} alt="" className="w-[25%]" />
             <div>
               <p className="text-[14px] leading-[30px] capitalize">
                 burned supply
@@ -92,7 +92,7 @@ const Chain = ({ offset }) => {
           </div>
           {/* ----------box 4-------- */}
           <div className="bg-[#a92dbf4d]  w-[280px] lg:w-auto flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
-            <img src={Icons.cube} alt="" className="lg:w-[25%]" />
+            <img src={Icons.cube} alt="" className="w-[25%]" />
             <div>
               <p className="text-[14px] leading-[30px] capitalize">
                 token holders
@@ -102,7 +102,7 @@ const Chain = ({ offset }) => {
           </div>
           {/* ----------box 5-------- */}
           <div className="bg-[#a92dbf4d]  w-[280px] lg:w-auto flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
-            <img src={Icons.people} alt="" className="lg:w-[25%]" />
+            <img src={Icons.people} alt="" className="w-[25%]" />
             <div>
               <p className="text-[14px] leading-[30px] capitalize">
                 community members
