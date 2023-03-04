@@ -70,16 +70,16 @@ const Staking = ({ offset }) => {
 
       {/* -program button */}
       <div className="flex flex-col gap-[2rem] md:gap-[0] md:flex-row bg-[#ff1cf72b] px-[2rem] py-[1rem] rounded-[5px] mt-[5rem] border-[1px] border-[#ffffff4d] items-center">
-        <h1 className="text-[white] w-[100%]  md:w-[80%] text-[22px] md:text-[25px]  lg:text-[30.46px] lg:leading-[60px] font-[500]  capitalize">
+        <h1 className="text-[white] text-center lg:text-start w-[100%]  md:w-[80%] text-[22px] md:text-[25px]  lg:text-[30.46px] lg:leading-[60px] font-[500]  capitalize">
           read more about
           <span className="gradient uppercase "> $GODZ</span> staking program
         </h1>
 
-        <div className="flex flex-col md:flex-row gap-[1rem]">
-          <button className="capitalize text-[white] h-[70.77px] w-[200px] md:w-[263.5px] rounded-[8.09px] subscribe text-[23px]">
+        <div className="flex  gap-[2rem]">
+          <button className="capitalize text-[white] px-[1rem] py-[.7rem] md:w-[200px] lg:text-[20px] rounded-[8.09px] subscribe ">
             <a href="https://staking.godzinu.com/">start staking</a>
           </button>
-          <button className="capitalize text-[white] h-[70.77px] w-[200px] md:w-[263.5px] rounded-[8.09px] subscribe text-[23px]">
+          <button className="capitalize text-[white]  px-[1rem] py-[.7rem]  md:w-[200px] lg:text-[20px] rounded-[8.09px] subscribe ">
             <a href="https://medium.com/@GODZinu_io/godz-staking-now-live-403749ea6f4c ">
               medium blog
             </a>

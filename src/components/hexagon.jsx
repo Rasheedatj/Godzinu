@@ -9,6 +9,7 @@ import SuperPower from "./superpowers";
 import Partner from "./partner";
 import Community from "./community";
 import TwitterTimeline from "./tweets";
+import MediumPost from "../components/mediumPost";
 
 const Hexagon = ({ offset }) => {
   return (
@@ -43,7 +44,8 @@ const Hexagon = ({ offset }) => {
 
       {/* --------super powers-------- */}
       <SuperPower offset={offset} />
-
+      {/* ------medium blog------ */}
+      <MediumPost />
       {/* ---faq----- */}
       <Faq />
       {/* --------join our community------------ */}

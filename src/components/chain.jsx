@@ -31,7 +31,7 @@ const Chain = ({ offset }) => {
               </li>
             </ul>
 
-            <button className="text-[white] text-[24px] px-[2rem] py-[.7rem] rounded-[10px] capitalize border-[2px] grad-border subscribe mt-[2rem] self-start">
+            <button className="text-[white]  px-[2rem] py-[.7rem] rounded-[10px] capitalize border-[2px] grad-border subscribe mt-[2rem] self-start">
               <a href="https://swap.godzinu.com/">launch app</a>
             </button>
           </div>

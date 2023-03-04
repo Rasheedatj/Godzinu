@@ -22,7 +22,9 @@ import twitter from "./twitter.svg";
 import twittericon from "./twittericon.svg";
 import vector from "./vector.svg";
 import vectoricon from "./Vectoricon.svg";
+import acural from "./accural.svg";
 export const Icons = {
+  acural,
   people,
   anchor,
   bolt,

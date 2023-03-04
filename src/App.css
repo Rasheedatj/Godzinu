@@ -41,14 +41,6 @@ header nav a:hover {
   border: 1px solid #ffffff4d;
 }
 
-.value {
-  content: "";
-  background-image: url("https://res.cloudinary.com/dn25ccoss/image/upload/v1677877963/accural_ef8v5w.jpg");
-  background-repeat: no-repeat;
-  background-size: 60%;
-  background-position: right -50%;
-}
-
 .menu.open {
   display: flex;
 }
@@ -227,10 +219,6 @@ footer::after {
 }
 
 @media screen and (max-width: 700px) {
-  .value {
-    background-image: none;
-  }
-
   .hero::after {
     background: url("./assets/mobile-hero.svg");
     background-position: center;

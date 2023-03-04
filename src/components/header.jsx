@@ -19,10 +19,10 @@ const Header = () => {
 
         <nav className="hidden lg:flex gap-[2rem] ">
           <a
-            href="#tokencapture"
+            href="https://docs.google.com/document/d/13AvWQIBLk0UxCW6HqfE2gHAkr-SsWnF_8Z5eVuXOVgU/edit?usp=sharing"
             className="text-[white] font-[400] text-[16px] leading-[32.19px] capitalize"
           >
-            token overview
+            whitepaper
           </a>
           <a
             href="#team"
@@ -80,10 +80,10 @@ const Header = () => {
       >
         <nav className="navv flex flex-col pt-[10rem]  items-center gap-[1.5rem] inset-0 bg-[#00000080] absolute left-[30%]">
           <a
-            href="#swap"
+            href="https://docs.google.com/document/d/13AvWQIBLk0UxCW6HqfE2gHAkr-SsWnF_8Z5eVuXOVgU/edit?usp=sharing"
             className="text-[white] font-[400] text-[16px] leading-[32.19px] capitalize"
           >
-            token overview
+            whitepaper
           </a>
           <a
             href="#team"
