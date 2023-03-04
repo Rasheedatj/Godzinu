@@ -23,14 +23,12 @@ import dragon2 from "./dragon2.svg";
 import dragon3 from "./dragon3.svg";
 import easy from "./easy.svg";
 import facebook from "./facebook.svg";
-import flash from "./flash.svg";
+import flash from "./flash.png";
+import people from "./people.png";
 import footerimg from "./footerimg.svg";
 import github from "./github.svg";
 import godzilla from "./godzilla.svg";
 import good from "./good.svg";
-import grid1 from "./grid1.svg";
-import grid2 from "./grid2.svg";
-import grid3 from "./grid3.svg";
 import henry from "./henry.svg";
 import hunters from "./hunters.svg";
 import icons from "./icons.svg";
@@ -70,6 +68,7 @@ export const Icons = {
   hexagon,
   token,
   program,
+  people,
   aboutImg,
   looper,
   hero,
@@ -96,9 +95,6 @@ export const Icons = {
   github,
   godzilla,
   good,
-  grid1,
-  grid2,
-  grid3,
   henry,
   hunters,
   icons,
@@ -121,5 +117,4 @@ export const Icons = {
   twittericon,
   vector,
   vectoricon,
-  wallets,
 };

@@ -102,7 +102,7 @@ const Chain = ({ offset }) => {
           </div>
           {/* ----------box 5-------- */}
           <div className="bg-[#a92dbf4d]  w-[280px] lg:w-auto flex items-center  py-[1rem] text-[white] rounded-[15px] gap-[1rem]  px-[10px] h-[120.85px] justify-center lg:justify-start">
-            <img src={Icons.cube} alt="" className="lg:w-[25%]" />
+            <img src={Icons.people} alt="" className="lg:w-[25%]" />
             <div>
               <p className="text-[14px] leading-[30px] capitalize">
                 community members
