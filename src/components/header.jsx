@@ -11,7 +11,10 @@ const Header = () => {
     <div className="hero">
       <header className="flex justify-between  py-[2rem] items-center relative z-[2]">
         <a href="#" className="w-[40%] lg:w-[20%]">
-          <img src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877988/logo_cbzwfv.svg" alt="godzilla logo" />
+          <img
+            src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877988/logo_cbzwfv.svg"
+            alt="godzilla logo"
+          />
         </a>
 
         <nav className="hidden lg:flex gap-[2rem] ">
@@ -71,7 +74,7 @@ const Header = () => {
       </header>
       {/* --------hamburger menu------------ */}
       <div
-        className={`hidden menu justify-center bg-[#00000080] absolute inset-0 z-[10] overflow-hidden  ${
+        className={`hidden menu justify-center bg-[#00000080] absolute inset-0 z-[100] overflow-hidden  ${
           openMenu ? "open" : ""
         }`}
       >

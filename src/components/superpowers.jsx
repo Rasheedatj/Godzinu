@@ -11,7 +11,7 @@ const SuperPower = ({ offset }) => {
 
         {/* -------sub boxes------ */}
 
-        <div className="flex flex-col lg:flex-row  md:gap-[3rem] lg:gap-[2rem] items-center ">
+        <div className="flex flex-col lg:flex-row  gap-[3rem] lg:gap-[2rem] items-center ">
           {/* --box 1--- */}
           <section className=" text-[white] w-[100%]   items-center lg:w-[100%]  gray">
             <div className="flex flex-col md:flex-row p-[1rem] gap-[1rem] defi items-center">
@@ -25,7 +25,11 @@ const SuperPower = ({ offset }) => {
                 </p>
               </div>
 
-              <img src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677878013/wallets-bg_uysu9y.svg" alt="" className="md:w-[40%]" />
+              <img
+                src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677878013/wallets-bg_uysu9y.svg"
+                alt=""
+                className="md:w-[40%]"
+              />
             </div>
 
             <button className="text-[white] px-[2rem] py-[.7rem] rounded-[10px] capitalize border-[2px] subscribe grad-border mt-[2rem]">
@@ -47,7 +51,11 @@ const SuperPower = ({ offset }) => {
                 </p>
               </div>
 
-              <img src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877996/safe_rlffsx.svg" alt="" className="md:w-[40%]" />
+              <img
+                src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877996/safe_rlffsx.svg"
+                alt=""
+                className="md:w-[40%]"
+              />
             </div>
 
             <button className="text-[white] px-[2rem] py-[.7rem] rounded-[10px] capitalize border-[2px] subscribe grad-border  mt-[2rem]">

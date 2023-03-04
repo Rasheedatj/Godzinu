@@ -13,7 +13,10 @@ const Staking = ({ offset }) => {
         {/* program 1 */}
         <div className="flex flex-col justify-between lg:gap-[15rem] lg:w-[48%] ">
           <div className="">
-            <img src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877995/staker_iz1yqw.svg" alt="" />
+            <img
+              src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877995/staker_iz1yqw.svg"
+              alt=""
+            />
             <h3
               className="gradient capitalize pb-[1rem]  font-[500] text-[25px] md:text-[35.95px] leadi
           [53.93px] tracking-[2%] pt-[2rem]"
@@ -41,7 +44,10 @@ const Staking = ({ offset }) => {
 
         {/* program 2 */}
         <div className="flex flex-col items-end gap-[2rem] lg:w-[50%] ">
-          <img src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877992/program_po9hpe.svg" alt="" />
+          <img
+            src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877992/program_po9hpe.svg"
+            alt=""
+          />
           <div>
             <h3 className="gradient  capitalize font-[500] md:text-[35.95px] md:leading:[53.93px] tracking-[2%] text-[25px]">
               $GODZ/$BNB LP token staking
@@ -67,9 +73,16 @@ const Staking = ({ offset }) => {
           <span className="gradient uppercase "> $GODZ</span> staking program
         </h1>
 
-        <button className="capitalize text-[white] h-[70.77px] w-[200px] md:w-[263.5px] rounded-[8.09px] subscribe text-[23px]">
-          <a href="https://staking.godzinu.com/">start staking</a>
-        </button>
+        <div className="flex gap-[1rem]">
+          <button className="capitalize text-[white] h-[70.77px] w-[200px] md:w-[263.5px] rounded-[8.09px] subscribe text-[23px]">
+            <a href="https://staking.godzinu.com/">start staking</a>
+          </button>
+          <button className="capitalize text-[white] h-[70.77px] w-[200px] md:w-[263.5px] rounded-[8.09px] subscribe text-[23px]">
+            <a href="https://medium.com/@GODZinu_io/godz-staking-now-live-403749ea6f4c ">
+              medium blog
+            </a>
+          </button>
+        </div>
       </div>
     </ScrollAnimation>
   );
