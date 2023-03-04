@@ -26,7 +26,7 @@ const Earn = ({ offset }) => {
 
           {/* --------container 2---------- */}
           <div>
-            <img src={Icons.dragon2} alt="" />
+            <img src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877991/dragon2_wieuvf.svg" alt="" />
           </div>
         </div>
       </ScrollAnimation>

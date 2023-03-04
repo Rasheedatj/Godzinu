@@ -20,7 +20,7 @@ const Hexagon = ({ offset }) => {
         </h1>
 
         <div>
-          <img src={Icons.hexagon} alt="" />
+          <img src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877977/hexagon_teqaom.svg" alt="" />
         </div>
       </div>
       {/* buy */}

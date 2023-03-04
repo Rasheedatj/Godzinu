@@ -33,7 +33,7 @@ const About = ({ offset }) => {
           </div>
 
           {/* --------container 2----------- */}
-          <img src={Icons.aboutImg} alt="" className="w-[100%] lg:w-[50%]" />
+          <img src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877963/about0img_nzdncs.svg" alt="" className="w-[100%] lg:w-[50%]" />
         </div>
       </ScrollAnimation>
     </div>

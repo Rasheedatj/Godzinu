@@ -10,7 +10,7 @@ const Token = ({ offset }) => {
       </h1>
 
       <div className="flex lg:justify-between flex-col lg:flex-row   items-center  gap-[7rem]">
-        <img src={Icons.token} alt="" className="w-[100%] lg:w-[40%]" />
+        <img src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677878001/token_bvwy71.svg" alt="" className="w-[100%] lg:w-[40%]" />
 
         {/* headings */}
         <div className=" flex-col justify-between w-[100%] lg:w-[60%]">

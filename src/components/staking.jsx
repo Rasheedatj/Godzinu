@@ -13,7 +13,7 @@ const Staking = ({ offset }) => {
         {/* program 1 */}
         <div className="flex flex-col justify-between lg:gap-[15rem] lg:w-[48%] ">
           <div className="">
-            <img src={Icons.staker} alt="" />
+            <img src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877995/staker_iz1yqw.svg" alt="" />
             <h3
               className="gradient capitalize pb-[1rem]  font-[500] text-[25px] md:text-[35.95px] leadi
           [53.93px] tracking-[2%] pt-[2rem]"
@@ -41,7 +41,7 @@ const Staking = ({ offset }) => {
 
         {/* program 2 */}
         <div className="flex flex-col items-end gap-[2rem] lg:w-[50%] ">
-          <img src={Icons.program} alt="" />
+          <img src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877992/program_po9hpe.svg" alt="" />
           <div>
             <h3 className="gradient  capitalize font-[500] md:text-[35.95px] md:leading:[53.93px] tracking-[2%] text-[25px]">
               $GODZ/$BNB LP token staking

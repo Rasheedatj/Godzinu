@@ -6,8 +6,10 @@ import Earn from "../components/earn";
 import Hexagon from "../components/hexagon";
 import MediumPost from "../components/mediumPost";
 
+
 const HomePage = () => {
   const offset = 150;
+
   return (
     <DefautLayout>
       <Chain offset={offset} />

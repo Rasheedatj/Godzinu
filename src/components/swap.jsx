@@ -29,7 +29,7 @@ const Swap = ({ offset }) => {
 
           {/* --------container 2----------- */}
           <div className="w-[100%] md:w-[80%] lg:w-[50%] flex justify-center">
-            <img src={Icons.swap} alt="" className="w-[100%] lg:w-[70%]" />
+            <img src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877995/swap_lcp9yc.svg" alt="" className="w-[100%] lg:w-[70%]" />
           </div>
         </div>
 
