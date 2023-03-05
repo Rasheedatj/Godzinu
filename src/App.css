@@ -220,7 +220,7 @@ footer::after {
 
 @media screen and (max-width: 700px) {
   .hero::after {
-    background: url("./assets/mobile-hero.svg");
+    background: url("https://res.cloudinary.com/dn25ccoss/image/upload/v1677877977/hero-bg_smo2rj.svg");
     background-position: center;
   }
 
