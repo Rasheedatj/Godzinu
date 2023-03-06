@@ -22,6 +22,7 @@ import twittericon from "./twittericon.svg";
 import vector from "./vector.svg";
 import vectoricon from "./Vectoricon.svg";
 import footerImg from "./footerimg.svg";
+import bolt from "./bolt.svg";
 export const Icons = {
   people,
   anchor,
@@ -30,7 +31,7 @@ export const Icons = {
   cost,
   cube,
   discord,
-
+  bolt,
   easy,
   flash,
   facebook,
