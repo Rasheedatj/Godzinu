@@ -3,7 +3,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 const Roadmap = ({ offset }) => {
   return (
-    <div className="py-[5rem] " id="roadmap">
+    <div className="py-[10rem] " id="roadmap">
       <ScrollAnimation animateIn="animate-slideRight" offset={offset}>
         <h1 className="gradient text-[25px] mb-[3rem] md:mb-[5rem] lg:text-[60.39px] lg:leading-[60px] font-[500]  capitalize mt-[4rem] text-center">
           roadmap

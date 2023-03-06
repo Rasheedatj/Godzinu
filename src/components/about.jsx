@@ -3,7 +3,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 const About = ({ offset }) => {
   return (
-    <div className="component py-[5rem]">
+    <div className="component py-[8rem]">
       <ScrollAnimation animateIn="animate-slideRight" offset={offset}>
         <div
           className="flex flex-col lg:flex-row lg:justify-between items-center  gap-[4rem] about"

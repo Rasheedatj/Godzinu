@@ -1,7 +1,7 @@
 const MediumPost = () => {
   return (
     <div
-      className="my-[10rem]
+      className="my-[5rem]
     "
     >
       <h1 className="text-[white] text-[25px] pb-[3rem] md:text-[35px] lg:text-[50px]  font-[500] text-center capitalize gradient">

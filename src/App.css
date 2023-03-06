@@ -185,6 +185,10 @@ input {
   z-index: -1;
 }
 
+.hero-text {
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+}
+
 .accordion h3 {
   position: relative;
 }
@@ -212,7 +216,7 @@ footer::after {
   position: absolute;
   background-color: #ffffff52;
   width: 1px;
-  height: 100%;
+  height: 95%;
   left: 50%;
   bottom: 2rem;
   transform: translateX(-50%);

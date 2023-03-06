@@ -9,7 +9,7 @@ import { Icons } from "../assets";
 
 const Buy = ({ offset }) => {
   return (
-    <div className="my-[5rem] mt-[10rem] hidden lg:block" id="buy">
+    <div className="my-[8rem] mt-[10rem] hidden lg:block" id="buy">
       <ScrollAnimation animateIn="animate-slideRight" offset={offset}>
         <h1 className="pb-[2rem] lg:pb-[3rem]  text-[20px] lg:text-[50.46px] leading-[60px] font-[500]  capitalize gradient px-[4rem]">
           buy/Sell taxes

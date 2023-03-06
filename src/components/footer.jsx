@@ -6,7 +6,7 @@ const Footer = () => {
       {/* -------pack one----- */}
       <section className="w-[100%] ">
         <a href="#">
-          <img src={Icons.footerimg} alt="godzingu logo" />
+          <img src={Icons.footerImg} alt="godzingu logo" />
         </a>
 
         <p className="mt-[2rem] text-[white] leading-[30px] lg:leading-[40px] pt-[1rem] lg:text-[20.23px] font-[400] items-center  lg:w-[100%]">

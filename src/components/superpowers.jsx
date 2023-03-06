@@ -4,7 +4,7 @@ import { Icons } from "../assets";
 const SuperPower = ({ offset }) => {
   return (
     <ScrollAnimation animateIn="animate-slideRight" offset={offset}>
-      <div className="flex flex-col  items-center gap-[3rem] lg:gap-[7rem] mt-[4rem] mb-[10rem]">
+      <div className="flex flex-col  items-center gap-[3rem] lg:gap-[7rem] py-[10rem]">
         <h1 className="text-[white] text-[25px] text-center lg:text-[60px] lg:leading-[60px] font-[500]  capitalize">
           Giving you defi <span className="gradient">super powers</span>
         </h1>

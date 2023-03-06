@@ -3,7 +3,7 @@ import { Icons } from "../assets";
 
 const Community = ({ offset }) => {
   return (
-    <div id="community">
+    <div id="community" className="mb-[5rem]">
       <ScrollAnimation animateIn="animate-slideRight" offset={offset}>
         <h1 className="text-[white] text-[35px] text-center lg:text-[60.39px] lg:leading-[80px] font-[500]  capitalize mt-[9rem] mb-[4rem]">
           join our community of{" "}

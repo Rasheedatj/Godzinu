@@ -4,7 +4,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 const Earn = ({ offset }) => {
   return (
     <div className="pb-[5rem]  pt-[5rem] ">
-      <h1 className="text-[white]  text-[25px] lg:text-[60.46px]  font-[500]  capitalize text-center pb-[3rem]">
+      <h1 className="text-[white]  text-[25px] lg:text-[60.46px]  font-[500]  capitalize text-center pb-[5rem]">
         token value
         <span className="gradient"> capture</span>
       </h1>
@@ -40,7 +40,7 @@ const Earn = ({ offset }) => {
 
       {/* -------staking reward----- */}
       <ScrollAnimation animateIn="animate-slideRight" offset={offset}>
-        <div className="flex flex-col md:flex-row-reverse lg:justify-between items-center gap-[4rem]  my-[5rem] ">
+        <div className="flex flex-col md:flex-row-reverse lg:justify-between items-center gap-[4rem]  my-[8rem] ">
           {/* -------container 1------- */}
 
           <div className="flex  flex-col w-[100%] lg:w-[60%] value   container mx-auto">
@@ -83,7 +83,7 @@ const Earn = ({ offset }) => {
           {/* --------container 2---------- */}
           <div>
             <img
-              src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877970/buy_huuuvb.svg"
+              src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877991/dragon2_wieuvf.svg"
               alt=""
             />
           </div>

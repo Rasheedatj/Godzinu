@@ -121,7 +121,7 @@ const Header = () => {
 
       <div className="mt-[3rem] px-[2rem]" id="hero">
         <div className="relative z-[10]">
-          <h1 className="text-[40px] md:text-[55px] lg:text-[80px] lg:leading-[100px] tracking-[.2rem] font-[500] text-center text-[white] capitalize">
+          <h1 className="text-[40px] md:text-[55px] lg:text-[80px] lg:leading-[100px] tracking-[.2rem] font-[500] text-center text-[white] capitalize hero-text">
             <span className="gradient block">the next gen</span> decentralized
             world
           </h1>
