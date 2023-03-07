@@ -18,12 +18,12 @@ const Staking = ({ offset }) => {
               alt=""
             />
             <div className="mt-[3rem]">
-              <h3 className="gradient capitalize pb-[1rem]  font-[500] text-[25px] md:text-[30.95px] leading-[53.93px] tracking-[2%] pt-[2rem]">
+              <h3 className="gradient capitalize pb-[1rem]  font-[500] text-[25px] md:text-[40.95px] leading-[53.93px] tracking-[2%] pt-[2rem]">
                 $GODZ token staking
               </h3>
 
               <h3
-                className="text-white capitalize font-[500] md:text-[35.95px] leadi
+                className="text-white capitalize font-[500] md:text-[32.95px] leadi
           [53.93px] tracking-[2%] text-[25px] "
               >
                 maturity: 16:22 UTC, 15th March
@@ -48,11 +48,11 @@ const Staking = ({ offset }) => {
             alt=""
           />
           <div className="mt-[2rem]">
-            <h3 className="gradient  capitalize font-[500] md:text-[35.95px] md:leading:[53.93px] tracking-[2%] text-[25px]">
+            <h3 className="gradient  capitalize pb-[1rem] font-[500] md:text-[35.95px] md:leading:[53.93px] tracking-[2%] text-[25px]">
               $GODZ/$BNB LP token staking
             </h3>
 
-            <h3 className="text-white capitalize font-[500] text-[25px] md:text-[35.95px] md:leading-[53.93px] tracking-[2%]b">
+            <h3 className="text-white capitalize font-[500] text-[25px] md:text-[32.95px] md:leading-[53.93px] tracking-[2%]b">
               maturity: 15:56 UTC, 16th March
             </h3>
             <h3 className="text-white capitalize font-[500] md:text-[34.95px] md:leading-[53.93px] tracking-[2%] text-[15px] lg:text-[25px]">

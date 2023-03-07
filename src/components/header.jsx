@@ -126,7 +126,7 @@ const Header = () => {
             world
           </h1>
 
-          <p className="text-center pt-[2.5rem] pb-[2rem] text-[white]  lg:text-[24px] lg:leading-[36px] capitalize">
+          <p className="text-center pt-[2.5rem] pb-[2rem] text-[white]  lg:text-[24px] lg:leading-[36px] capitalize hero-text">
             emerged from the deep sea roaming the web3 world
           </p>
 
