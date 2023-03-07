@@ -17,16 +17,13 @@ const Staking = ({ offset }) => {
               src="https://res.cloudinary.com/dn25ccoss/image/upload/v1677877995/staker_iz1yqw.svg"
               alt=""
             />
-            <div className="mt-[2rem]">
-              <h3
-                className="gradient capitalize pb-[1rem]  font-[500] text-[25px] md:text-[30.95px] leadi
-          [53.93px] tracking-[2%] pt-[2rem]"
-              >
+            <div className="mt-[3rem]">
+              <h3 className="gradient capitalize pb-[1rem]  font-[500] text-[25px] md:text-[30.95px] leading-[53.93px] tracking-[2%] pt-[2rem]">
                 $GODZ token staking
               </h3>
 
               <h3
-                className="text-white capitalize font-[500] md:text-[30.95px] leadi
+                className="text-white capitalize font-[500] md:text-[35.95px] leadi
           [53.93px] tracking-[2%] text-[25px] "
               >
                 maturity: 16:22 UTC, 15th March
@@ -36,7 +33,7 @@ const Staking = ({ offset }) => {
           [53.93px] tracking-[2%] text-[15px] lg:text-[25px]"
               >
                 contract:{" "}
-                <span className="font-[300] text-[10px] md:text-[17px] text-white tracking-[2%]">
+                <span className="font-[300] text-[10px] md:text-[16px] text-white tracking-[2%]">
                   0xae7cf30e14e132e43689ebe4fab49706c59a0bf7
                 </span>
               </h3>
